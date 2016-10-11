@@ -17,3 +17,4 @@ github_username:  ubports
 
 # Build settings
 markdown: kramdown
+destination: docs
