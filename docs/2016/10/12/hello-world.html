@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>UBports blog</title>
-  <meta name="description" content="UBports blog. Ubuntu touch porting to android devices
-">
+  <title>Hello World!</title>
+  <meta name="description" content="Hello everyone, and welcome to the UBPorts Blog! This is where we’ll be posting news and updates on the progress of porting your favorite mobile OS.">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://blog.ubports.com/">
+  <link rel="canonical" href="http://blog.ubports.com/2016/10/12/hello-world.html">
   <link rel="alternate" type="application/rss+xml" title="UBports blog" href="http://blog.ubports.com/feed.xml">
 </head>
 
@@ -55,33 +54,40 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Hello World!</h1>
+    <p class="post-meta"><time datetime="2016-10-12T00:00:00-05:00" itemprop="datePublished">Oct 12, 2016</time></p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Oct 12, 2016</span>
+  <div class="post-content" itemprop="articleBody">
+    <p>Hello everyone, and welcome to the UBPorts Blog! This is where we’ll be posting news and updates on the progress of porting your favorite mobile OS.</p>
 
-        <h2>
-          <a class="post-link" href="/2016/10/12/hello-world.html">Hello World!</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Oct 11, 2016</span>
+<p>So, first things first: most of this blog will be written ‘by proxy,’ that is, Mariogrip will compile developer notes and snippets and the blog team will deal with making it look presentable for all of you. The reason for this is mainly due to an extreme time shortage in Mariogrip’s life. If we get the translation wrong from time to time, we’re sorry and we’ll get better next time.</p>
 
-        <h2>
-          <a class="post-link" href="/jekyll/update/2016/10/11/welcome-to-jekyll.html">Welcome to Jekyll!</a>
-        </h2>
-      </li>
-    
-  </ul>
+<p>With that out of the way, it’s time for some good news!</p>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+<h3 id="old-device-development">Old Device Development</h3>
 
-</div>
+<p>There isn’t much to be spoken of here, at least not on the surface. Marius is working on squashing bugs in devel_rc-proposed builds on the Nexus 5, and other devices will piggyback on that success.</p>
+
+<h3 id="new-device-development">New Device Development</h3>
+
+<p>There has been some recent development by community members on several new and strange devices, including the HTC One X (endeavoru) and LG Nexus 5X (bullhead). Both systems boot but are at different stages of graphical functionality. Mir crashes quickly on the One X and the 5X never gets past the “Google” bootloader screen. Both devices are alive, though, as it is possible to get a debug console.</p>
+
+<p>If you would like to contribute toward development of either of these devices (code, debugging, a shoulder to cry on) or any others, you can try asking in #ubports on Freenode. Please, though, don’t ask for status reports there. This blog will become the go-to place for that information.</p>
+
+<h3 id="new-documentation">New Documentation</h3>
+<p>We’re encouraging all porters and community members to post on the <a href="wiki.ubports.com">wiki</a>. If you have any porting information you’d like to share with the community, we’d love to see your documentation. Some awesome new pages include <a href="https://wiki.ubports.com/wiki/Commandline-networking-with-Network-Manager">Commandline networking with Network Manager</a> and <a href="https://wiki.ubports.com/wiki/Installing-Your-Build-With-Rootstock">Installing your Build with Rootstock</a>.</p>
+
+<p>That’s about all for now, everyone. We hope to be able to bring you more good news next time.</p>
+
+<p>-<a href="https://github.com/UniversalSuperBox">UniversalSuperBox</a></p>
+
+  </div>
+
+</article>
 
       </div>
     </div>

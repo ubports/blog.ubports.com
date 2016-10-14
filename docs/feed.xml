@@ -6,9 +6,41 @@
 </description>
     <link>http://blog.ubports.com/</link>
     <atom:link href="http://blog.ubports.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 11 Oct 2016 17:32:43 +0200</pubDate>
-    <lastBuildDate>Tue, 11 Oct 2016 17:32:43 +0200</lastBuildDate>
+    <pubDate>Thu, 13 Oct 2016 20:52:56 -0500</pubDate>
+    <lastBuildDate>Thu, 13 Oct 2016 20:52:56 -0500</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Hello World!</title>
+        <description>&lt;p&gt;Hello everyone, and welcome to the UBPorts Blog! This is where we’ll be posting news and updates on the progress of porting your favorite mobile OS.&lt;/p&gt;
+
+&lt;p&gt;So, first things first: most of this blog will be written ‘by proxy,’ that is, Mariogrip will compile developer notes and snippets and the blog team will deal with making it look presentable for all of you. The reason for this is mainly due to an extreme time shortage in Mariogrip’s life. If we get the translation wrong from time to time, we’re sorry and we’ll get better next time.&lt;/p&gt;
+
+&lt;p&gt;With that out of the way, it’s time for some good news!&lt;/p&gt;
+
+&lt;h3 id=&quot;old-device-development&quot;&gt;Old Device Development&lt;/h3&gt;
+
+&lt;p&gt;There isn’t much to be spoken of here, at least not on the surface. Marius is working on squashing bugs in devel_rc-proposed builds on the Nexus 5, and other devices will piggyback on that success.&lt;/p&gt;
+
+&lt;h3 id=&quot;new-device-development&quot;&gt;New Device Development&lt;/h3&gt;
+
+&lt;p&gt;There has been some recent development by community members on several new and strange devices, including the HTC One X (endeavoru) and LG Nexus 5X (bullhead). Both systems boot but are at different stages of graphical functionality. Mir crashes quickly on the One X and the 5X never gets past the “Google” bootloader screen. Both devices are alive, though, as it is possible to get a debug console.&lt;/p&gt;
+
+&lt;p&gt;If you would like to contribute toward development of either of these devices (code, debugging, a shoulder to cry on) or any others, you can try asking in #ubports on Freenode. Please, though, don’t ask for status reports there. This blog will become the go-to place for that information.&lt;/p&gt;
+
+&lt;h3 id=&quot;new-documentation&quot;&gt;New Documentation&lt;/h3&gt;
+&lt;p&gt;We’re encouraging all porters and community members to post on the &lt;a href=&quot;wiki.ubports.com&quot;&gt;wiki&lt;/a&gt;. If you have any porting information you’d like to share with the community, we’d love to see your documentation. Some awesome new pages include &lt;a href=&quot;https://wiki.ubports.com/wiki/Commandline-networking-with-Network-Manager&quot;&gt;Commandline networking with Network Manager&lt;/a&gt; and &lt;a href=&quot;https://wiki.ubports.com/wiki/Installing-Your-Build-With-Rootstock&quot;&gt;Installing your Build with Rootstock&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;That’s about all for now, everyone. We hope to be able to bring you more good news next time.&lt;/p&gt;
+
+&lt;p&gt;-&lt;a href=&quot;https://github.com/UniversalSuperBox&quot;&gt;UniversalSuperBox&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 12 Oct 2016 00:00:00 -0500</pubDate>
+        <link>http://blog.ubports.com/2016/10/12/hello-world.html</link>
+        <guid isPermaLink="true">http://blog.ubports.com/2016/10/12/hello-world.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll!</title>
@@ -27,7 +59,7 @@
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Tue, 11 Oct 2016 17:14:10 +0200</pubDate>
+        <pubDate>Tue, 11 Oct 2016 10:14:10 -0500</pubDate>
         <link>http://blog.ubports.com/jekyll/update/2016/10/11/welcome-to-jekyll.html</link>
         <guid isPermaLink="true">http://blog.ubports.com/jekyll/update/2016/10/11/welcome-to-jekyll.html</guid>
         
