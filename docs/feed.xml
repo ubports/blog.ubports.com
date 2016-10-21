@@ -6,9 +6,9 @@
 </description>
     <link>http://blog.ubports.com/</link>
     <atom:link href="http://blog.ubports.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 22 Oct 2016 00:30:22 +0100</pubDate>
-    <lastBuildDate>Sat, 22 Oct 2016 00:30:22 +0100</lastBuildDate>
-    <generator>Jekyll v3.0.1</generator>
+    <pubDate>Sat, 22 Oct 2016 01:44:07 +0200</pubDate>
+    <lastBuildDate>Sat, 22 Oct 2016 01:44:07 +0200</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>Calling For BETA Testers</title>
@@ -16,7 +16,7 @@
 
 &lt;p&gt;Today we are pushing out a new OTA to &lt;code class=&quot;highlighter-rouge&quot;&gt;devel_rc-proposed&lt;/code&gt; for the Nexus 5, followed by the OnePlus One and the FairPhone 2 soon after, this is for people to test the software, so don’t expect anything incredibly stable, we do expect this build to not be far from stable though, but we’d rather be safe then sorry, to make sure the software is up to par it will only leave &lt;code class=&quot;highlighter-rouge&quot;&gt;devel_rc-proposed&lt;/code&gt; after 3 people confirm that it’s working to a high enough standard, so if you are a tester, please go install &lt;code class=&quot;highlighter-rouge&quot;&gt;devel_rc-proposed&lt;/code&gt;, fill in this &lt;a href=&quot;http://people.ubuntu.com/~mariogrip/Ubuntu-touch/UbportsQATesting5.1.pdf&quot;&gt;document&lt;/a&gt; and email it to ubports@lists.launchpad.net&lt;/p&gt;
 </description>
-        <pubDate>Sat, 22 Oct 2016 00:02:00 +0100</pubDate>
+        <pubDate>Sat, 22 Oct 2016 01:02:00 +0200</pubDate>
         <link>http://blog.ubports.com/beta/2016/10/22/BETA-Test-1.html</link>
         <guid isPermaLink="true">http://blog.ubports.com/beta/2016/10/22/BETA-Test-1.html</guid>
         
@@ -50,38 +50,10 @@
 
 &lt;p&gt;-&lt;a href=&quot;https://github.com/UniversalSuperBox&quot;&gt;UniversalSuperBox&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 12 Oct 2016 00:00:00 +0100</pubDate>
+        <pubDate>Wed, 12 Oct 2016 00:00:00 +0200</pubDate>
         <link>http://blog.ubports.com/2016/10/12/hello-world.html</link>
         <guid isPermaLink="true">http://blog.ubports.com/2016/10/12/hello-world.html</guid>
         
-        
-      </item>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 11 Oct 2016 16:14:10 +0100</pubDate>
-        <link>http://blog.ubports.com/jekyll/update/2016/10/11/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://blog.ubports.com/jekyll/update/2016/10/11/welcome-to-jekyll.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
         
       </item>
     
