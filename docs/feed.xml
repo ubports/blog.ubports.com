@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.ubports.com/</link>
     <atom:link href="http://blog.ubports.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 21 Oct 2016 23:29:17 +0100</pubDate>
-    <lastBuildDate>Fri, 21 Oct 2016 23:29:17 +0100</lastBuildDate>
+    <pubDate>Sat, 22 Oct 2016 00:30:22 +0100</pubDate>
+    <lastBuildDate>Sat, 22 Oct 2016 00:30:22 +0100</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Calling For BETA Testers</title>
+        <description>&lt;h3 id=&quot;calling-for-beta-testers&quot;&gt;Calling for Beta Testers&lt;/h3&gt;
+
+&lt;p&gt;Today we are pushing out a new OTA to &lt;code class=&quot;highlighter-rouge&quot;&gt;devel_rc-proposed&lt;/code&gt; for the Nexus 5, followed by the OnePlus One and the FairPhone 2 soon after, this is for people to test the software, so don’t expect anything incredibly stable, we do expect this build to not be far from stable though, but we’d rather be safe then sorry, to make sure the software is up to par it will only leave &lt;code class=&quot;highlighter-rouge&quot;&gt;devel_rc-proposed&lt;/code&gt; after 3 people confirm that it’s working to a high enough standard, so if you are a tester, please go install &lt;code class=&quot;highlighter-rouge&quot;&gt;devel_rc-proposed&lt;/code&gt;, fill in this &lt;a href=&quot;http://people.ubuntu.com/~mariogrip/Ubuntu-touch/UbportsQATesting5.1.pdf&quot;&gt;document&lt;/a&gt; and email it to ubports@lists.launchpad.net&lt;/p&gt;
+</description>
+        <pubDate>Sat, 22 Oct 2016 00:02:00 +0100</pubDate>
+        <link>http://blog.ubports.com/beta/2016/10/22/BETA-Test-1.html</link>
+        <guid isPermaLink="true">http://blog.ubports.com/beta/2016/10/22/BETA-Test-1.html</guid>
+        
+        
+        <category>Beta</category>
+        
+      </item>
     
       <item>
         <title>Hello World!</title>
