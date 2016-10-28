@@ -6,9 +6,22 @@
 </description>
     <link>http://blog.ubports.com/</link>
     <atom:link href="http://blog.ubports.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 22 Oct 2016 01:44:07 +0200</pubDate>
-    <lastBuildDate>Sat, 22 Oct 2016 01:44:07 +0200</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <pubDate>Thu, 27 Oct 2016 20:14:02 -0500</pubDate>
+    <lastBuildDate>Thu, 27 Oct 2016 20:14:02 -0500</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Coming Soon</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://blog.ubports.com/assets/2016/10/27-teaser-photo.jpg&quot; alt=&quot;teaserimage&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;http://ubucon.org/en/events/ubucon-europe/&lt;/p&gt;
+</description>
+        <pubDate>Thu, 27 Oct 2016 00:00:00 -0500</pubDate>
+        <link>http://blog.ubports.com/2016/10/27/coming-soon.html</link>
+        <guid isPermaLink="true">http://blog.ubports.com/2016/10/27/coming-soon.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Calling For BETA Testers</title>
@@ -16,9 +29,9 @@
 
 &lt;p&gt;Today we are pushing out a new OTA to &lt;code class=&quot;highlighter-rouge&quot;&gt;devel_rc-proposed&lt;/code&gt; for the Nexus 5, followed by the OnePlus One and the FairPhone 2 soon after, this is for people to test the software, so don’t expect anything incredibly stable, we do expect this build to not be far from stable though, but we’d rather be safe then sorry, to make sure the software is up to par it will only leave &lt;code class=&quot;highlighter-rouge&quot;&gt;devel_rc-proposed&lt;/code&gt; after 3 people confirm that it’s working to a high enough standard, so if you are a tester, please go install &lt;code class=&quot;highlighter-rouge&quot;&gt;devel_rc-proposed&lt;/code&gt;, fill in this &lt;a href=&quot;http://people.ubuntu.com/~mariogrip/Ubuntu-touch/UbportsQATesting5.1.pdf&quot;&gt;document&lt;/a&gt; and email it to ubports@lists.launchpad.net&lt;/p&gt;
 </description>
-        <pubDate>Sat, 22 Oct 2016 01:02:00 +0200</pubDate>
-        <link>http://blog.ubports.com/beta/2016/10/22/BETA-Test-1.html</link>
-        <guid isPermaLink="true">http://blog.ubports.com/beta/2016/10/22/BETA-Test-1.html</guid>
+        <pubDate>Fri, 21 Oct 2016 18:02:00 -0500</pubDate>
+        <link>http://blog.ubports.com/beta/2016/10/21/BETA-Test-1.html</link>
+        <guid isPermaLink="true">http://blog.ubports.com/beta/2016/10/21/BETA-Test-1.html</guid>
         
         
         <category>Beta</category>
@@ -50,7 +63,7 @@
 
 &lt;p&gt;-&lt;a href=&quot;https://github.com/UniversalSuperBox&quot;&gt;UniversalSuperBox&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 12 Oct 2016 00:00:00 +0200</pubDate>
+        <pubDate>Wed, 12 Oct 2016 00:00:00 -0500</pubDate>
         <link>http://blog.ubports.com/2016/10/12/hello-world.html</link>
         <guid isPermaLink="true">http://blog.ubports.com/2016/10/12/hello-world.html</guid>
         
