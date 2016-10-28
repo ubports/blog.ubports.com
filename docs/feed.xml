@@ -6,15 +6,15 @@
 </description>
     <link>http://blog.ubports.com/</link>
     <atom:link href="http://blog.ubports.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 27 Oct 2016 20:15:53 -0500</pubDate>
-    <lastBuildDate>Thu, 27 Oct 2016 20:15:53 -0500</lastBuildDate>
+    <pubDate>Thu, 27 Oct 2016 20:21:34 -0500</pubDate>
+    <lastBuildDate>Thu, 27 Oct 2016 20:21:34 -0500</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
         <title>Coming Soon</title>
         <description>&lt;p&gt;&lt;img src=&quot;http://blog.ubports.com/assets/2016/10/27-teaser-photo.jpg&quot; alt=&quot;teaserimage&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;http://ubucon.org/en/events/ubucon-europe/&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://ubucon.org/en/events/ubucon-europe/&quot;&gt;See it Here&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 27 Oct 2016 00:00:00 -0500</pubDate>
         <link>http://blog.ubports.com/2016/10/27/coming-soon.html</link>
