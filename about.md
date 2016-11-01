@@ -4,12 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+UBports is a team of developers and a meeting place for developers that wish to port Ubuntu Touch to as many devices as possible, this is a place where developers can talk to other developers, learn from each other and help push Ubuntu to more devices as a team, or by yourself but with community support if you wish. [ubports.com](http://ubports.com/)
