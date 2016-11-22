@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>UBports blog</title>
-  <meta name="description" content="UBports blog. Ubuntu touch porting to android devices
-">
+  <title>The StationDock</title>
+  <meta name="description" content="(Marius Quabeck at ubuntufun.de wrote about this first. Using Google Translate, I shamelessly ripped off a lot of his article. Give him some pageviews if you...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://blog.ubports.com/">
+  <link rel="canonical" href="http://blog.ubports.com/2016/11/22/new-shiny.html">
   <link rel="alternate" type="application/rss+xml" title="UBports blog" href="http://blog.ubports.com/feed.xml">
 </head>
 
@@ -55,57 +54,33 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">The StationDock</h1>
+    <p class="post-meta"><time datetime="2016-11-22T00:00:00-06:00" itemprop="datePublished">Nov 22, 2016</time></p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Nov 22, 2016</span>
+  <div class="post-content" itemprop="articleBody">
+    <p>(Marius Quabeck at ubuntufun.de wrote about this first. Using Google Translate, I shamelessly ripped off a lot of his article. Give him some pageviews if you want to see the real source: <a href="http://ubuntufun.de/2016/11/exklusiv-ein-station-dock-fuer-ubuntu-touch-mit-video/">here</a>.)</p>
 
-        <h2>
-          <a class="post-link" href="/2016/11/22/new-shiny.html">The StationDock</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Nov 11, 2016</span>
+<p>Since its inception, Ubuntu Touch has touted convergence: the ability to move between the phone or tablet display to a larger, more comfortable working display on command. With Mir and Unity 8 in a working state, it’s getting closer and closer to that every day.</p>
 
-        <h2>
-          <a class="post-link" href="/2016/11/11/is-ubports-dead.html">Is UBPorts dead?</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Oct 27, 2016</span>
+<p>That poses an important question: how do you get your phone screen onto the larger one? You can plug into the HDMI port on your phone… if you have one, and the number of phones with that option is quickly dwindling. So, your other option is Miracast. But Miracast introduces latency and artifacts into your transmission (especially in a RF-heavy area). This is acceptable for showing images or streaming video, but can get quite annoying for a desktop experience.</p>
 
-        <h2>
-          <a class="post-link" href="/2016/10/27/coming-soon.html">Coming Soon</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Oct 21, 2016</span>
+<p>Today we’re announcing the StationDock project: a dock for your Ubuntu Touch smartphone. Plugging your phone in creates a small wired network between the Raspberry Pi in the dock and your phone, thanks to RNDIS. The phone then transmits Miracast packets over this connection, allowing reduced latency and a better overall experience.</p>
 
-        <h2>
-          <a class="post-link" href="/beta/2016/10/21/BETA-Test-1.html">Calling For BETA Testers</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Oct 12, 2016</span>
+<p>The dock features 2 USB ports, HDMI out, and an audio jack. It may or may not include a microphone jack in the finished product. Inside the (currently) 3D-printed enclosure is a Raspberry Pi and a large battery to charge your device and keep the dock running off the charger.</p>
 
-        <h2>
-          <a class="post-link" href="/2016/10/12/hello-world.html">Hello World!</a>
-        </h2>
-      </li>
-    
-  </ul>
+<p>We’ll be posting more details, including our Kickstarter campaign, in the coming weeks. We hope that you’re as excited as we are.</p>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+<p>If you’re looking for news about device ports, stay tuned! I’ll be writing another post shortly!</p>
 
-</div>
+<p>-UniversalSuperBox</p>
+
+  </div>
+
+</article>
 
       </div>
     </div>
