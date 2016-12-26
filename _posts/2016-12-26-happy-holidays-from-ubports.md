@@ -25,7 +25,7 @@ ubuntu-device-flash --server=http://system-image.ubports.com touch --channel=ubu
 
 As for other devices, we have a wonderful developer working on the Nexus 5 and its screen tearing problems in developer builds. It seems to be a bug between Mir and the Adreno drivers.
 
-As always, if you'd like to support our project financially, you can donate toward a specific device at https://devices.ubports.com or give a monthly donation at https://www.patreon.com/ubports. If you'd like to donate your time, check us out at #ubports on Freenode and we'll find something that you can do.
+As always, if you'd like to support our project financially, you can donate toward a specific device at [https://devices.ubports.com](https://devices.ubports.com) or give a monthly donation at [https://www.patreon.com/ubports](https://devices.ubports.com). If you'd like to donate your time, check us out at #ubports on Freenode and we'll find something that you can do.
 
 Again, happy holidays. And thank you. We're looking forward to a great 2017.
 

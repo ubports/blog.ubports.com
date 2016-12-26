@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.ubports.com/</link>
     <atom:link href="http://blog.ubports.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Dec 2016 17:31:46 -0600</pubDate>
-    <lastBuildDate>Mon, 26 Dec 2016 17:31:46 -0600</lastBuildDate>
+    <pubDate>Mon, 26 Dec 2016 17:35:49 -0600</pubDate>
+    <lastBuildDate>Mon, 26 Dec 2016 17:35:49 -0600</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -32,7 +32,7 @@ ubuntu-device-flash --server=http://system-image.ubports.com touch --channel=ubu
 
 &lt;p&gt;As for other devices, we have a wonderful developer working on the Nexus 5 and its screen tearing problems in developer builds. It seems to be a bug between Mir and the Adreno drivers.&lt;/p&gt;
 
-&lt;p&gt;As always, if you’d like to support our project financially, you can donate toward a specific device at https://devices.ubports.com or give a monthly donation at https://www.patreon.com/ubports. If you’d like to donate your time, check us out at #ubports on Freenode and we’ll find something that you can do.&lt;/p&gt;
+&lt;p&gt;As always, if you’d like to support our project financially, you can donate toward a specific device at &lt;a href=&quot;https://devices.ubports.com&quot;&gt;https://devices.ubports.com&lt;/a&gt; or give a monthly donation at &lt;a href=&quot;https://devices.ubports.com&quot;&gt;https://www.patreon.com/ubports&lt;/a&gt;. If you’d like to donate your time, check us out at #ubports on Freenode and we’ll find something that you can do.&lt;/p&gt;
 
 &lt;p&gt;Again, happy holidays. And thank you. We’re looking forward to a great 2017.&lt;/p&gt;
 
