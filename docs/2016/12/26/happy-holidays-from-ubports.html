@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>UBports blog</title>
-  <meta name="description" content="UBports blog. Ubuntu touch porting to android devices
-">
+  <title>Happy Holidays from UBPorts! (And FP2 fun!)</title>
+  <meta name="description" content="Hello everyone!">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://blog.ubports.com/">
+  <link rel="canonical" href="http://blog.ubports.com/2016/12/26/happy-holidays-from-ubports.html">
   <link rel="alternate" type="application/rss+xml" title="UBports blog" href="http://blog.ubports.com/feed.xml">
 </head>
 
@@ -55,73 +54,43 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Happy Holidays from UBPorts! (And FP2 fun!)</h1>
+    <p class="post-meta"><time datetime="2016-12-26T00:00:00-06:00" itemprop="datePublished">Dec 26, 2016</time></p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Dec 26, 2016</span>
+  <div class="post-content" itemprop="articleBody">
+    <p>Hello everyone!</p>
 
-        <h2>
-          <a class="post-link" href="/2016/12/26/happy-holidays-from-ubports.html">Happy Holidays from UBPorts! (And FP2 fun!)</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Dec 5, 2016</span>
+<p>We here at UBPorts hope that you’re having/had an excellent set of holidays. As the year comes to a close, we’d like to thank all of our patrons, donors, and developers. You are what makes this project happen.</p>
 
-        <h2>
-          <a class="post-link" href="/2016/12/05/early-december-update.html">Early December Update</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Nov 22, 2016</span>
+<p>We’ve been busy around here, of course. Marius has returned for winter holiday at his school and my dashboard is looking busier than ever… an excellent sight when my name filled it up not too long ago.</p>
 
-        <h2>
-          <a class="post-link" href="/2016/11/22/new-shiny.html">The StationDock</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Nov 11, 2016</span>
+<p>We’d like to thank Smoose, a Netherlandic company specializing in open source software, for providing several Fairphone 2 smartphones to our developer community. Because of their generous donation, I have lots of news about the device.</p>
 
-        <h2>
-          <a class="post-link" href="/2016/11/11/is-ubports-dead.html">Is UBPorts dead?</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Oct 27, 2016</span>
+<p>The current daily builds for the Fairphone 2 have everything that you’ll find on <a href="https://devices.ubports.com/#/FP2">the device page</a> PLUS some basic GSM support. You are able to connect to a GSM network with SIM 1 at least (I don’t have a second to test), send and receive SMS, and Marius reports that he has calling in a very experimental stage, though this may not be on system-image-server at the time of this writing. Mobile data doesn’t work quite yet, but we’re working on it.</p>
 
-        <h2>
-          <a class="post-link" href="/2016/10/27/coming-soon.html">Coming Soon</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Oct 21, 2016</span>
+<p>To flash the development build, first note that it is not very stable and things break quite often. Now that that’s out of the way, you’ll need to first flash the recovery.img from <a href="https://seafile.nigle.nl/d/62d505f0a7/">here</a>,
+Then run these commands:
+<code class="highlighter-rouge">
+adb shell mount -a
+adb shell mount /cache
+ubuntu-device-flash --server=http://system-image.ubports.com touch --channel=ubuntu-touch/devel_rc-proposed --device=FP2
+</code></p>
 
-        <h2>
-          <a class="post-link" href="/beta/2016/10/21/BETA-Test-1.html">Calling For BETA Testers</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Oct 12, 2016</span>
+<p>As for other devices, we have a wonderful developer working on the Nexus 5 and its screen tearing problems in developer builds. It seems to be a bug between Mir and the Adreno drivers.</p>
 
-        <h2>
-          <a class="post-link" href="/2016/10/12/hello-world.html">Hello World!</a>
-        </h2>
-      </li>
-    
-  </ul>
+<p>As always, if you’d like to support our project financially, you can donate toward a specific device at <a href="https://devices.ubports.com">https://devices.ubports.com</a> or give a monthly donation at <a href="https://devices.ubports.com">https://www.patreon.com/ubports</a>. If you’d like to donate your time, check us out at #ubports on Freenode and we’ll find something that you can do.</p>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+<p>Again, happy holidays. And thank you. We’re looking forward to a great 2017.</p>
 
-</div>
+<p>-Dalton (UniversalSuperBox)</p>
+
+  </div>
+
+</article>
 
       </div>
     </div>
