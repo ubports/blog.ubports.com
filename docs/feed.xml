@@ -6,9 +6,34 @@
 </description>
     <link>http://blog.ubports.com/</link>
     <atom:link href="http://blog.ubports.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Dec 2016 20:10:33 -0600</pubDate>
-    <lastBuildDate>Mon, 26 Dec 2016 20:10:33 -0600</lastBuildDate>
+    <pubDate>Fri, 06 Jan 2017 19:08:45 -0600</pubDate>
+    <lastBuildDate>Fri, 06 Jan 2017 19:08:45 -0600</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Is Ubuntu Touch Dead?</title>
+        <description>&lt;p&gt;With news that dawned recently we’re expecting an influx of people joining our IRC to ask if we’re going to quit porting Ubuntu Touch now that it’s been announced to be dead.&lt;/p&gt;
+
+&lt;p&gt;No.&lt;/p&gt;
+
+&lt;p&gt;Also, it’s not dead. Read &lt;a href=&quot;https://www.phoronix.com/scan.php?page=news_item&amp;amp;px=Ubuntu-Phone-Snap-Hold&quot;&gt;this article&lt;/a&gt; over at Phoronix for a better look at the issue. Basically, Ubuntu Touch is just going to be rolled into Ubuntu Personal, the Snap-based version of Ubuntu. We’re going to start working on this as we have time, but it’s very experimental right now.&lt;/p&gt;
+
+&lt;p&gt;Canonical is trying to focus their resources on Snaps, Unity 8, and Mir. We understand this and are not at all upset. It will bring the project forward as a whole.&lt;/p&gt;
+
+&lt;p&gt;In other news, you guys should check out the Ubuntu Touch bountysource. You can find our tracker &lt;a href=&quot;https://www.bountysource.com/trackers/45573416-ubports-android&quot;&gt;here&lt;/a&gt;. There isn’t much there yet, but I for one find merit in having it around.&lt;/p&gt;
+
+&lt;p&gt;From the FP2 community, we also have a video showing our ability to place a call from a FP2 over GSM! Check it out &lt;a href=&quot;https://www.youtube.com/watch?v=Bz43mNw4AtU&quot;&gt;here&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;That’s about it for today. Ubuntu Touch is not dead. Come get in touch with us at #ubports on Freenode or the forum if you have any questions!&lt;/p&gt;
+
+&lt;p&gt;-Dalton (UniversalSuperBox)&lt;/p&gt;
+</description>
+        <pubDate>Fri, 06 Jan 2017 00:00:00 -0600</pubDate>
+        <link>http://blog.ubports.com/2017/01/06/is-ubuntu-touch-dead.html</link>
+        <guid isPermaLink="true">http://blog.ubports.com/2017/01/06/is-ubuntu-touch-dead.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Happy Holidays from UBPorts! (And FP2 fun!)</title>
@@ -25,10 +50,12 @@
 &lt;p&gt;To flash the development build, first note that it is not very stable and things break quite often. Now that that’s out of the way, you’ll need to first flash the recovery.img from &lt;a href=&quot;https://seafile.nigle.nl/d/62d505f0a7/&quot;&gt;here&lt;/a&gt;,
 Then run these commands:
 &lt;code class=&quot;highlighter-rouge&quot;&gt;
-adb shell mount -a
-adb shell mount /cache
+adb shell mount -a &amp;amp;&amp;amp;
+adb shell mount /cache &amp;amp;&amp;amp;
 ubuntu-device-flash --server=http://system-image.ubports.com touch --channel=ubuntu-touch/devel_rc-proposed --device=FP2
 &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(Edit: I had to put them in this terrible block because this Jekyll theme is annoying)&lt;/p&gt;
 
 &lt;p&gt;As for other devices, we have a wonderful developer working on the Nexus 5 and its screen tearing problems in developer builds. It seems to be a bug between Mir and the Adreno drivers.&lt;/p&gt;
 

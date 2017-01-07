@@ -18,10 +18,12 @@ The current daily builds for the Fairphone 2 have everything that you'll find on
 To flash the development build, first note that it is not very stable and things break quite often. Now that that's out of the way, you'll need to first flash the recovery.img from [here](https://seafile.nigle.nl/d/62d505f0a7/),
 Then run these commands:
 ```
-adb shell mount -a
-adb shell mount /cache
+adb shell mount -a &&
+adb shell mount /cache &&
 ubuntu-device-flash --server=http://system-image.ubports.com touch --channel=ubuntu-touch/devel_rc-proposed --device=FP2
 ```
+
+(Edit: I had to put them in this terrible block because this Jekyll theme is annoying)
 
 As for other devices, we have a wonderful developer working on the Nexus 5 and its screen tearing problems in developer builds. It seems to be a bug between Mir and the Adreno drivers.
 
