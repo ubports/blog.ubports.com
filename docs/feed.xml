@@ -6,9 +6,9 @@
 </description>
     <link>http://blog.ubports.com/</link>
     <atom:link href="http://blog.ubports.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 06 Jan 2017 19:08:45 -0600</pubDate>
-    <lastBuildDate>Fri, 06 Jan 2017 19:08:45 -0600</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <pubDate>Sun, 19 Mar 2017 14:10:49 -0500</pubDate>
+    <lastBuildDate>Sun, 19 Mar 2017 14:10:49 -0500</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
     
       <item>
         <title>Is Ubuntu Touch Dead?</title>
@@ -48,12 +48,12 @@
 &lt;p&gt;The current daily builds for the Fairphone 2 have everything that you’ll find on &lt;a href=&quot;https://devices.ubports.com/#/FP2&quot;&gt;the device page&lt;/a&gt; PLUS some basic GSM support. You are able to connect to a GSM network with SIM 1 at least (I don’t have a second to test), send and receive SMS, and Marius reports that he has calling in a very experimental stage, though this may not be on system-image-server at the time of this writing. Mobile data doesn’t work quite yet, but we’re working on it.&lt;/p&gt;
 
 &lt;p&gt;To flash the development build, first note that it is not very stable and things break quite often. Now that that’s out of the way, you’ll need to first flash the recovery.img from &lt;a href=&quot;https://seafile.nigle.nl/d/62d505f0a7/&quot;&gt;here&lt;/a&gt;,
-Then run these commands:
-&lt;code class=&quot;highlighter-rouge&quot;&gt;
-adb shell mount -a &amp;amp;&amp;amp;
+Then run these commands:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;adb shell mount -a &amp;amp;&amp;amp;
 adb shell mount /cache &amp;amp;&amp;amp;
 ubuntu-device-flash --server=http://system-image.ubports.com touch --channel=ubuntu-touch/devel_rc-proposed --device=FP2
-&lt;/code&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;(Edit: I had to put them in this terrible block because this Jekyll theme is annoying)&lt;/p&gt;
 
