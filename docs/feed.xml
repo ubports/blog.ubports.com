@@ -4,11 +4,11 @@
     <title>UBports blog</title>
     <description>UBports blog. Ubuntu touch porting to android devices
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Mar 2017 10:47:25 -0500</pubDate>
-    <lastBuildDate>Sun, 19 Mar 2017 10:47:25 -0500</lastBuildDate>
-    <generator>Jekyll v3.3.1</generator>
+    <link>http://blog.ubports.com/</link>
+    <atom:link href="http://blog.ubports.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 06 Jan 2017 19:08:45 -0600</pubDate>
+    <lastBuildDate>Fri, 06 Jan 2017 19:08:45 -0600</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>Is Ubuntu Touch Dead?</title>
@@ -29,8 +29,8 @@
 &lt;p&gt;-Dalton (UniversalSuperBox)&lt;/p&gt;
 </description>
         <pubDate>Fri, 06 Jan 2017 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/2017/01/06/is-ubuntu-touch-dead.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/01/06/is-ubuntu-touch-dead.html</guid>
+        <link>http://blog.ubports.com/2017/01/06/is-ubuntu-touch-dead.html</link>
+        <guid isPermaLink="true">http://blog.ubports.com/2017/01/06/is-ubuntu-touch-dead.html</guid>
         
         
       </item>
@@ -48,12 +48,12 @@
 &lt;p&gt;The current daily builds for the Fairphone 2 have everything that you’ll find on &lt;a href=&quot;https://devices.ubports.com/#/FP2&quot;&gt;the device page&lt;/a&gt; PLUS some basic GSM support. You are able to connect to a GSM network with SIM 1 at least (I don’t have a second to test), send and receive SMS, and Marius reports that he has calling in a very experimental stage, though this may not be on system-image-server at the time of this writing. Mobile data doesn’t work quite yet, but we’re working on it.&lt;/p&gt;
 
 &lt;p&gt;To flash the development build, first note that it is not very stable and things break quite often. Now that that’s out of the way, you’ll need to first flash the recovery.img from &lt;a href=&quot;https://seafile.nigle.nl/d/62d505f0a7/&quot;&gt;here&lt;/a&gt;,
-Then run these commands:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;adb shell mount -a &amp;amp;&amp;amp;
+Then run these commands:
+&lt;code class=&quot;highlighter-rouge&quot;&gt;
+adb shell mount -a &amp;amp;&amp;amp;
 adb shell mount /cache &amp;amp;&amp;amp;
 ubuntu-device-flash --server=http://system-image.ubports.com touch --channel=ubuntu-touch/devel_rc-proposed --device=FP2
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;(Edit: I had to put them in this terrible block because this Jekyll theme is annoying)&lt;/p&gt;
 
@@ -66,8 +66,8 @@ ubuntu-device-flash --server=http://system-image.ubports.com touch --channel=ubu
 &lt;p&gt;-Dalton (UniversalSuperBox)&lt;/p&gt;
 </description>
         <pubDate>Mon, 26 Dec 2016 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/2016/12/26/happy-holidays-from-ubports.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/12/26/happy-holidays-from-ubports.html</guid>
+        <link>http://blog.ubports.com/2016/12/26/happy-holidays-from-ubports.html</link>
+        <guid isPermaLink="true">http://blog.ubports.com/2016/12/26/happy-holidays-from-ubports.html</guid>
         
         
       </item>
@@ -91,8 +91,8 @@ ubuntu-device-flash --server=http://system-image.ubports.com touch --channel=ubu
 &lt;p&gt;-UniversalSuperBox&lt;/p&gt;
 </description>
         <pubDate>Tue, 22 Nov 2016 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/2016/11/22/new-shiny.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/11/22/new-shiny.html</guid>
+        <link>http://blog.ubports.com/2016/11/22/new-shiny.html</link>
+        <guid isPermaLink="true">http://blog.ubports.com/2016/11/22/new-shiny.html</guid>
         
         
       </item>
@@ -126,21 +126,21 @@ ubuntu-device-flash --server=http://system-image.ubports.com touch --channel=ubu
 
 </description>
         <pubDate>Fri, 11 Nov 2016 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/2016/11/11/is-ubports-dead.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/11/11/is-ubports-dead.html</guid>
+        <link>http://blog.ubports.com/2016/11/11/is-ubports-dead.html</link>
+        <guid isPermaLink="true">http://blog.ubports.com/2016/11/11/is-ubports-dead.html</guid>
         
         
       </item>
     
       <item>
         <title>Coming Soon</title>
-        <description>&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/2016/10/27-teaser-photo.jpg&quot; alt=&quot;teaserimage&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;http://blog.ubports.com/assets/2016/10/27-teaser-photo.jpg&quot; alt=&quot;teaserimage&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://ubucon.org/en/events/ubucon-europe/&quot;&gt;See it Here&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 27 Oct 2016 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2016/10/27/coming-soon.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/10/27/coming-soon.html</guid>
+        <link>http://blog.ubports.com/2016/10/27/coming-soon.html</link>
+        <guid isPermaLink="true">http://blog.ubports.com/2016/10/27/coming-soon.html</guid>
         
         
       </item>
@@ -152,8 +152,8 @@ ubuntu-device-flash --server=http://system-image.ubports.com touch --channel=ubu
 &lt;p&gt;Today we are pushing out a new OTA to &lt;code class=&quot;highlighter-rouge&quot;&gt;devel_rc-proposed&lt;/code&gt; for the Nexus 5, followed by the OnePlus One and the FairPhone 2 soon after, this is for people to test the software, so don’t expect anything incredibly stable, we do expect this build to not be far from stable though, but we’d rather be safe then sorry, to make sure the software is up to par it will only leave &lt;code class=&quot;highlighter-rouge&quot;&gt;devel_rc-proposed&lt;/code&gt; after 3 people confirm that it’s working to a high enough standard, so if you are a tester, please go install &lt;code class=&quot;highlighter-rouge&quot;&gt;devel_rc-proposed&lt;/code&gt;, fill in this &lt;a href=&quot;http://people.ubuntu.com/~mariogrip/Ubuntu-touch/UbportsQATesting5.1.pdf&quot;&gt;document&lt;/a&gt; and email it to ubports@lists.launchpad.net&lt;/p&gt;
 </description>
         <pubDate>Fri, 21 Oct 2016 18:02:00 -0500</pubDate>
-        <link>http://localhost:4000/beta/2016/10/21/BETA-Test-1.html</link>
-        <guid isPermaLink="true">http://localhost:4000/beta/2016/10/21/BETA-Test-1.html</guid>
+        <link>http://blog.ubports.com/beta/2016/10/21/BETA-Test-1.html</link>
+        <guid isPermaLink="true">http://blog.ubports.com/beta/2016/10/21/BETA-Test-1.html</guid>
         
         
         <category>Beta</category>
@@ -186,8 +186,8 @@ ubuntu-device-flash --server=http://system-image.ubports.com touch --channel=ubu
 &lt;p&gt;-&lt;a href=&quot;https://github.com/UniversalSuperBox&quot;&gt;UniversalSuperBox&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 12 Oct 2016 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2016/10/12/hello-world.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/10/12/hello-world.html</guid>
+        <link>http://blog.ubports.com/2016/10/12/hello-world.html</link>
+        <guid isPermaLink="true">http://blog.ubports.com/2016/10/12/hello-world.html</guid>
         
         
       </item>
