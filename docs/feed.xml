@@ -6,9 +6,156 @@
 </description>
     <link>http://blog.ubports.com/</link>
     <atom:link href="http://blog.ubports.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 08 Apr 2017 13:50:10 -0500</pubDate>
-    <lastBuildDate>Sat, 08 Apr 2017 13:50:10 -0500</lastBuildDate>
+    <pubDate>Sat, 08 Apr 2017 15:05:17 -0500</pubDate>
+    <lastBuildDate>Sat, 08 Apr 2017 15:05:17 -0500</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>UBports Community Q&amp;A: April 8, 2017</title>
+        <description>&lt;p&gt;On Friday, April 7th, 2017, we started what will be a long journey into the future. A core team meeting at 1800 UTC was quickly followed by a community Q&amp;amp;A. The Q&amp;amp;A is public for anyone to view. You can view it &lt;a href=&quot;https://www.youtube.com/watch?v=MVEm4X2ptEk&quot;&gt;here&lt;/a&gt; or continue reading for a list of the Q’s and A’s. Remember that as this is still an early time for our project, almost everything here is subject to change.&lt;/p&gt;
+
+&lt;h3 id=&quot;two-crashes-and-we-finally-arrived-at-hangouts-on-air&quot;&gt;Two crashes and we finally arrived at Hangouts on Air.&lt;/h3&gt;
+
+&lt;p&gt;After crashing both jitsi.org and talky.io, yesterday’s UBports Q&amp;amp;A started with Mariogrip summing up what happened so far:&lt;/p&gt;
+
+&lt;p&gt;Our short-term plan is to keep Unity 8 and Mir as is. We need to learn how to build these projects into system-image-server through automated means. We will also look into running Mir on top of Wayland as a stop-gap during the Yunit (unity8org) transition to qtWayland (if that happens, their community hasn’t decided yet).&lt;/p&gt;
+
+&lt;p&gt;We DO NOT want to be maintaining a display server. By moving to Wayland we get native Libhybris support, meaning we should be able to work directly on the upstream libhybris. Until that is possible, though, we will ensure that our infrastructure can support our OS: We need better updates and some release policy changes: devel (nightly), rc-proposed (weekly), and stable (manual push), details TBD.&lt;/p&gt;
+
+&lt;p&gt;We plan to support existing devices, but they’ll be in “legacy mode” due to hardware limitations. They’ll get small updates and bugfixes on the current 15.04 base, but will probably not make the jump to 16.04. UBports will also not provide Android base updates, though we haven’t planned these for our current stable devices either.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-qa&quot;&gt;The Q&amp;amp;A&lt;/h3&gt;
+
+&lt;h4 id=&quot;q-what-about-the-bq-m10&quot;&gt;Q: What about the bq M10?&lt;/h4&gt;
+
+&lt;p&gt;A: Because this device is more powerful and still very usable, we’ll probably make it an “official” device rather than a “legacy” one. This means that it will get whatever new OS we build.&lt;/p&gt;
+
+&lt;h4 id=&quot;q-what-about-the-unity-8-desktop-experience&quot;&gt;Q: What about the Unity 8 desktop experience?&lt;/h4&gt;
+
+&lt;p&gt;A: We need a desktop experience since that’s the important part of convergence. We won’t develop more on Mir, but Unity 8 must be maintained for the important convergence goal.&lt;/p&gt;
+
+&lt;h4 id=&quot;q-how-can-i-help-if-i-want-to-do-qa-or-testing&quot;&gt;Q: How can I help if I want to do QA or testing?&lt;/h4&gt;
+
+&lt;p&gt;A: Right now we have a Google Form that will lead you through all the testing steps, but we need a better solution. More documentation needed. Just using your device and reporting bugs that you find is a very good solution.&lt;/p&gt;
+
+&lt;h4 id=&quot;q-what-will-happen-to-the-notification-servers-and-the-ubuntu-one-dependant-services&quot;&gt;Q: What will happen to the notification servers and the Ubuntu One dependant services?&lt;/h4&gt;
+
+&lt;p&gt;A: We can continue to use OpenID through Canonical (Ubuntu One), but we’ll remove the server components from the OS since we want to redefine the notification service. The notification service is FAR too closed for our liking right now. We’re going to focus on usability rather than confinement since we’re breaking the current security model anyway. Using old Android kernels is the worst security flaw we have and there’s no way we’re going to make that go away soon.&lt;/p&gt;
+
+&lt;h4 id=&quot;q-wait-so-confinement-is-going-away&quot;&gt;Q: Wait, so confinement is going away?&lt;/h4&gt;
+
+&lt;p&gt;A: No, but we’re going to make the system more open and usable rather than locked down.&lt;/p&gt;
+
+&lt;h4 id=&quot;q-why-arent-we-collaborating-with-yunit&quot;&gt;Q: Why aren’t we collaborating with &lt;a href=&quot;https://yunit.io&quot;&gt;Yunit&lt;/a&gt;?&lt;/h4&gt;
+
+&lt;p&gt;A: We are having conversations with them. They want more desktop focus while we have more mobile focus. Both projects benefit from the other’s work. Having two forks of Unity 8 makes no sense.&lt;/p&gt;
+
+&lt;h4 id=&quot;q-will-we-collaborate-with-mer-or-plasma-mobile&quot;&gt;Q: Will we collaborate with Mer or Plasma Mobile?&lt;/h4&gt;
+
+&lt;p&gt;A: It’s still on the table. It makes sense for all of us to work together on a common Android base and build our own distributions on top of that. Our communities could all work together and a single device enablement would open it up to lots of new OS’s. Working together means more success for all of us.&lt;/p&gt;
+
+&lt;h4 id=&quot;q-youve-split-ubports-contributors-into-teams-whats-the-goal-of-this&quot;&gt;Q: You’ve split UBports contributors into teams. What’s the goal of this?&lt;/h4&gt;
+
+&lt;p&gt;A: A more structured project means that we all have a say and all have a defined purpose. Having different teams means that a team can make a decision faster than if we needed every contributor to agree. We also split into multiple group chats so we can actually talk to each other without being buried.
+We have the infrastructure, developer, communication, and QA teams. We’re looking at adding more. Also, the communication team is the best team and no one can say otherwise.&lt;/p&gt;
+
+&lt;h4 id=&quot;q-will-the-open-store-continue&quot;&gt;Q: Will the Open Store continue?&lt;/h4&gt;
+
+&lt;p&gt;A: TODO. We’re going to either fork the store or maintain it since it’s shutting down.&lt;/p&gt;
+
+&lt;h4 id=&quot;q-how-will-you-finance-all-of-this&quot;&gt;Q: How will you finance all of this?&lt;/h4&gt;
+
+&lt;p&gt;A: &lt;a href=&quot;https://ubports.com/get-involved&quot;&gt;Donations&lt;/a&gt;. One-time Paypal donations and Patreon contributions are what will keep us going. Servers are going to be extremely expensive, devices aren’t getting cheaper either. Each member of the QA team will need most of our devices to test. We’re not worrying yet, but this will become a problem in the near future.&lt;/p&gt;
+
+&lt;h4 id=&quot;q-can-we-hire-full-time-people&quot;&gt;Q: Can we hire full-time people?&lt;/h4&gt;
+
+&lt;p&gt;A: It’s in the future, but we would &lt;em&gt;love&lt;/em&gt; to. It would make the project move much faster. A developer and a sysadmin allowing the developers to focus only on developing would be perfect. We don’t have the money for that yet. Or the legal knowledge.&lt;/p&gt;
+
+&lt;h4 id=&quot;q-will-we-sell-devices-pre-installed-with-your-os&quot;&gt;Q: Will we sell devices pre-installed with your OS?&lt;/h4&gt;
+
+&lt;p&gt;A: That’s tricky. Legal issues like Qualcomm licensing would absolutely kill that business… unless we ship the device without modifying any of the proprietary blobs. Long story short, that’s out of our scope right now.&lt;/p&gt;
+
+&lt;h4 id=&quot;q-what-happened-to-the-station-dock&quot;&gt;Q: What happened to the Station Dock?&lt;/h4&gt;
+
+&lt;p&gt;A: It still exists. It’s been postponed for an indefinite amount of time. It’s based on a Raspberry Pi so we might just release the firmware and call it a day… 
+inb4 a Chinese company takes the software and ships it as closed-source, making a lot of money.&lt;/p&gt;
+
+&lt;h4 id=&quot;q-are-we-following-canonicals-plan-or-making-our-own-os&quot;&gt;Q: Are we following Canonical’s plan or making our own OS?&lt;/h4&gt;
+
+&lt;p&gt;A: We’re following for now, but we may change direction quickly as we determine what went right and wrong with Ubuntu Touch.&lt;/p&gt;
+
+&lt;h4 id=&quot;q-will-we-make-sailfish-os-apps-compatible-with-your-stuff&quot;&gt;Q: Will we make Sailfish OS apps compatible with your stuff?&lt;/h4&gt;
+
+&lt;p&gt;A: Maybe? We’ll have very different design languages.&lt;/p&gt;
+
+&lt;h4 id=&quot;q-will-we-support-snaps&quot;&gt;Q: Will we support snaps?&lt;/h4&gt;
+
+&lt;p&gt;A: Yes, but legacy devices might not. We don’t think we’ll do the atomic system updates (Ubuntu Core), only apps. We have no idea how atomic updates would work with the Android ecosystem… our guess is that they probably wouldn’t.&lt;/p&gt;
+
+&lt;h4 id=&quot;q-will-we-fix-long-standing-critical-bugs-in-ubuntu-touch&quot;&gt;Q: Will we fix long-standing critical bugs in Ubuntu Touch?&lt;/h4&gt;
+
+&lt;p&gt;A: We’ll try to polish the OS as much as we can, But don’t expect OTA-16 anytime soon.&lt;/p&gt;
+
+&lt;h4 id=&quot;q-will-this-be-hard-without-canonical&quot;&gt;Q: Will this be hard without Canonical?&lt;/h4&gt;
+
+&lt;p&gt;A: Yes and no. Since this has now become a community project, we’ve seen a lot less pushback and a lot of people stepping up to help. When Canonical was the only one developing Unity, people hated it. Now people are coming out of the woodwork to say that they loved where it was going and will miss it. We have seen around 400 new devices hitting our system image server since the news. There’s a strange effect that Canonical has on the Open Source community.&lt;/p&gt;
+
+&lt;h4 id=&quot;q-will-there-be-a-guide-for-porting-ubuntu-touch-on-the-ubports-website&quot;&gt;Q: Will there be a guide for porting Ubuntu Touch on the UBports website?&lt;/h4&gt;
+
+&lt;p&gt;A: You bet.&lt;/p&gt;
+
+&lt;h4 id=&quot;q-but-how-do-we-really-feel-about-unity-and-touch-being-dropped&quot;&gt;Q: But how do we really &lt;strong&gt;&lt;em&gt;feel&lt;/em&gt;&lt;/strong&gt; about Unity and Touch being dropped?&lt;/h4&gt;
+
+&lt;p&gt;A: We understand that the project wasn’t making money and that Canonical as a company should make money. We really can’t argue with the decision and Canonical has given us no reason to harbor any ill will (We got to present at MWC! How cool is that!?).&lt;/p&gt;
+
+&lt;h4 id=&quot;q-will-we-be-using-stuff-from-firefox-os&quot;&gt;Q: Will we be using stuff from Firefox OS?&lt;/h4&gt;
+
+&lt;p&gt;A: We stole some of their AGPS stuff, if that counts.&lt;/p&gt;
+
+&lt;h4 id=&quot;q-will-we-keep-the-name&quot;&gt;Q: Will we keep the name?&lt;/h4&gt;
+
+&lt;p&gt;A: Hard to say. No reason to change it yet, but once we further separate ourselves from Canonical we’ll probably change it.&lt;/p&gt;
+
+&lt;h4 id=&quot;q-will-we-continue-the-core-apps&quot;&gt;Q: Will we continue the core apps?&lt;/h4&gt;
+
+&lt;p&gt;A: Yes, but in a feature freeze state unless the community is very willing to help. We need to sort out the bottom of the stack before we work on the top.&lt;/p&gt;
+
+&lt;h4 id=&quot;q-can-we-mirror-the-core-apps-to-github-and-use-git-rather-than-bazaar&quot;&gt;Q: Can we mirror the core apps to GitHub (and use Git rather than Bazaar)?&lt;/h4&gt;
+
+&lt;p&gt;A: Sure. Code hosting at GitHub is a bit more accessible than Launchpad so we totally understand where this question came from.&lt;/p&gt;
+
+&lt;h4 id=&quot;q-will-we-keep-using-launchpad&quot;&gt;Q: Will we keep using Launchpad?&lt;/h4&gt;
+
+&lt;p&gt;A: Yes. The project management of Launchpad is more than a Kanban board. We like the bugs.launchpad.net more than Github’s issue tracker, for example.&lt;/p&gt;
+
+&lt;h4 id=&quot;q-will-we-consider-moving-to-gitlab&quot;&gt;Q: Will we consider moving to GitLab?&lt;/h4&gt;
+
+&lt;p&gt;A: If we wanted to use it for Git only, sure. But we don’t. So no. GitHub is simply a more accessible platform.&lt;/p&gt;
+
+&lt;h4 id=&quot;q-are-we-coming-to-ubucon-europe&quot;&gt;Q: Are we coming to &lt;a href=&quot;https://ubucon.paris&quot;&gt;Ubucon Europe&lt;/a&gt;?&lt;/h4&gt;
+
+&lt;p&gt;A: YES! We’re going to be showing off all of our work that hasn’t happened yet! Go future us! WOOOOOH!&lt;/p&gt;
+
+&lt;h4 id=&quot;q-snap-only-supports-kernel-310-and-above-how-will-you-support-older-phones&quot;&gt;Q: Snap only supports kernel 3.10 and above. How will you support older phones?&lt;/h4&gt;
+
+&lt;p&gt;A: Backports and patches. Canonical has already started on this. (Dalton’s note: Snaps work on kernel 3.4 with a namespacing patch, they just don’t have confinement). Any newer devices that we port to will have kernel 3.10 or above anyway, so we’re not that concerned. We have a LOT to handle before we even consider this problem.&lt;/p&gt;
+
+&lt;h4 id=&quot;q-are-there-more-updates-coming-to-the-current-ubports-devices&quot;&gt;Q: Are there more updates coming to the current UBports devices?&lt;/h4&gt;
+
+&lt;p&gt;A: Yes. We are still focusing on our efforts to bring our stable devices to a good state with the Canonical Ubuntu Touch images. We’ve set the Stable release target for April 30th, but we might not hit that any more.&lt;/p&gt;
+
+&lt;h4 id=&quot;q-what-if-i-missed-the-qa-but-i-want-to-talk-to--yell-at-you&quot;&gt;Q: What if I missed the Q&amp;amp;A but I want to talk to / yell at you?&lt;/h4&gt;
+
+&lt;p&gt;A: You can get a hold of us in &lt;a href=&quot;https://ubports.com/telegram&quot;&gt;our Telegram supergroup&lt;/a&gt;. We also have a neat little Disqus embed that you can use on all of our blog posts! We’ll be holding more of these community Q&amp;amp;A’s in the future. Our next one should be in about two or three weeks, stay tuned!&lt;/p&gt;
+
+&lt;p&gt;-Dalton and Jan&lt;/p&gt;
+</description>
+        <pubDate>Sat, 08 Apr 2017 00:00:00 -0500</pubDate>
+        <link>http://blog.ubports.com/2017/04/08/ubports-community-q-a.html</link>
+        <guid isPermaLink="true">http://blog.ubports.com/2017/04/08/ubports-community-q-a.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>UBports Developer's Meeting - March 29, 2017</title>
