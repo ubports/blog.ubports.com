@@ -2,7 +2,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <a class="site-title" href="https://ubports.com/">UBports</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -14,6 +14,13 @@
       </a>
 
       <div class="trigger">
+        <a class="page-link" href="https://devices.ubports.com/">Devices</a>
+        <a class="page-link" href="https://forums.ubports.com/">Forums</a>
+        <a class="page-link" href="https://wiki.ubports.com/">Wiki</a>
+        <a class="page-link" href="https://blog.ubports.com/">Blog</a>
+        <a class="page-link" href="https://ubports.com/get-involved">Get Involved</a>
+        <a class="page-link" href="https://ubports.com/sponsors">Sponsors</a>
+        <a class="page-link" href="https://ubports.com/team">Team</a>
         {% for my_page in site.pages %}
           {% if my_page.title %}
           <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
