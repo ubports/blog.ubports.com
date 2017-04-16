@@ -6,9 +6,67 @@
 </description>
     <link>http://blog.ubports.com/</link>
     <atom:link href="http://blog.ubports.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 08 Apr 2017 15:05:17 -0500</pubDate>
-    <lastBuildDate>Sat, 08 Apr 2017 15:05:17 -0500</lastBuildDate>
+    <pubDate>Sat, 15 Apr 2017 19:08:23 -0500</pubDate>
+    <lastBuildDate>Sat, 15 Apr 2017 19:08:23 -0500</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>UBports Community Q&amp;A: April 15, 2017</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://blog.ubports.com/assets/2017/04/15-marius.png&quot; alt=&quot;supercoolquestions&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Today marked another Q&amp;amp;A session in the books. You can find it right over &lt;a href=&quot;https://www.youtube.com/watch?v=gNKxMiAnO1I&quot;&gt;here&lt;/a&gt; on our shiny new Youtube channel! The following are the majority of asked questions and a summary of their answers.&lt;/p&gt;
+
+&lt;p&gt;If you’d like to discuss, you can come to &lt;a href=&quot;https://ubports.com/telegram&quot;&gt;our Telegram group&lt;/a&gt;, the &lt;a href=&quot;https://forums.ubports.com&quot;&gt;forums&lt;/a&gt;, or you can post a comment using the below Disqus embed.&lt;/p&gt;
+
+&lt;p&gt;Thank you all for your support! Without further ado, here’s the summary!&lt;/p&gt;
+
+&lt;h2 id=&quot;will-you-support-old-official-devices&quot;&gt;Will you support old official devices?&lt;/h2&gt;
+&lt;p&gt;Yes. All devices but the Pro 5 and M10 will be in “legacy” mode, getting critical bugfixes and security updates. These will be in-between due to their closed Android source tree.
+We have mirrored the system-image-server so we can host the old images at some point.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-will-the-official-devices-be-updated&quot;&gt;How will the official devices be updated?&lt;/h2&gt;
+&lt;p&gt;They will probably require a reflash.&lt;/p&gt;
+
+&lt;h2 id=&quot;which-device-should-i-buy&quot;&gt;Which device should I buy?&lt;/h2&gt;
+&lt;p&gt;You should probably buy one of the stable devices: Nexus 5, Fairphone 2, or Oneplus One.&lt;/p&gt;
+
+&lt;h2 id=&quot;when-will-there-be-new-ports&quot;&gt;When will there be new ports?&lt;/h2&gt;
+&lt;p&gt;Once we have the infrastructure in place to service new devices.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-happens-to-the-core-apps&quot;&gt;What happens to the core apps?&lt;/h2&gt;
+&lt;p&gt;We’re moving them to GitHub. After our build infrastructure works, we’ll work on them.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-will-you-do-with-the-ubuntu-store&quot;&gt;What will you do with the Ubuntu store?&lt;/h2&gt;
+&lt;p&gt;We’re forking the OpenStore at openstore.ubports.com. We will ask app developers if they would like to place their apps on this store. Otherwise we cannot move the apps. They can be forked and placed on our new&lt;/p&gt;
+
+&lt;h2 id=&quot;what-will-you-do-with-ubuntu-one-services-and-push-notifications&quot;&gt;What will you do with Ubuntu One services and push notifications?&lt;/h2&gt;
+&lt;p&gt;We might use Ubuntu One sign-in services. Push notifications are going to be handled by applications rather than our servers. We don’t want that data.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-does-the-future-hold-for-the-sdk&quot;&gt;What does the future hold for the SDK?&lt;/h2&gt;
+&lt;p&gt;Making a decision on that is on our todo list.&lt;/p&gt;
+
+&lt;h2 id=&quot;do-we-still-want-to-make-mir-run-on-top-of-wayland-if-canonical-is-going-to-keep-working-on-mir&quot;&gt;Do we still want to make Mir run on top of Wayland, if Canonical is going to keep working on Mir?&lt;/h2&gt;
+&lt;p&gt;Canonical is still maintaining Mir for IoT applications like digital signage. We expect that this means that the desktop and mobile focus will be lost. We still want to run Mir on top of Wayland to give ourselves and Yunit more options in the future.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-the-plan-for-sync-services&quot;&gt;What is the plan for sync services?&lt;/h2&gt;
+&lt;p&gt;We would love to have sync services, but we need to have more boxes checked before we can worry about that part.&lt;/p&gt;
+
+&lt;h2 id=&quot;does-anbox-fit-into-your-plans&quot;&gt;Does Anbox fit into your plans?&lt;/h2&gt;
+&lt;p&gt;You bet! Anbox works on the Oneplus One already, it will come to devices that can support it.&lt;/p&gt;
+
+&lt;h2 id=&quot;will-anbox-send-notifications-through-the-ubuntu-system&quot;&gt;Will Anbox send notifications through the Ubuntu system?&lt;/h2&gt;
+&lt;p&gt;We have a lot we need to fix related to the system and notifications. It’s something we would like to tackle but this is a long term fix, it wont be in the short term.&lt;/p&gt;
+
+&lt;h2 id=&quot;will-you-ship-the-google-play-services-with-anbox&quot;&gt;Will you ship the Google Play Services with Anbox?&lt;/h2&gt;
+&lt;p&gt;No, we are not legally allowed to do that.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 15 Apr 2017 00:00:00 -0500</pubDate>
+        <link>http://blog.ubports.com/2017/04/15/community-qa.html</link>
+        <guid isPermaLink="true">http://blog.ubports.com/2017/04/15/community-qa.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>UBports Community Q&amp;A: April 8, 2017</title>
