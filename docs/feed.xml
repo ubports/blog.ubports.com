@@ -6,9 +6,82 @@
 </description>
     <link>http://blog.ubports.com/</link>
     <atom:link href="http://blog.ubports.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 15 Apr 2017 19:08:23 -0500</pubDate>
-    <lastBuildDate>Sat, 15 Apr 2017 19:08:23 -0500</lastBuildDate>
-    <generator>Jekyll v3.3.1</generator>
+    <pubDate>Wed, 26 Apr 2017 09:06:11 -0500</pubDate>
+    <lastBuildDate>Wed, 26 Apr 2017 09:06:11 -0500</lastBuildDate>
+    <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>A Resolution to Agree On</title>
+        <description>&lt;p&gt;This is a response to the recent open letter sent to the UBports project leadership as well as the response to it. So, in a way, it’s a response-response. A meta response.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-egg-is-on-our-face&quot;&gt;The egg is on our face.&lt;/h2&gt;
+
+&lt;p&gt;In this section, “We” refers to the writers of the open letter. In later sections it will refer to the UBports team.&lt;/p&gt;
+
+&lt;p&gt;First, we need to apologize for the way the original complaints were sent. What came after clicking the “Publish” button was a blowback more extreme than any of the signers expected, but we were the ones who clicked it.&lt;/p&gt;
+
+&lt;p&gt;Utlimately, the reasoning behind the letter was to bring the project together more. That might sound counterintuitive, but conflict management isn’t our strong suit. In the end, the letter has suited its purpose, but not without cost.&lt;/p&gt;
+
+&lt;p&gt;We’re sorry to Marius Gripsgard for the personal stress and hardship caused. We’re sorry to everyone that was confused or scared by the letter and what it might have meant for the project. The whole team here has learned a lot about each other in the past few days. In some cases, more than we would have liked. This will make us stronger in the future.&lt;/p&gt;
+
+&lt;p&gt;Suffice it to say that we will never handle our gripes like this again.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-happens-now&quot;&gt;What happens now?&lt;/h2&gt;
+
+&lt;p&gt;On April 25, 2017, two signers of the open letter and Marius Gripsgard met to discuss the letter and the methods of sending it. We reached a lot of agreements and found the places where communication broke down leading to the fiasco.&lt;/p&gt;
+
+&lt;h3 id=&quot;our-project-image-is-now-a-concern&quot;&gt;Our project image is now a concern.&lt;/h3&gt;
+
+&lt;p&gt;If we don’t start acting more professional, we aren’t going to get any professional developers on board. This is an obvious problem that mostly points to the UBports team and not the community.&lt;/p&gt;
+
+&lt;p&gt;A topic of discussion that came up quickly was our habit of announcing projects or showing off screenshots of things that don’t really work yet, then not following up on them. When this happens in the future, we’ll be sure to specify the nature of these projects better: whether they are official from the project or simply a developer’s toy.&lt;/p&gt;
+
+&lt;p&gt;We are going to be moderating our chat rooms and forum a bit better starting now, trying to keep the discourse professional yet community-oriented. What does that mean for you? Almost nothing. We are okay with light banter and respectful disagreement in UBports communication. We are not okay with communication that becomes rude, insulting, or blatantly off-topic.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-team-of-people-to-make-the-decisions-not-one-person&quot;&gt;A team of people to make the decisions, not one person.&lt;/h3&gt;
+
+&lt;p&gt;The developers have the power. Decisions that are minor to the user, such as how we decide to implement a display server, will be discussed among the developers. However, decisions that change our users’ phones appearance or function will be discussed more openly.&lt;/p&gt;
+
+&lt;p&gt;In both cases, we have agreed to not make snap decisions from only one person. The developer team must agree when it is going to take on a project. The developer team will then communicate this with the Community team or the community directly.&lt;/p&gt;
+
+&lt;p&gt;In the long term, we have a better solution to ensure proper decision making and project governance. We’ll announce it when it’s ready.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-sense-of-community-a-listening-atmosphere-between-developers-teams-and-the-people-who-support-us&quot;&gt;A sense of community, a listening atmosphere between developers, teams, and the people who support us.&lt;/h3&gt;
+
+&lt;p&gt;The biweekly Q&amp;amp;A sessions are still happening. At the beginning of these, we will recap what different teams have been doing since the last Q&amp;amp;A. After that, we will launch into the community’s questions and answers.&lt;/p&gt;
+
+&lt;p&gt;Internally, we will improve our communication so this situation won’t happen again.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-project-roadmap-that-we-follow&quot;&gt;A project roadmap that we follow&lt;/h3&gt;
+
+&lt;p&gt;Using a combination of kanban boards and Launchpad blueprints, we will create a list of short-term and long-term goals to achieve. We will include the information that people can use to contribute to these goals.&lt;/p&gt;
+
+&lt;h3 id=&quot;stick-to-these-changes-for-more-than-a-week&quot;&gt;Stick to these changes for more than a week&lt;/h3&gt;
+
+&lt;p&gt;Time will tell on this one. We’re confident in ourselves.&lt;/p&gt;
+
+&lt;h3 id=&quot;other-things-that-we-learned&quot;&gt;Other things that we learned&lt;/h3&gt;
+
+&lt;p&gt;These are interesting snippets that were written in the meeting notes. They have no bearing on the rest of this blog post.&lt;/p&gt;
+
+&lt;p&gt;During a discussion about hit-by-a-bus syndrome, we learned that, “Buses come in many forms.” -Jan&lt;/p&gt;
+
+&lt;p&gt;After we somehow got onto a discussion of cats and aircraft, Marius proudly proclaimed that, “If I was a cat on a plane, I would die from stress.”&lt;/p&gt;
+
+&lt;p&gt;We also learned that we should display a &lt;code class=&quot;highlighter-rouge&quot;&gt;PHP WARNING!&lt;/code&gt; before talking about that language, otherwise Marius might explode.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;In case that last section didn’t make it obvious enough, we all had a good time talking to each other after the initial awkwardness passed. A lot of the issues that we faced stemmed from communication breakdowns between project leadership and community members.&lt;/p&gt;
+
+&lt;p&gt;We are going to create the best mobile OS that we can. We aren’t letting a little disagreement stop us.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 26 Apr 2017 00:00:00 -0500</pubDate>
+        <link>http://blog.ubports.com/2017/04/26/a-resolution-to-agree-on.html</link>
+        <guid isPermaLink="true">http://blog.ubports.com/2017/04/26/a-resolution-to-agree-on.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>UBports Community Q&amp;A: April 15, 2017</title>
@@ -429,38 +502,6 @@ ubuntu-device-flash --server=http://system-image.ubports.com touch --channel=ubu
         
         
         <category>Beta</category>
-        
-      </item>
-    
-      <item>
-        <title>Hello World!</title>
-        <description>&lt;p&gt;Hello everyone, and welcome to the UBPorts Blog! This is where we’ll be posting news and updates on the progress of porting your favorite mobile OS.&lt;/p&gt;
-
-&lt;p&gt;So, first things first: most of this blog will be written ‘by proxy,’ that is, Mariogrip will compile developer notes and snippets and the blog team will deal with making it look presentable for all of you. The reason for this is mainly due to an extreme time shortage in Mariogrip’s life. If we get the translation wrong from time to time, we’re sorry and we’ll get better next time.&lt;/p&gt;
-
-&lt;p&gt;With that out of the way, it’s time for some good news!&lt;/p&gt;
-
-&lt;h3 id=&quot;old-device-development&quot;&gt;Old Device Development&lt;/h3&gt;
-
-&lt;p&gt;There isn’t much to be spoken of here, at least not on the surface. Marius is working on squashing bugs in devel_rc-proposed builds on the Nexus 5, and other devices will piggyback on that success.&lt;/p&gt;
-
-&lt;h3 id=&quot;new-device-development&quot;&gt;New Device Development&lt;/h3&gt;
-
-&lt;p&gt;There has been some recent development by community members on several new and strange devices, including the HTC One X (endeavoru) and LG Nexus 5X (bullhead). Both systems boot but are at different stages of graphical functionality. Mir crashes quickly on the One X and the 5X never gets past the “Google” bootloader screen. Both devices are alive, though, as it is possible to get a debug console.&lt;/p&gt;
-
-&lt;p&gt;If you would like to contribute toward development of either of these devices (code, debugging, a shoulder to cry on) or any others, you can try asking in #ubports on Freenode. Please, though, don’t ask for status reports there. This blog will become the go-to place for that information.&lt;/p&gt;
-
-&lt;h3 id=&quot;new-documentation&quot;&gt;New Documentation&lt;/h3&gt;
-&lt;p&gt;We’re encouraging all porters and community members to post on the &lt;a href=&quot;wiki.ubports.com&quot;&gt;wiki&lt;/a&gt;. If you have any porting information you’d like to share with the community, we’d love to see your documentation. Some awesome new pages include &lt;a href=&quot;https://wiki.ubports.com/wiki/Commandline-networking-with-Network-Manager&quot;&gt;Commandline networking with Network Manager&lt;/a&gt; and &lt;a href=&quot;https://wiki.ubports.com/wiki/Installing-Your-Build-With-Rootstock&quot;&gt;Installing your Build with Rootstock&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;That’s about all for now, everyone. We hope to be able to bring you more good news next time.&lt;/p&gt;
-
-&lt;p&gt;-&lt;a href=&quot;https://github.com/UniversalSuperBox&quot;&gt;UniversalSuperBox&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 12 Oct 2016 00:00:00 -0500</pubDate>
-        <link>http://blog.ubports.com/2016/10/12/hello-world.html</link>
-        <guid isPermaLink="true">http://blog.ubports.com/2016/10/12/hello-world.html</guid>
-        
         
       </item>
     
