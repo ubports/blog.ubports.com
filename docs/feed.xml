@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.ubports.com/</link>
     <atom:link href="http://blog.ubports.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 30 Apr 2017 16:44:28 +0200</pubDate>
-    <lastBuildDate>Sun, 30 Apr 2017 16:44:28 +0200</lastBuildDate>
+    <pubDate>Sun, 30 Apr 2017 09:57:02 -0500</pubDate>
+    <lastBuildDate>Sun, 30 Apr 2017 09:57:02 -0500</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -17,50 +17,84 @@
 &lt;p&gt;Another fortnight, another Q&amp;amp;A session! Watch it &lt;a href=&quot;https://youtu.be/UvfeCj6SRGg&quot;&gt;here&lt;/a&gt; or read on for a quick summary.&lt;/p&gt;
 
 &lt;h2 id=&quot;whats-been-happening&quot;&gt;What’s been happening?&lt;/h2&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;First off all, a big thank you to all our &lt;a href=&quot;https://www.patreon.com/ubports/posts&quot;&gt;Patreon&lt;/a&gt; supporters. We are currently recieving just over 600$ in donations every month, so this helps a lot in making UBports sustainable. A big high five for that!&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://halium.org/&quot;&gt;Halium&lt;/a&gt; is in the air! We joined forces with the Plasma Mobile and Sailfish OS community to create a common base for non-android Linux-based mobile operating systems. We will basically create a unified way of implementing Libhybris, a library that allows us to directly address the Android hardware abstraction layer (HAL). That way, the future of porting will be making Halium work on a device and then just installing any mobile operating system that works with it. A prototype on the Nexus 5 is in the works right now, and it’s gonna be &lt;em&gt;great&lt;/em&gt;! Bright future ahead, everyone!&lt;/li&gt;
-  &lt;li&gt;The development team has been working towards building a custom Ubuntu 16.04 rootfs. To make that possible, we now have two extra ARM-servers to speed up compilation.&lt;/li&gt;
-  &lt;li&gt;We are aware that the community wants to see an official roadmap. That is already in the works and will be published soon.For now, you can go stalk us on on our &lt;a href=&quot;https://trello.com/ubports&quot;&gt;trello boards&lt;/a&gt;, even though some project management resources still need to be moved there.&lt;/li&gt;
-  &lt;li&gt;A new website is in the works! Look out for that next week.&lt;/li&gt;
-  &lt;li&gt;We now have some further insights into Canonical’s plans: The official devices will receive security-updates until the end of June 2017 (We will of course release new images before that) and the click store will stay open until the end of this year. We might even keep it in the images for now, so have a little less pressure to create a seamless transition. We will eventually move all the free and open-source apps to the &lt;a href=&quot;https://openstore.ubports.com/&quot;&gt;openstore&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;First of all, a big thank you to all our &lt;a href=&quot;https://www.patreon.com/ubports/posts&quot;&gt;Patreon&lt;/a&gt; supporters. We are currently recieving just over 600$ in donations every month, so this helps a lot in making UBports sustainable. A big high five for that!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://halium.org/&quot;&gt;Halium&lt;/a&gt; is in the air! We joined forces with the Plasma Mobile and Sailfish OS community to create a common base for non-android Linux-based mobile operating systems. We will basically create a unified way of implementing Libhybris, a library that allows us to directly address the Android hardware abstraction layer (HAL). That way, the future of porting will be making Halium work on a device and then just installing any mobile operating system that works with it. A prototype on the Nexus 5 is in the works right now, and it’s gonna be &lt;em&gt;great&lt;/em&gt;! Bright future ahead, everyone!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The development team has been working towards building a custom Ubuntu 16.04 rootfs. To make that possible, we now have two extra ARM-servers to speed up compilation.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;We are aware that the community wants to see an official roadmap. That is already in the works and will be published soon.For now, you can go stalk us on on our &lt;a href=&quot;https://trello.com/ubports&quot;&gt;trello boards&lt;/a&gt;, even though some project management resources still need to be moved there.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A new website is in the works! Look out for that next week.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;We now have some further insights into Canonical’s plans: The official devices will receive security-updates until the end of June 2017 (We will of course release new images before that) and the click store will stay open until the end of this year. We might even keep it in the images for now, so have a little less pressure to create a seamless transition. We will eventually move all the free and open-source apps to the &lt;a href=&quot;https://openstore.ubports.com/&quot;&gt;openstore&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;call-to-arms&quot;&gt;Call to ARMs&lt;/h2&gt;
-&lt;p&gt;Yes, pun intended. No, I am not sorry. We know that the community is eager to help us and we apologize that we don’t have the resources to enable you to do that. But we actually have a few things that we can use your help with right now:
-- We need a decent &lt;strong&gt;build management tool&lt;/strong&gt;. We’re looking for a tool that hooks into our system image server and let’s us promote builds from our development channel to the slower-moving channels. There is no requirement on language for this, though Marius might kill us if we accept PHP.
-- If you know &lt;strong&gt;Groovy&lt;/strong&gt; and have some experience writing plugins for &lt;strong&gt;Jenkins&lt;/strong&gt;, please get in touch with us! We are looking for a way to automate taking on new devices. Your program will need to check a GitHub repository for files and take build instructions from them.
-- You’re a &lt;strong&gt;web designer&lt;/strong&gt; and you know &lt;strong&gt;NodeJS&lt;/strong&gt;, &lt;strong&gt;Pug&lt;/strong&gt; and &lt;strong&gt;Bootstrap&lt;/strong&gt;? Awesome! Care to look at our &lt;a href=&quot;https://github.com/ubports/ubports.com/tree/mariogrip/new-design&quot;&gt;website redesign&lt;/a&gt;? Just make it look good, that’s all we ask for. ;)&lt;/p&gt;
+
+&lt;p&gt;Yes, pun intended. No, I am not sorry. We know that the community is eager to help us and we apologize that we don’t have the resources to enable you to do that. But we actually have a few things that we can use your help with right now:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;We need a decent &lt;strong&gt;build management tool&lt;/strong&gt;. We’re looking for a tool that hooks into our system image server and let’s us promote builds from our development channel to the slower-moving channels. There is no requirement on language for this, though Marius might kill us if we accept PHP.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you know &lt;strong&gt;Groovy&lt;/strong&gt; and have some experience writing plugins for &lt;strong&gt;Jenkins&lt;/strong&gt;, please get in touch with us! We are looking for a way to automate taking on new devices. Your program will need to check a GitHub repository for files and take build instructions from them.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You’re a &lt;strong&gt;web designer&lt;/strong&gt; and you know &lt;strong&gt;NodeJS&lt;/strong&gt;, &lt;strong&gt;Pug&lt;/strong&gt; and &lt;strong&gt;Bootstrap&lt;/strong&gt;? Awesome! Care to look at our &lt;a href=&quot;https://github.com/ubports/ubports.com/tree/mariogrip/new-design&quot;&gt;website redesign&lt;/a&gt;? Just make it look good, that’s all we ask for. ;)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Thanks for your help, now let’s answer some questions!&lt;/p&gt;
 
-&lt;h2 id=&quot;whats-going-on-with-the-station-dock&quot;&gt;What’s going on with the Station Dock?&lt;/h2&gt;
+&lt;h2 id=&quot;qa&quot;&gt;Q&amp;amp;A&lt;/h2&gt;
+
+&lt;h3 id=&quot;whats-going-on-with-the-station-dock&quot;&gt;What’s going on with the Station Dock?&lt;/h3&gt;
+
 &lt;p&gt;At Ubucon Europe last year, we announced a nifty little device called the &lt;a href=&quot;https://blog.ubports.com/2016/11/22/new-shiny.html&quot;&gt;Station Dock&lt;/a&gt;, a Raspberry Pi based gadget that helps with convergence on devices that don’t have wired HDMI out. While there is a working prototype and everything would be ready to go, managing a Crowd-funding campaign and building hardware is a lot of work and we are unsure if &lt;em&gt;more work&lt;/em&gt; is what we need right now. We yet have to decide if we want to follow through with the campaign or just open-source the plans and software right away.&lt;/p&gt;
 
-&lt;h2 id=&quot;what-about-the-stable-builds-you-said-they-were-going-to-be-published-this-week&quot;&gt;What about the stable builds? You said they were going to be published this week?&lt;/h2&gt;
+&lt;h3 id=&quot;what-about-the-stable-builds-you-said-they-were-going-to-be-published-this-week&quot;&gt;What about the stable builds? You said they were going to be published this week?&lt;/h3&gt;
+
 &lt;p&gt;One thing that we’ll have to do in the future is tell the community when we are going to be able to meet deadlines like that, and in this case we are not. There are still &lt;a href=&quot;https://wiki.ubports.com/wiki/UBports-Bug-Trackers&quot;&gt;some bugs we want to fix before release&lt;/a&gt;, so there is a little delay. An unstable stable release would be a little weird.&lt;/p&gt;
 
-&lt;h2 id=&quot;what-is-legacy-mode-and-why-are-the-old-official-canonical-devices-included-in-it&quot;&gt;What is “Legacy Mode,” and why are the old official Canonical devices included in it?&lt;/h2&gt;
+&lt;h3 id=&quot;what-is-legacy-mode-and-why-are-the-old-official-canonical-devices-included-in-it&quot;&gt;What is “Legacy Mode,” and why are the old official Canonical devices included in it?&lt;/h3&gt;
+
 &lt;p&gt;The older devices will be on life support and the actual work will happen in the non-legacy branch, but we will still provide critical security-updates and merge bug-fixes from the community. This way you will still be able to use your phone with Ubuntu Touch if you own one of the official devices, but the cool and shiny new features will probably only land in the non-legacy branch.&lt;/p&gt;
 
 &lt;p&gt;We are putting devices here because we don’t have any other choice. The official devices from BQ and Meizu have closed Android device trees. Because of this, we aren’t able to fix bugs in hardware enablement or add new features dependant on the kernel.&lt;/p&gt;
 
-&lt;h2 id=&quot;when-will-i-be-able-to-reflash-my-phone&quot;&gt;When will I be able to reflash my phone?&lt;/h2&gt;
+&lt;h3 id=&quot;when-will-i-be-able-to-reflash-my-phone&quot;&gt;When will I be able to reflash my phone?&lt;/h3&gt;
+
 &lt;p&gt;We’re working as fast as we can. Hopefully the new images will be out there in one or two weeks. We managed to get some blockers out the way and are working on it.&lt;/p&gt;
 
-&lt;h2 id=&quot;will-the-nokia-here-agps-service-stay-in-the-builds-for-the-former-official-devices&quot;&gt;Will the Nokia HERE AGPS service stay in the builds for the former official devices?&lt;/h2&gt;
+&lt;h3 id=&quot;will-the-nokia-here-agps-service-stay-in-the-builds-for-the-former-official-devices&quot;&gt;Will the Nokia HERE AGPS service stay in the builds for the former official devices?&lt;/h3&gt;
+
 &lt;p&gt;There’s still a question mark there due to licensing issues. If we are allowed to keep HERE, it will stay in the builds, if not, we will try to replace it with Mozilla AGPS.&lt;/p&gt;
 
-&lt;h2 id=&quot;will-you-take-over-the-existing-bugreports-from-launchpad-or-does-everything-have-to-be-reported-again&quot;&gt;Will you take over the existing bugreports from launchpad or does everything have to be reported again?&lt;/h2&gt;
+&lt;h3 id=&quot;will-you-take-over-the-existing-bugreports-from-launchpad-or-does-everything-have-to-be-reported-again&quot;&gt;Will you take over the existing bugreports from launchpad or does everything have to be reported again?&lt;/h3&gt;
+
 &lt;p&gt;We won’t touch that before we have to, because we don’t want to break all the links and we really don’t want to report everything again. Some may be moved in the future, but that’s yet to be decided.&lt;/p&gt;
 
-&lt;h2 id=&quot;what-will-happen-to-the-application-lifecycle-restrictions-of-ubuntu-touch&quot;&gt;What will happen to the application lifecycle restrictions of Ubuntu Touch?&lt;/h2&gt;
+&lt;h3 id=&quot;what-will-happen-to-the-application-lifecycle-restrictions-of-ubuntu-touch&quot;&gt;What will happen to the application lifecycle restrictions of Ubuntu Touch?&lt;/h3&gt;
+
 &lt;p&gt;It’s too early to decide that yet, once there are new images, we will think about that.&lt;/p&gt;
 
-&lt;h2 id=&quot;will-you-host-the-ubuntu-touch-documentation-on-you-own-wiki-or-will-that-stay-where-it-is-right-now&quot;&gt;Will you host the Ubuntu Touch documentation on you own wiki or will that stay where it is right now?&lt;/h2&gt;
+&lt;h3 id=&quot;will-you-host-the-ubuntu-touch-documentation-on-you-own-wiki-or-will-that-stay-where-it-is-right-now&quot;&gt;Will you host the Ubuntu Touch documentation on you own wiki or will that stay where it is right now?&lt;/h3&gt;
+
 &lt;p&gt;For now it will stay in the Ubuntu Wiki, and if we’re not forced to move it we won’t. This may change in the future, though. Limited resources, you all know the story.&lt;/p&gt;
 
-&lt;h2 id=&quot;will-you-support-multirom&quot;&gt;Will you support MultiROM?&lt;/h2&gt;
+&lt;h3 id=&quot;will-you-support-multirom&quot;&gt;Will you support MultiROM?&lt;/h3&gt;
+
 &lt;p&gt;Probably not. We haven’t played with MultiROM in over a year and it would be too much work to fix it right now, so if you have MultiROM and you want Ubuntu Touch, you will have to choose one OS. That ¡*&lt;em&gt;may&lt;/em&gt;*! change with Halium, but that’s not carved in stone yet and we won’t make any promises.&lt;/p&gt;
 
 &lt;p&gt;You still have questions that have not been answered yet? No problem, our next Q&amp;amp;A will happen on Saturday, May 13 at 6 PM UTC. If you won’t be able to catch us live, be sure to get your questions in beforehand in the comment section down below.&lt;/p&gt;
@@ -71,7 +105,7 @@
 
 &lt;p&gt;-Jan&lt;/p&gt;
 </description>
-        <pubDate>Sat, 29 Apr 2017 00:00:00 +0200</pubDate>
+        <pubDate>Sat, 29 Apr 2017 00:00:00 -0500</pubDate>
         <link>http://blog.ubports.com/2017/04/29/community-qa.html</link>
         <guid isPermaLink="true">http://blog.ubports.com/2017/04/29/community-qa.html</guid>
         
@@ -144,7 +178,7 @@
 
 &lt;p&gt;We are going to create the best mobile OS that we can. We aren’t letting a little disagreement stop us.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 26 Apr 2017 00:00:00 +0200</pubDate>
+        <pubDate>Wed, 26 Apr 2017 00:00:00 -0500</pubDate>
         <link>http://blog.ubports.com/2017/04/26/a-resolution-to-agree-on.html</link>
         <guid isPermaLink="true">http://blog.ubports.com/2017/04/26/a-resolution-to-agree-on.html</guid>
         
@@ -202,7 +236,7 @@ We have mirrored the system-image-server so we can host the old images at some p
 &lt;p&gt;No, we are not legally allowed to do that.&lt;/p&gt;
 
 </description>
-        <pubDate>Sat, 15 Apr 2017 00:00:00 +0200</pubDate>
+        <pubDate>Sat, 15 Apr 2017 00:00:00 -0500</pubDate>
         <link>http://blog.ubports.com/2017/04/15/community-qa.html</link>
         <guid isPermaLink="true">http://blog.ubports.com/2017/04/15/community-qa.html</guid>
         
@@ -349,7 +383,7 @@ inb4 a Chinese company takes the software and ships it as closed-source, making 
 
 &lt;p&gt;-Dalton and Jan&lt;/p&gt;
 </description>
-        <pubDate>Sat, 08 Apr 2017 00:00:00 +0200</pubDate>
+        <pubDate>Sat, 08 Apr 2017 00:00:00 -0500</pubDate>
         <link>http://blog.ubports.com/2017/04/08/ubports-community-q-a.html</link>
         <guid isPermaLink="true">http://blog.ubports.com/2017/04/08/ubports-community-q-a.html</guid>
         
@@ -416,7 +450,7 @@ inb4 a Chinese company takes the software and ships it as closed-source, making 
 
 &lt;p&gt;-Dalton&lt;/p&gt;
 </description>
-        <pubDate>Thu, 30 Mar 2017 17:50:00 +0200</pubDate>
+        <pubDate>Thu, 30 Mar 2017 10:50:00 -0500</pubDate>
         <link>http://blog.ubports.com/2017/03/30/ubports-developer-meeting.html</link>
         <guid isPermaLink="true">http://blog.ubports.com/2017/03/30/ubports-developer-meeting.html</guid>
         
@@ -441,7 +475,7 @@ inb4 a Chinese company takes the software and ships it as closed-source, making 
 
 &lt;p&gt;-Dalton (UniversalSuperBox)&lt;/p&gt;
 </description>
-        <pubDate>Fri, 06 Jan 2017 00:00:00 +0100</pubDate>
+        <pubDate>Fri, 06 Jan 2017 00:00:00 -0600</pubDate>
         <link>http://blog.ubports.com/2017/01/06/is-ubuntu-touch-dead.html</link>
         <guid isPermaLink="true">http://blog.ubports.com/2017/01/06/is-ubuntu-touch-dead.html</guid>
         
@@ -478,7 +512,7 @@ ubuntu-device-flash --server=http://system-image.ubports.com touch --channel=ubu
 
 &lt;p&gt;-Dalton (UniversalSuperBox)&lt;/p&gt;
 </description>
-        <pubDate>Mon, 26 Dec 2016 00:00:00 +0100</pubDate>
+        <pubDate>Mon, 26 Dec 2016 00:00:00 -0600</pubDate>
         <link>http://blog.ubports.com/2016/12/26/happy-holidays-from-ubports.html</link>
         <guid isPermaLink="true">http://blog.ubports.com/2016/12/26/happy-holidays-from-ubports.html</guid>
         
@@ -503,7 +537,7 @@ ubuntu-device-flash --server=http://system-image.ubports.com touch --channel=ubu
 
 &lt;p&gt;-UniversalSuperBox&lt;/p&gt;
 </description>
-        <pubDate>Tue, 22 Nov 2016 00:00:00 +0100</pubDate>
+        <pubDate>Tue, 22 Nov 2016 00:00:00 -0600</pubDate>
         <link>http://blog.ubports.com/2016/11/22/new-shiny.html</link>
         <guid isPermaLink="true">http://blog.ubports.com/2016/11/22/new-shiny.html</guid>
         
@@ -538,7 +572,7 @@ ubuntu-device-flash --server=http://system-image.ubports.com touch --channel=ubu
 (And Chloe too)&lt;/p&gt;
 
 </description>
-        <pubDate>Fri, 11 Nov 2016 00:00:00 +0100</pubDate>
+        <pubDate>Fri, 11 Nov 2016 00:00:00 -0600</pubDate>
         <link>http://blog.ubports.com/2016/11/11/is-ubports-dead.html</link>
         <guid isPermaLink="true">http://blog.ubports.com/2016/11/11/is-ubports-dead.html</guid>
         
@@ -551,7 +585,7 @@ ubuntu-device-flash --server=http://system-image.ubports.com touch --channel=ubu
 
 &lt;p&gt;&lt;a href=&quot;http://ubucon.org/en/events/ubucon-europe/&quot;&gt;See it Here&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Thu, 27 Oct 2016 00:00:00 +0200</pubDate>
+        <pubDate>Thu, 27 Oct 2016 00:00:00 -0500</pubDate>
         <link>http://blog.ubports.com/2016/10/27/coming-soon.html</link>
         <guid isPermaLink="true">http://blog.ubports.com/2016/10/27/coming-soon.html</guid>
         

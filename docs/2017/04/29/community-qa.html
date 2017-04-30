@@ -63,7 +63,7 @@
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">UBports Community Q&A: April 29, 2017</h1>
-    <p class="post-meta"><time datetime="2017-04-29T00:00:00+02:00" itemprop="datePublished">Apr 29, 2017</time></p>
+    <p class="post-meta"><time datetime="2017-04-29T00:00:00-05:00" itemprop="datePublished">Apr 29, 2017</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
@@ -72,50 +72,84 @@
 <p>Another fortnight, another Q&amp;A session! Watch it <a href="https://youtu.be/UvfeCj6SRGg">here</a> or read on for a quick summary.</p>
 
 <h2 id="whats-been-happening">What’s been happening?</h2>
+
 <ul>
-  <li>First off all, a big thank you to all our <a href="https://www.patreon.com/ubports/posts">Patreon</a> supporters. We are currently recieving just over 600$ in donations every month, so this helps a lot in making UBports sustainable. A big high five for that!</li>
-  <li><a href="https://halium.org/">Halium</a> is in the air! We joined forces with the Plasma Mobile and Sailfish OS community to create a common base for non-android Linux-based mobile operating systems. We will basically create a unified way of implementing Libhybris, a library that allows us to directly address the Android hardware abstraction layer (HAL). That way, the future of porting will be making Halium work on a device and then just installing any mobile operating system that works with it. A prototype on the Nexus 5 is in the works right now, and it’s gonna be <em>great</em>! Bright future ahead, everyone!</li>
-  <li>The development team has been working towards building a custom Ubuntu 16.04 rootfs. To make that possible, we now have two extra ARM-servers to speed up compilation.</li>
-  <li>We are aware that the community wants to see an official roadmap. That is already in the works and will be published soon.For now, you can go stalk us on on our <a href="https://trello.com/ubports">trello boards</a>, even though some project management resources still need to be moved there.</li>
-  <li>A new website is in the works! Look out for that next week.</li>
-  <li>We now have some further insights into Canonical’s plans: The official devices will receive security-updates until the end of June 2017 (We will of course release new images before that) and the click store will stay open until the end of this year. We might even keep it in the images for now, so have a little less pressure to create a seamless transition. We will eventually move all the free and open-source apps to the <a href="https://openstore.ubports.com/">openstore</a>.</li>
+  <li>
+    <p>First of all, a big thank you to all our <a href="https://www.patreon.com/ubports/posts">Patreon</a> supporters. We are currently recieving just over 600$ in donations every month, so this helps a lot in making UBports sustainable. A big high five for that!</p>
+  </li>
+  <li>
+    <p><a href="https://halium.org/">Halium</a> is in the air! We joined forces with the Plasma Mobile and Sailfish OS community to create a common base for non-android Linux-based mobile operating systems. We will basically create a unified way of implementing Libhybris, a library that allows us to directly address the Android hardware abstraction layer (HAL). That way, the future of porting will be making Halium work on a device and then just installing any mobile operating system that works with it. A prototype on the Nexus 5 is in the works right now, and it’s gonna be <em>great</em>! Bright future ahead, everyone!</p>
+  </li>
+  <li>
+    <p>The development team has been working towards building a custom Ubuntu 16.04 rootfs. To make that possible, we now have two extra ARM-servers to speed up compilation.</p>
+  </li>
+  <li>
+    <p>We are aware that the community wants to see an official roadmap. That is already in the works and will be published soon.For now, you can go stalk us on on our <a href="https://trello.com/ubports">trello boards</a>, even though some project management resources still need to be moved there.</p>
+  </li>
+  <li>
+    <p>A new website is in the works! Look out for that next week.</p>
+  </li>
+  <li>
+    <p>We now have some further insights into Canonical’s plans: The official devices will receive security-updates until the end of June 2017 (We will of course release new images before that) and the click store will stay open until the end of this year. We might even keep it in the images for now, so have a little less pressure to create a seamless transition. We will eventually move all the free and open-source apps to the <a href="https://openstore.ubports.com/">openstore</a>.</p>
+  </li>
 </ul>
 
 <h2 id="call-to-arms">Call to ARMs</h2>
-<p>Yes, pun intended. No, I am not sorry. We know that the community is eager to help us and we apologize that we don’t have the resources to enable you to do that. But we actually have a few things that we can use your help with right now:
-- We need a decent <strong>build management tool</strong>. We’re looking for a tool that hooks into our system image server and let’s us promote builds from our development channel to the slower-moving channels. There is no requirement on language for this, though Marius might kill us if we accept PHP.
-- If you know <strong>Groovy</strong> and have some experience writing plugins for <strong>Jenkins</strong>, please get in touch with us! We are looking for a way to automate taking on new devices. Your program will need to check a GitHub repository for files and take build instructions from them.
-- You’re a <strong>web designer</strong> and you know <strong>NodeJS</strong>, <strong>Pug</strong> and <strong>Bootstrap</strong>? Awesome! Care to look at our <a href="https://github.com/ubports/ubports.com/tree/mariogrip/new-design">website redesign</a>? Just make it look good, that’s all we ask for. ;)</p>
+
+<p>Yes, pun intended. No, I am not sorry. We know that the community is eager to help us and we apologize that we don’t have the resources to enable you to do that. But we actually have a few things that we can use your help with right now:</p>
+
+<ul>
+  <li>
+    <p>We need a decent <strong>build management tool</strong>. We’re looking for a tool that hooks into our system image server and let’s us promote builds from our development channel to the slower-moving channels. There is no requirement on language for this, though Marius might kill us if we accept PHP.</p>
+  </li>
+  <li>
+    <p>If you know <strong>Groovy</strong> and have some experience writing plugins for <strong>Jenkins</strong>, please get in touch with us! We are looking for a way to automate taking on new devices. Your program will need to check a GitHub repository for files and take build instructions from them.</p>
+  </li>
+  <li>
+    <p>You’re a <strong>web designer</strong> and you know <strong>NodeJS</strong>, <strong>Pug</strong> and <strong>Bootstrap</strong>? Awesome! Care to look at our <a href="https://github.com/ubports/ubports.com/tree/mariogrip/new-design">website redesign</a>? Just make it look good, that’s all we ask for. ;)</p>
+  </li>
+</ul>
 
 <p>Thanks for your help, now let’s answer some questions!</p>
 
-<h2 id="whats-going-on-with-the-station-dock">What’s going on with the Station Dock?</h2>
+<h2 id="qa">Q&amp;A</h2>
+
+<h3 id="whats-going-on-with-the-station-dock">What’s going on with the Station Dock?</h3>
+
 <p>At Ubucon Europe last year, we announced a nifty little device called the <a href="https://blog.ubports.com/2016/11/22/new-shiny.html">Station Dock</a>, a Raspberry Pi based gadget that helps with convergence on devices that don’t have wired HDMI out. While there is a working prototype and everything would be ready to go, managing a Crowd-funding campaign and building hardware is a lot of work and we are unsure if <em>more work</em> is what we need right now. We yet have to decide if we want to follow through with the campaign or just open-source the plans and software right away.</p>
 
-<h2 id="what-about-the-stable-builds-you-said-they-were-going-to-be-published-this-week">What about the stable builds? You said they were going to be published this week?</h2>
+<h3 id="what-about-the-stable-builds-you-said-they-were-going-to-be-published-this-week">What about the stable builds? You said they were going to be published this week?</h3>
+
 <p>One thing that we’ll have to do in the future is tell the community when we are going to be able to meet deadlines like that, and in this case we are not. There are still <a href="https://wiki.ubports.com/wiki/UBports-Bug-Trackers">some bugs we want to fix before release</a>, so there is a little delay. An unstable stable release would be a little weird.</p>
 
-<h2 id="what-is-legacy-mode-and-why-are-the-old-official-canonical-devices-included-in-it">What is “Legacy Mode,” and why are the old official Canonical devices included in it?</h2>
+<h3 id="what-is-legacy-mode-and-why-are-the-old-official-canonical-devices-included-in-it">What is “Legacy Mode,” and why are the old official Canonical devices included in it?</h3>
+
 <p>The older devices will be on life support and the actual work will happen in the non-legacy branch, but we will still provide critical security-updates and merge bug-fixes from the community. This way you will still be able to use your phone with Ubuntu Touch if you own one of the official devices, but the cool and shiny new features will probably only land in the non-legacy branch.</p>
 
 <p>We are putting devices here because we don’t have any other choice. The official devices from BQ and Meizu have closed Android device trees. Because of this, we aren’t able to fix bugs in hardware enablement or add new features dependant on the kernel.</p>
 
-<h2 id="when-will-i-be-able-to-reflash-my-phone">When will I be able to reflash my phone?</h2>
+<h3 id="when-will-i-be-able-to-reflash-my-phone">When will I be able to reflash my phone?</h3>
+
 <p>We’re working as fast as we can. Hopefully the new images will be out there in one or two weeks. We managed to get some blockers out the way and are working on it.</p>
 
-<h2 id="will-the-nokia-here-agps-service-stay-in-the-builds-for-the-former-official-devices">Will the Nokia HERE AGPS service stay in the builds for the former official devices?</h2>
+<h3 id="will-the-nokia-here-agps-service-stay-in-the-builds-for-the-former-official-devices">Will the Nokia HERE AGPS service stay in the builds for the former official devices?</h3>
+
 <p>There’s still a question mark there due to licensing issues. If we are allowed to keep HERE, it will stay in the builds, if not, we will try to replace it with Mozilla AGPS.</p>
 
-<h2 id="will-you-take-over-the-existing-bugreports-from-launchpad-or-does-everything-have-to-be-reported-again">Will you take over the existing bugreports from launchpad or does everything have to be reported again?</h2>
+<h3 id="will-you-take-over-the-existing-bugreports-from-launchpad-or-does-everything-have-to-be-reported-again">Will you take over the existing bugreports from launchpad or does everything have to be reported again?</h3>
+
 <p>We won’t touch that before we have to, because we don’t want to break all the links and we really don’t want to report everything again. Some may be moved in the future, but that’s yet to be decided.</p>
 
-<h2 id="what-will-happen-to-the-application-lifecycle-restrictions-of-ubuntu-touch">What will happen to the application lifecycle restrictions of Ubuntu Touch?</h2>
+<h3 id="what-will-happen-to-the-application-lifecycle-restrictions-of-ubuntu-touch">What will happen to the application lifecycle restrictions of Ubuntu Touch?</h3>
+
 <p>It’s too early to decide that yet, once there are new images, we will think about that.</p>
 
-<h2 id="will-you-host-the-ubuntu-touch-documentation-on-you-own-wiki-or-will-that-stay-where-it-is-right-now">Will you host the Ubuntu Touch documentation on you own wiki or will that stay where it is right now?</h2>
+<h3 id="will-you-host-the-ubuntu-touch-documentation-on-you-own-wiki-or-will-that-stay-where-it-is-right-now">Will you host the Ubuntu Touch documentation on you own wiki or will that stay where it is right now?</h3>
+
 <p>For now it will stay in the Ubuntu Wiki, and if we’re not forced to move it we won’t. This may change in the future, though. Limited resources, you all know the story.</p>
 
-<h2 id="will-you-support-multirom">Will you support MultiROM?</h2>
+<h3 id="will-you-support-multirom">Will you support MultiROM?</h3>
+
 <p>Probably not. We haven’t played with MultiROM in over a year and it would be too much work to fix it right now, so if you have MultiROM and you want Ubuntu Touch, you will have to choose one OS. That ¡*<em>may</em>*! change with Halium, but that’s not carved in stone yet and we won’t make any promises.</p>
 
 <p>You still have questions that have not been answered yet? No problem, our next Q&amp;A will happen on Saturday, May 13 at 6 PM UTC. If you won’t be able to catch us live, be sure to get your questions in beforehand in the comment section down below.</p>
