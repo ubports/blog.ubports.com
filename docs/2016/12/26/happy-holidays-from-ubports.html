@@ -78,12 +78,12 @@
 <p>The current daily builds for the Fairphone 2 have everything that you’ll find on <a href="https://devices.ubports.com/#/FP2">the device page</a> PLUS some basic GSM support. You are able to connect to a GSM network with SIM 1 at least (I don’t have a second to test), send and receive SMS, and Marius reports that he has calling in a very experimental stage, though this may not be on system-image-server at the time of this writing. Mobile data doesn’t work quite yet, but we’re working on it.</p>
 
 <p>To flash the development build, first note that it is not very stable and things break quite often. Now that that’s out of the way, you’ll need to first flash the recovery.img from <a href="https://seafile.nigle.nl/d/62d505f0a7/">here</a>,
-Then run these commands:
-<code class="highlighter-rouge">
-adb shell mount -a &amp;&amp;
+Then run these commands:</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>adb shell mount -a &amp;&amp;
 adb shell mount /cache &amp;&amp;
 ubuntu-device-flash --server=http://system-image.ubports.com touch --channel=ubuntu-touch/devel_rc-proposed --device=FP2
-</code></p>
+</code></pre>
+</div>
 
 <p>(Edit: I had to put them in this terrible block because this Jekyll theme is annoying)</p>
 
@@ -117,6 +117,22 @@ ubuntu-device-flash --server=http://system-image.ubports.com touch --channel=ubu
   })();
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+  <!-- Begin MailChimp Signup Form -->
+
+  <div id="mc_embed_signup">
+  <form action="//ubports.us15.list-manage.com/subscribe/post?u=ca89ecb13b3d1e31cc2af97a2&amp;id=3a9d661915" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <div id="mc_embed_signup_scroll">
+  	<label for="mce-EMAIL">Like what you just read? Sign up for our community mailing list for other news and information!</label>
+  	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ca89ecb13b3d1e31cc2af97a2_3a9d661915" tabindex="-1" value=""></div>
+      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+      </div>
+  </form>
+  </div>
+
+  <!--End mc_embed_signup-->
 
 </article>
 

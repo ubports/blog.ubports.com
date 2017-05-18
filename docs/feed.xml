@@ -6,9 +6,94 @@
 </description>
     <link>http://blog.ubports.com/</link>
     <atom:link href="http://blog.ubports.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 30 Apr 2017 09:57:02 -0500</pubDate>
-    <lastBuildDate>Sun, 30 Apr 2017 09:57:02 -0500</lastBuildDate>
-    <generator>Jekyll v3.0.1</generator>
+    <pubDate>Wed, 17 May 2017 19:15:34 -0500</pubDate>
+    <lastBuildDate>Wed, 17 May 2017 19:15:34 -0500</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>UBports Community Q&amp;A: May 13, 2017</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://youtu.be/s-_L3J6EvgY&quot;&gt;&lt;img src=&quot;http://blog.ubports.com/assets/2017/05/13-openstore.png&quot; alt=&quot;livestream&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A little late, but here’s the summary of &lt;a href=&quot;https://youtu.be/s-_L3J6EvgY&quot;&gt;our latest Q&amp;amp;A session&lt;/a&gt;. Some facts from the video are already outdated, so read on for a slightly edited summary. Enjoy!&lt;/p&gt;
+
+&lt;h2 id=&quot;a-huge-thank-you-to-our-patrons&quot;&gt;A huge Thank You to our patrons!&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Thanks to everyone who supports us on &lt;a href=&quot;https://www.patreon.com/ubports&quot;&gt;patreon&lt;/a&gt;. We currently have 105 supporters donating a total of &lt;strong&gt;&lt;em&gt;$1,103&lt;/em&gt;&lt;/strong&gt;! Your continuous support keeps Ubuntu Touch alive.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;whats-been-happening&quot;&gt;What’s been happening?&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Some cool new people joined our marketing team, providing valuable feedback on how to grow the project more efficiently. As a first step, we created a &lt;a href=&quot;https://bit.ly/ubports&quot;&gt;mailing list&lt;/a&gt; to keep the community in the loop. Be sure to subscribe!&lt;/li&gt;
+  &lt;li&gt;Brian Douglass implemented &lt;a href=&quot;http://blog.bhdouglass.com/openstore/web/2017/05/02/the-openstore-upgrade.html&quot;&gt;some amazing new features&lt;/a&gt; on the &lt;a href=&quot;http://blog.bhdouglass.com/openstore/ubuntu-touch/2017/05/11/the-openstore-app-upgrade.html&quot;&gt;OpenStore&lt;/a&gt; and &lt;a href=&quot;http://blog.bhdouglass.com/openstore/web/2017/05/15/openstore-improvements.html&quot;&gt;its website&lt;/a&gt;. If you have the OpenStore app installed on your device, it can just update itself. If not, it might be a good idea to &lt;a href=&quot;https://openstore.ubports.com/docs&quot;&gt;install it&lt;/a&gt;, since all the cool kids are using it and you don’t want to be the one person without the OpenStore. That would be weird, wouldn’t it?&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/_ooAoZcGei8&quot;&gt;uNav&lt;/a&gt; is back! After seeing the amazing community interest in Ubuntu Touch, Marcos Costales decided to bring the &lt;a href=&quot;https://openstore.ubports.com/app/navigator.costales&quot;&gt;back to the OpenStore!&lt;/a&gt;. Give him a high-five, everybody!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ubports.com&quot;&gt;ubports.com&lt;/a&gt; is now pretty! Please give us your thoughts on the new design.&lt;/li&gt;
+  &lt;li&gt;In a similar vein, &lt;a href=&quot;https://devices.ubports.com&quot;&gt;our devices website&lt;/a&gt; is also pretty!&lt;/li&gt;
+  &lt;li&gt;We are looking for testers of our new legacy images on all UBports and official Canonical devices. Please note that these are in alpha state and installing them will wipe your device. If you want to help with that, read &lt;a href=&quot;https://wiki.ubports.com/wiki/How-to-flash-existing-ubuntu-touch-devices-with-Ubports-images&quot;&gt;this wiki page&lt;/a&gt; and be sure to &lt;a href=&quot;https://wiki.ubports.com/wiki/UBports-Bug-Trackers&quot;&gt;report all the bugs&lt;/a&gt; you find. Thanks!&lt;/li&gt;
+  &lt;li&gt;Our &lt;a href=&quot;http://ci.ubports.com/&quot;&gt;build chain&lt;/a&gt; and &lt;a href=&quot;http://system-image.ubports.com/&quot;&gt;system-image server&lt;/a&gt; are fully operational.&lt;/li&gt;
+  &lt;li&gt;All Ubuntu Touch core apps have been forked into GitHub. &lt;a href=&quot;https://openstore.ubports.com/app/com.ubuntu.telegram&quot;&gt;The telegram app&lt;/a&gt; has already recieved some love from Florian, and it now supports secret chats and voice messages. Supergroups will be supported soon, but there are still some blockers to be fixed before that can be released. &lt;a href=&quot;https://forums.ubports.com/topic/225/core-apps-forked-on-github&quot;&gt;If you want to help us&lt;/a&gt; with core apps and maybe even pick their further development, we would be really thankful&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;now-lets-take-on-some-questions&quot;&gt;Now let’s take on some questions!&lt;/h2&gt;
+
+&lt;h3 id=&quot;are-we-going-to-use-snaps&quot;&gt;Are we going to use snaps?&lt;/h3&gt;
+&lt;p&gt;The plan is to use snaps in our yet-to-come non-legacy branch. We can’t decide yet if it will be the only form of delivering packages to the next generation of Ubuntu Touch, but we definitely want it!&lt;/p&gt;
+
+&lt;h3 id=&quot;why-arent-the-legacy-devices-listed-on-devicesubportscom-yet&quot;&gt;Why aren’t the legacy devices listed on &lt;a href=&quot;devices.ubports.com&quot;&gt;devices.ubports.com&lt;/a&gt; yet?&lt;/h3&gt;
+&lt;p&gt;Since the images are not completely tested, we did not update the page yet. This should happen within a week or so.&lt;/p&gt;
+
+&lt;h3 id=&quot;will-there-be-support-for-the-nexus-4&quot;&gt;Will there be support for the Nexus 4?&lt;/h3&gt;
+&lt;p&gt;Yes, we have a developer willing to take it on! Since it doesn’t have blazing fast hardware, probably only on the legacy branch, though…&lt;/p&gt;
+
+&lt;h3 id=&quot;when-will-there-be-new-ports&quot;&gt;When will there be new ports?&lt;/h3&gt;
+&lt;p&gt;We are currently working on &lt;a href=&quot;https://halium.org&quot;&gt;Halium&lt;/a&gt;, a common base for multiple alternative linux-based mobile operating systems. As soon as that’s done, we will think about new ports.&lt;/p&gt;
+
+&lt;h3 id=&quot;whats-the-status-of-anbox&quot;&gt;What’s the status of Anbox?&lt;/h3&gt;
+&lt;p&gt;It’s under heavy development on the desktop, but we have higher priories right now. If you want to discuss Anbox, you can join their &lt;a href=&quot;https://t.me/anbox&quot;&gt;telegram group&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-is-aethercastmiracast-so-bad-you-should-fix-that&quot;&gt;Why is Aethercast/Miracast so bad? You should fix that!&lt;/h3&gt;
+&lt;p&gt;This is a tricky one. It is yet to be decided if there will be further development on this. It’s not a very good replacement for an HDMI connection due to massive input lag. Input and help from the community is very much appreciated here!&lt;/p&gt;
+
+&lt;h3 id=&quot;whats-the-future-of-app-dev-on-ubuntu-touch-are-we-sticking-with-qml&quot;&gt;What’s the future of app-dev on Ubuntu Touch? Are we sticking with QML?&lt;/h3&gt;
+&lt;p&gt;Another tricky one. For now, yes. You heard us talking about limited time and resources, right? That’s the reason. We are &lt;a href=&quot;https://forums.ubports.com/topic/170/a-vision-of-where-to-go-after-ubuntu-touch-s-death&quot;&gt;evaluating different options for the future of app development and design&lt;/a&gt;, but this is nowhere near to a decision.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-are-you-doing-to-make-sure-that-no-malware-gets-into-the-openstore&quot;&gt;What are you doing to make sure that no malware gets into the OpenStore?&lt;/h3&gt;
+&lt;p&gt;Not much, at the moment, to be honest. We are not as big of a platform for hackers to target us, but we will have to work on that. Feel free to send your pull-requests to &lt;a href=&quot;https://github.com/UbuntuOpenStore&quot;&gt;the OpenStore GitHub Page&lt;/a&gt; to help us improving security.&lt;/p&gt;
+
+&lt;h3 id=&quot;are-you-going-to-improve-bluetooth-heaset-support-on-ubuntu-touch&quot;&gt;Are you going to improve Bluetooth Heaset support on Ubuntu Touch?&lt;/h3&gt;
+&lt;p&gt;This should not be too hard to fix, since the bluetooth-stack does most of the support, but it’s not very high on our todo list. As always, we’re happy to merge any pull-requests.&lt;/p&gt;
+
+&lt;h3 id=&quot;will-halium-fix-all-the-hardware-enablement-bugs&quot;&gt;Will Halium fix all the hardware enablement bugs?&lt;/h3&gt;
+&lt;p&gt;Yes! Not immediately, of course, but we will get there. First of all, as soon as Halium is released, there is some work required to make Ubuntu Touch work perfectly fine with it. Then, Halium needs to be ported to the specific target device. This is not necessarily less work than porting an operating system to a device directly, but since Halium is supported by multiple projects, there is a much larger crowd to collaborate on the port.&lt;/p&gt;
+
+&lt;h3 id=&quot;does-halium-create-compatibility-with-apps-for-other-operating-systems&quot;&gt;Does Halium create compatibility with apps for other operating systems?&lt;/h3&gt;
+&lt;p&gt;No, that’s not what halium is. It’s just a standardized way of making android drivers usable from within other mobile operating systems. We also want to collaborate with other projects on app-dev, but that remains a thing for the future. Baby steps. We will get there.&lt;/p&gt;
+
+&lt;h3 id=&quot;whats-happening-with-convergence&quot;&gt;What’s happening with convergence?&lt;/h3&gt;
+&lt;p&gt;Convergence is awesome! We want it. It’s our selling point, and we would like to embrace it in the next generation of Ubuntu Touch.&lt;/p&gt;
+
+&lt;h3 id=&quot;please-elaborate-on-what-the-1604-image-will-be&quot;&gt;Please elaborate on what the 16.04 image will be.&lt;/h3&gt;
+&lt;p&gt;Well, it’s going to be based on Ubuntu 16.04 (suprise!), which is very important for us, since we can still benefit from Canonica’ls support that way. The legacy images are still based on Ubuntu 15.04, so we would have to do a lot security maintanence if we’re stuck with it. There will be Snaps, Halium, and Systemd. Other than that, no decisions have been made yet. It mostly depends on what the community wants to see (and what’s feasible)!&lt;/p&gt;
+
+&lt;h1 id=&quot;we-need-your-feedback&quot;&gt;We need your feedback!&lt;/h1&gt;
+&lt;p&gt;We would like to hear your opinion on what you want the next generation of Ubuntu Touch to be. Obviously we can’t be everybody’s darling, but since UBports is a community-funded project, we need to know your whishes for the future of the operating system. Please use &lt;a href=&quot;https://forums.ubports.com/topic/229/what-is-your-main-points-for-a-perfect-personal-phone-operative-system&quot;&gt;this forum thread&lt;/a&gt; for discussion.&lt;/p&gt;
+
+&lt;p&gt;You still have questions that haven’t been answered yet? No problem, our next Q&amp;amp;A will happen on Saturday, May 27 at 6 PM UTC. If you won’t be able to catch us live, be sure to get your questions in beforehand in the comment section down below or &lt;a href=&quot;forums.ubports.com&quot;&gt;the forum&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;That’s it for this time, make sure to &lt;a href=&quot;https://www.youtube.com/watch?v=517OFPd_VTI&quot;&gt;catch the next one&lt;/a&gt;. If you want to discuss this or tell us how stupid we are, you can do that on the &lt;a href=&quot;https://forums.ubports.com&quot;&gt;UBports forums&lt;/a&gt; or in &lt;a href=&quot;https://ubports.com/telegram&quot;&gt;our Telegram supergroup&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Take care and have a good one!&lt;/p&gt;
+
+&lt;p&gt;-Dalton and Jan&lt;/p&gt;
+
+&lt;p&gt;P.S.: Be sure to &lt;a href=&quot;https://bit.ly/ubports&quot;&gt;subscribe to our new and shiny mailing list&lt;/a&gt;!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 13 May 2017 00:00:00 -0500</pubDate>
+        <link>http://blog.ubports.com/2017/05/13/ubports-qa.html</link>
+        <guid isPermaLink="true">http://blog.ubports.com/2017/05/13/ubports-qa.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>UBports Community Q&amp;A: April 29, 2017</title>
@@ -279,7 +364,7 @@ We have mirrored the system-image-server so we can host the old images at some p
 
 &lt;p&gt;A: No, but we’re going to make the system more open and usable rather than locked down.&lt;/p&gt;
 
-&lt;h4 id=&quot;q-why-arent-we-collaborating-with-yunithttpsyunitio&quot;&gt;Q: Why aren’t we collaborating with &lt;a href=&quot;https://yunit.io&quot;&gt;Yunit&lt;/a&gt;?&lt;/h4&gt;
+&lt;h4 id=&quot;q-why-arent-we-collaborating-with-yunit&quot;&gt;Q: Why aren’t we collaborating with &lt;a href=&quot;https://yunit.io&quot;&gt;Yunit&lt;/a&gt;?&lt;/h4&gt;
 
 &lt;p&gt;A: We are having conversations with them. They want more desktop focus while we have more mobile focus. Both projects benefit from the other’s work. Having two forks of Unity 8 makes no sense.&lt;/p&gt;
 
@@ -365,7 +450,7 @@ inb4 a Chinese company takes the software and ships it as closed-source, making 
 
 &lt;p&gt;A: If we wanted to use it for Git only, sure. But we don’t. So no. GitHub is simply a more accessible platform.&lt;/p&gt;
 
-&lt;h4 id=&quot;q-are-we-coming-to-ubucon-europehttpsubuconparis&quot;&gt;Q: Are we coming to &lt;a href=&quot;https://ubucon.paris&quot;&gt;Ubucon Europe&lt;/a&gt;?&lt;/h4&gt;
+&lt;h4 id=&quot;q-are-we-coming-to-ubucon-europe&quot;&gt;Q: Are we coming to &lt;a href=&quot;https://ubucon.paris&quot;&gt;Ubucon Europe&lt;/a&gt;?&lt;/h4&gt;
 
 &lt;p&gt;A: YES! We’re going to be showing off all of our work that hasn’t happened yet! Go future us! WOOOOOH!&lt;/p&gt;
 
@@ -391,7 +476,7 @@ inb4 a Chinese company takes the software and ships it as closed-source, making 
       </item>
     
       <item>
-        <title>UBports Developer&#39;s Meeting - March 29, 2017</title>
+        <title>UBports Developer's Meeting - March 29, 2017</title>
         <description>&lt;p&gt;&lt;img src=&quot;http://blog.ubports.com/assets/2017/03/30-conferencecall.jpg&quot; alt=&quot;conferencecall&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Yesterday some users and developers from UBports got together online to discuss the project’s present and future goals. There was fun discussion, everyone’s drinks of choice (for all members for which it was legal), and plenty of cats in the webcam frame. We spent some time on a few topics that should be interesting to the community at large.&lt;/p&gt;
@@ -495,12 +580,12 @@ inb4 a Chinese company takes the software and ships it as closed-source, making 
 &lt;p&gt;The current daily builds for the Fairphone 2 have everything that you’ll find on &lt;a href=&quot;https://devices.ubports.com/#/FP2&quot;&gt;the device page&lt;/a&gt; PLUS some basic GSM support. You are able to connect to a GSM network with SIM 1 at least (I don’t have a second to test), send and receive SMS, and Marius reports that he has calling in a very experimental stage, though this may not be on system-image-server at the time of this writing. Mobile data doesn’t work quite yet, but we’re working on it.&lt;/p&gt;
 
 &lt;p&gt;To flash the development build, first note that it is not very stable and things break quite often. Now that that’s out of the way, you’ll need to first flash the recovery.img from &lt;a href=&quot;https://seafile.nigle.nl/d/62d505f0a7/&quot;&gt;here&lt;/a&gt;,
-Then run these commands:
-&lt;code class=&quot;highlighter-rouge&quot;&gt;
-adb shell mount -a &amp;amp;&amp;amp;
+Then run these commands:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;adb shell mount -a &amp;amp;&amp;amp;
 adb shell mount /cache &amp;amp;&amp;amp;
 ubuntu-device-flash --server=http://system-image.ubports.com touch --channel=ubuntu-touch/devel_rc-proposed --device=FP2
-&lt;/code&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;(Edit: I had to put them in this terrible block because this Jekyll theme is annoying)&lt;/p&gt;
 
@@ -575,19 +660,6 @@ ubuntu-device-flash --server=http://system-image.ubports.com touch --channel=ubu
         <pubDate>Fri, 11 Nov 2016 00:00:00 -0600</pubDate>
         <link>http://blog.ubports.com/2016/11/11/is-ubports-dead.html</link>
         <guid isPermaLink="true">http://blog.ubports.com/2016/11/11/is-ubports-dead.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Coming Soon</title>
-        <description>&lt;p&gt;&lt;img src=&quot;http://blog.ubports.com/assets/2016/10/27-teaser-photo.jpg&quot; alt=&quot;teaserimage&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://ubucon.org/en/events/ubucon-europe/&quot;&gt;See it Here&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 27 Oct 2016 00:00:00 -0500</pubDate>
-        <link>http://blog.ubports.com/2016/10/27/coming-soon.html</link>
-        <guid isPermaLink="true">http://blog.ubports.com/2016/10/27/coming-soon.html</guid>
         
         
       </item>
