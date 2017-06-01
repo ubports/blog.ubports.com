@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.ubports.com/</link>
     <atom:link href="http://blog.ubports.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Jun 2017 07:52:43 -0500</pubDate>
-    <lastBuildDate>Thu, 01 Jun 2017 07:52:43 -0500</lastBuildDate>
+    <pubDate>Thu, 01 Jun 2017 15:45:54 -0500</pubDate>
+    <lastBuildDate>Thu, 01 Jun 2017 15:45:54 -0500</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -74,7 +74,7 @@
 
 &lt;h3 id=&quot;rehosting-core-apps&quot;&gt;Rehosting Core-Apps&lt;/h3&gt;
 
-&lt;p&gt;We are looking to bring the other core apps to the OpenStore. Stefano is currently improving the Document Viewer, we hope to release a new version soon.&lt;/p&gt;
+&lt;p&gt;We are looking to bring the core apps to the OpenStore, but we need maintainers for each one.&lt;/p&gt;
 
 &lt;p&gt;We announced earlier that the App-Dev team has been looking into rebasing the Telegram App to Cutegram. As it tuns out, this is not that easy, so the team will instead continue to work on the current stack. Supergroups are still a work in progress, but two-factor-authentication is now working.&lt;/p&gt;
 
@@ -194,7 +194,7 @@
 &lt;h3 id=&quot;are-we-going-to-use-snaps&quot;&gt;Are we going to use snaps?&lt;/h3&gt;
 &lt;p&gt;The plan is to use snaps in our yet-to-come non-legacy branch. We can’t decide yet if it will be the only form of delivering packages to the next generation of Ubuntu Touch, but we definitely want it!&lt;/p&gt;
 
-&lt;h3 id=&quot;why-arent-the-legacy-devices-listed-on-devicesubportscomdevicesubportscom-yet&quot;&gt;Why aren’t the legacy devices listed on &lt;a href=&quot;devices.ubports.com&quot;&gt;devices.ubports.com&lt;/a&gt; yet?&lt;/h3&gt;
+&lt;h3 id=&quot;why-arent-the-legacy-devices-listed-on-devicesubportscom-yet&quot;&gt;Why aren’t the legacy devices listed on &lt;a href=&quot;devices.ubports.com&quot;&gt;devices.ubports.com&lt;/a&gt; yet?&lt;/h3&gt;
 &lt;p&gt;Since the images are not completely tested, we did not update the page yet. This should happen within a week or so.&lt;/p&gt;
 
 &lt;h3 id=&quot;will-there-be-support-for-the-nexus-4&quot;&gt;Will there be support for the Nexus 4?&lt;/h3&gt;
@@ -519,7 +519,7 @@ We have mirrored the system-image-server so we can host the old images at some p
 
 &lt;p&gt;A: No, but we’re going to make the system more open and usable rather than locked down.&lt;/p&gt;
 
-&lt;h4 id=&quot;q-why-arent-we-collaborating-with-yunithttpsyunitio&quot;&gt;Q: Why aren’t we collaborating with &lt;a href=&quot;https://yunit.io&quot;&gt;Yunit&lt;/a&gt;?&lt;/h4&gt;
+&lt;h4 id=&quot;q-why-arent-we-collaborating-with-yunit&quot;&gt;Q: Why aren’t we collaborating with &lt;a href=&quot;https://yunit.io&quot;&gt;Yunit&lt;/a&gt;?&lt;/h4&gt;
 
 &lt;p&gt;A: We are having conversations with them. They want more desktop focus while we have more mobile focus. Both projects benefit from the other’s work. Having two forks of Unity 8 makes no sense.&lt;/p&gt;
 
@@ -605,7 +605,7 @@ inb4 a Chinese company takes the software and ships it as closed-source, making 
 
 &lt;p&gt;A: If we wanted to use it for Git only, sure. But we don’t. So no. GitHub is simply a more accessible platform.&lt;/p&gt;
 
-&lt;h4 id=&quot;q-are-we-coming-to-ubucon-europehttpsubuconparis&quot;&gt;Q: Are we coming to &lt;a href=&quot;https://ubucon.paris&quot;&gt;Ubucon Europe&lt;/a&gt;?&lt;/h4&gt;
+&lt;h4 id=&quot;q-are-we-coming-to-ubucon-europe&quot;&gt;Q: Are we coming to &lt;a href=&quot;https://ubucon.paris&quot;&gt;Ubucon Europe&lt;/a&gt;?&lt;/h4&gt;
 
 &lt;p&gt;A: YES! We’re going to be showing off all of our work that hasn’t happened yet! Go future us! WOOOOOH!&lt;/p&gt;
 
@@ -735,12 +735,12 @@ inb4 a Chinese company takes the software and ships it as closed-source, making 
 &lt;p&gt;The current daily builds for the Fairphone 2 have everything that you’ll find on &lt;a href=&quot;https://devices.ubports.com/#/FP2&quot;&gt;the device page&lt;/a&gt; PLUS some basic GSM support. You are able to connect to a GSM network with SIM 1 at least (I don’t have a second to test), send and receive SMS, and Marius reports that he has calling in a very experimental stage, though this may not be on system-image-server at the time of this writing. Mobile data doesn’t work quite yet, but we’re working on it.&lt;/p&gt;
 
 &lt;p&gt;To flash the development build, first note that it is not very stable and things break quite often. Now that that’s out of the way, you’ll need to first flash the recovery.img from &lt;a href=&quot;https://seafile.nigle.nl/d/62d505f0a7/&quot;&gt;here&lt;/a&gt;,
-Then run these commands:
-&lt;code class=&quot;highlighter-rouge&quot;&gt;
-adb shell mount -a &amp;amp;&amp;amp;
+Then run these commands:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;adb shell mount -a &amp;amp;&amp;amp;
 adb shell mount /cache &amp;amp;&amp;amp;
 ubuntu-device-flash --server=http://system-image.ubports.com touch --channel=ubuntu-touch/devel_rc-proposed --device=FP2
-&lt;/code&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;(Edit: I had to put them in this terrible block because this Jekyll theme is annoying)&lt;/p&gt;
 
