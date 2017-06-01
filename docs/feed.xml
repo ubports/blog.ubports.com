@@ -6,9 +6,164 @@
 </description>
     <link>http://blog.ubports.com/</link>
     <atom:link href="http://blog.ubports.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 May 2017 19:15:34 -0500</pubDate>
-    <lastBuildDate>Wed, 17 May 2017 19:15:34 -0500</lastBuildDate>
-    <generator>Jekyll v3.3.1</generator>
+    <pubDate>Thu, 01 Jun 2017 07:52:43 -0500</pubDate>
+    <lastBuildDate>Thu, 01 Jun 2017 07:52:43 -0500</lastBuildDate>
+    <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>AGPS, App Updates, Halium, and more!</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://youtu.be/517OFPd_VTI&quot;&gt;&lt;img src=&quot;http://blog.ubports.com/assets/2017/06/01-xenial-halium.png&quot; alt=&quot;Ubuntu 16.04 running inside Halium&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We had our latest Community Update and Q&amp;amp;A on May 27th. You can watch it &lt;a href=&quot;https://youtu.be/517OFPd_VTI&quot;&gt;here&lt;/a&gt;. There were lots of news stories and questions to go through, so we’d better start!&lt;/p&gt;
+
+&lt;h2 id=&quot;the-news&quot;&gt;The News&lt;/h2&gt;
+
+&lt;p&gt;There’s been loads happening with UBports the past two weeks. We’ve landed new features, gained new sponsors, and seen lots of work by lots of people in our growing community. It is worth remembering that is still just 2 months since the news came of Canonical moving away from Unity and Ubuntu Touch and now we are seeing more activity on Ubuntu Touch than for a very long time and that is really encouraging.&lt;/p&gt;
+
+&lt;h3 id=&quot;patreon-hit-1500&quot;&gt;Patreon hit $1500&lt;/h3&gt;
+
+&lt;p&gt;As usual, we have a lot of Patrons to thank. You all make UBports possible, month after month. As a direct result of your support…&lt;/p&gt;
+
+&lt;h3 id=&quot;marius-gripsgard-began-working-full-time&quot;&gt;Marius Gripsgard began working full time&lt;/h3&gt;
+
+&lt;p&gt;Starting this week, Marius is working on UBports full time which will have an enormous impact on our project! We’re taking advantage of this opportunity to plan vital meetings to help progress our growing OS and plan its future using the core teams and long-term Ubuntu app developers. All meetings will be written up and the notes will be shared with the community to keep everyone in the loop.&lt;/p&gt;
+
+&lt;h3 id=&quot;ubports-gains-a-sponsor&quot;&gt;UBports Gains a sponsor!!&lt;/h3&gt;
+
+&lt;p&gt;We were overjoyed and surprised when Private Internet Access (https://www.privateinternetaccess.com/) contacted us offering their sponsorship. We’re still reeling that such a huge name in privacy services was willing to put money on the table and tell us that they like what we’re doing.&lt;/p&gt;
+
+&lt;p&gt;We will be using the funds from their sponsorship to target directly our priorities with Ubuntu Touch and raise bounties to get developers involved with providing fixes. We’ll be deciding these priorities for instance in some of our upcoming meetings. Stay tuned for that.&lt;/p&gt;
+
+&lt;h3 id=&quot;all-devices-that-were-sold-with-ubuntu-for-devices-can-now-run-ubports-builds&quot;&gt;All devices that were sold with Ubuntu for Devices can now run UBports’ builds&lt;/h3&gt;
+
+&lt;p&gt;Every official Canonical Ubuntu Touch  device (except the devices that needed to be flashed by users, like the Nexus 4 and 7 2013 WiFi) are now  working with UBports Ubuntu Touch images. This is great news for everyone that was initially worried by Canonical’s decision. The image for the Nexus 4 is still under development and we currently don’t have a test device for the Nexus 7, but we will hopefully get there soon.&lt;/p&gt;
+
+&lt;p&gt;If you would like to try out the UBports images, the please check out how on our wiki (https://wiki.ubports.com/wiki/How-to-flash-existing-ubuntu-touch-devices-with-Ubports-images). There is information on backing up your phone and flashing it with the UBports images (the process will wipe your device’s data, so be aware and warned!). We will next create a script that will flash your phone  without data loss so you may wish to wait until that is completed. You can follow progress on this script &lt;a href=&quot;https://github.com/mariogrip/switch-to-ubports/blob/master/switch-to-ubports.sh&quot;&gt;on GitHub&lt;/a&gt;. This is great news for UBports as in less than 2 months we can boast that our devices we support have grown from 3 key devices (Nexus 5, OnePlus One and Fairphone 2) to 13!&lt;/p&gt;
+
+&lt;h3 id=&quot;agps-mozilla-location-service&quot;&gt;AGPS Mozilla Location Service&lt;/h3&gt;
+
+&lt;p&gt;As some of you may know, we can’t use HERE Maps Assisted GPS included in official Canonical images. Assisted GPS (AGPS) is a system that allows a device determine its location by triangulating the distances to different cellphone towers and WiFi base stations. This method is a lot faster than GPS and can be combined to a very reliable positioning system. We are currently testing our very own implementation of the Mozilla Location Service on Ubuntu Touch! Good job, devs! Again another first for Ubuntu Touch.&lt;/p&gt;
+
+&lt;h3 id=&quot;new-channels&quot;&gt;New channels&lt;/h3&gt;
+
+&lt;p&gt;We are moving to a six-channel system, three for 15.04 (containing the so-called legacy images based on Ubuntu 15.04) and three for 16.04 (not live yet, will contain images for the core devices based on Ubuntu 16.04 LTS). Inside these categories there will then be called  &lt;code class=&quot;highlighter-rouge&quot;&gt;devel&lt;/code&gt; (&lt;a href=&quot;https://en.wikipedia.org/wiki/Continuous_integration&quot;&gt;Continuous integration&lt;/a&gt; builds that are automatically pulled from GitHub; these are prone to be very unstable), &lt;code class=&quot;highlighter-rouge&quot;&gt;rc&lt;/code&gt; (release candidates that are manually promoted from the &lt;code class=&quot;highlighter-rouge&quot;&gt;devel&lt;/code&gt; channel after successful testing; fairly stable) and &lt;code class=&quot;highlighter-rouge&quot;&gt;stable&lt;/code&gt; (official releases; as stable as possible). This system will allow us for easier quality assurance and a smooth transition to the new base for the core devices. So 3 channels for 15:04 and 3 for 16:04.&lt;/p&gt;
+
+&lt;p&gt;For daily driver use, the &lt;code class=&quot;highlighter-rouge&quot;&gt;stable&lt;/code&gt; channel is recommended, but we are planning to publish OTA updates more regularly than Canonical used to provide them to ensure all users get the new features and fixes as quickly as possible.&lt;/p&gt;
+
+&lt;h3 id=&quot;bug-reporting-moved-to-github&quot;&gt;Bug reporting moved to GitHub&lt;/h3&gt;
+
+&lt;p&gt;You spoke and we listened: Launchpad is a powerful tool, but it’s far from being user friendly, so Jan moved &lt;a href=&quot;https://github.com/ubports/ubports-touch/issues&quot;&gt;all the bug reports to GitHub&lt;/a&gt;. If you’re interested in reporting bugs or filing enhancement-proposals, check out &lt;a href=&quot;https://wiki.ubports.com/wiki/Writing-a-Good-Bug-Report&quot;&gt;this handy guide&lt;/a&gt; that Dalton wrote. You can also track the progress of development on the &lt;a href=&quot;https://github.com/ubports/ubports-touch/projects/&quot;&gt;Kanban Board&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We will probably still use Launchpad for Translations when we get around to it but that has not been set up yet.&lt;/p&gt;
+
+&lt;h3 id=&quot;halium-is-coming-along-nicely&quot;&gt;Halium is coming along nicely&lt;/h3&gt;
+
+&lt;p&gt;Marius and Bhushan made some great progress on &lt;a href=&quot;https://halium.org&quot;&gt;Halium&lt;/a&gt;. It is now able to boot Ubuntu 16.04 with a basic Android container (see the image above)! Before anyone gets too exited, though, we need to be clear that we still have to complete a lot of work before it’s ready to install on consumer devices.&lt;/p&gt;
+
+&lt;p&gt;Many things are already working, though. Most importantly, adb and ssh can be used for debugging. Mir, WiFi, Bluetooth, sound and voice calling are already functional, so we might see some builds on the 16.04 development channel soon.&lt;/p&gt;
+
+&lt;h3 id=&quot;backup-and-restore-script&quot;&gt;Backup and restore script&lt;/h3&gt;
+
+&lt;p&gt;Many people are afraid of reflashing their device to UBports as they fear losing their data, so Florian has kindly been working on making backing up Ubuntu Touch installations easier. It will be integrated into &lt;a href=&quot;https://github.com/MariusQuabeck/magic-device-tool&quot;&gt;Magic Device Tool&lt;/a&gt;, but it’s not thoroughly tested yet so again watch this space.&lt;/p&gt;
+
+&lt;h3 id=&quot;dekko-is-back&quot;&gt;Dekko is back!&lt;/h3&gt;
+
+&lt;p&gt;Dan Chapman announced that &lt;a href=&quot;https://forums.ubports.com/topic/228/dekko-as-click/14&quot;&gt;he will continue his work on the Dekko E-Mail client&lt;/a&gt; on Ubuntu Touch! Due to the imminent deprecation of Click packages under Canonical, he stopped his work on the click version a few months back to focus development on a snap version using a different version of Qt. But the huge community interest in Ubuntu Touch we’ve seen over the last two months has motivated him to bring Dekko back to the OpenStore so that it will even run on Legacy Devices. This is excellent news for any Ubuntu Touch user.&lt;/p&gt;
+
+&lt;p&gt;He will still need some time to iron out the remaining issues, but we can really speak for the whole community when we say &lt;strong&gt;thank you Dan!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;rehosting-core-apps&quot;&gt;Rehosting Core-Apps&lt;/h3&gt;
+
+&lt;p&gt;We are looking to bring the other core apps to the OpenStore. Stefano is currently improving the Document Viewer, we hope to release a new version soon.&lt;/p&gt;
+
+&lt;p&gt;We announced earlier that the App-Dev team has been looking into rebasing the Telegram App to Cutegram. As it tuns out, this is not that easy, so the team will instead continue to work on the current stack. Supergroups are still a work in progress, but two-factor-authentication is now working.&lt;/p&gt;
+
+&lt;h3 id=&quot;ubports-installer-and-magic-device-tool-gui&quot;&gt;UBports Installer and magic-device-tool GUI&lt;/h3&gt;
+
+&lt;p&gt;Soon there will be two GUI methods to flash your phone with Ubuntu Touch: The UBports Installer and Magic Device Tool.&lt;/p&gt;
+
+&lt;p&gt;The UBports Installer offers a simple experience: plug in your device, start the tool, pick your channel, and press Go. The installer is not ready for use yet, but its &lt;strong&gt;prerelease&lt;/strong&gt; code can be found &lt;a href=&quot;https://github.com/ubports/ubports-installer&quot;&gt;on GitHub&lt;/a&gt;. The target platforms are MacOS and Windows, though it also works on Linux. &lt;a href=&quot;https://youtu.be/517OFPd_VTI?t=1778&quot;&gt;Check out the video for a live demo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Marius Quabeck’s Magic-Device-Tool, on the other hand, is a powerhouse in disguise. It allows you to install many different operating systems on your phone with a few simple steps. The team behind the script is working on a Qt-based GUI to make flashing even easier. For now, you can download the script &lt;a href=&quot;https://github.com/MariusQuabeck/magic-device-tool&quot;&gt;from GitHub&lt;/a&gt; or install the snap using &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo snap install magic-device-tool --devmode&lt;/code&gt; (make sure to read the GitHub README!). Please ask in the MDT telegram group if you have any questions or need support.&lt;/p&gt;
+
+&lt;h3 id=&quot;ubports-in-the-media&quot;&gt;UBports in the media&lt;/h3&gt;
+
+&lt;p&gt;Apart from all the articles being published about UBports around the web, some team members have been interviewed on various shows and podcasts in the last couple of weeks:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Marius Gripsgard (@mariogrip) and Bhushan Shah (@bshah) about Halium &lt;a href=&quot;https://youtu.be/Sp-K-0NROf4&quot;&gt;on the Luduke Hour&lt;/a&gt; (English)&lt;/li&gt;
+  &lt;li&gt;Brian Douglass (@bhdouglass) about uAppExplorer and the OpenStore &lt;a href=&quot;http://ubuntupodcast.org/2017/05/26/s10e12-needy-expensive-spiders/&quot;&gt;on the Ubuntu Podcast&lt;/a&gt; (English)&lt;/li&gt;
+  &lt;li&gt;Jan Sprinz (@NeoTheThird) about UBports in general &lt;a href=&quot;http://ubuntufun.de/2017/05/ubuntufun-podcast-folge-35-was-gibts-neues-bei-ubports/&quot;&gt;on the UbuntuFun.de Podcast&lt;/a&gt; (German)&lt;/li&gt;
+  &lt;li&gt;Marcos Costales (developer of uNav) about uNav &lt;a href=&quot;https://youtu.be/41IUhcPJgrk&quot;&gt;on Ubuntu y otras hierbas&lt;/a&gt; (Spanish)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;loquiim-needs-your-help&quot;&gt;LoquiIM needs your help!&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://openstore.ubports.com/app/loquiim.nfsprodriver&quot;&gt;LoquiIM&lt;/a&gt; is a third party WhatsApp client for Firefox OS and Ubuntu Touch. Unfortunately the protocol and API the app uses will be deprecated next month, so the team needs help with the move to the new protocol. If you want to help with the move to the noise protocol, check out &lt;a href=&quot;https://github.com/loqui/im&quot;&gt;their GitHub repo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;help-ubports-with-marketing&quot;&gt;Help UBports with marketing&lt;/h3&gt;
+
+&lt;p&gt;If you want to join our marketing team, you can sign up &lt;a href=&quot;https://bit.ly/ubportsmarketingsignup&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;now-lets-take-some-questions&quot;&gt;Now let’s take some questions!&lt;/h2&gt;
+
+&lt;h3 id=&quot;will-ubports-support-multirom&quot;&gt;Will UBports support Multirom?&lt;/h3&gt;
+
+&lt;p&gt;No. We haven’t played with MultiROM in over a year and it would be too much work to fix it right now, so if you have MultiROM and you want Ubuntu Touch, you will have to choose one OS. That &lt;em&gt;may&lt;/em&gt; change with Halium, but that’s not carved in stone yet and we won’t make any promises.&lt;/p&gt;
+
+&lt;p&gt;If someone in the community wants to maintain it, we will obviously support that, but we won’t put any work into it ourselves.&lt;/p&gt;
+
+&lt;h3 id=&quot;whats-the-future-of-x11-apps-on-ubuntu-touch&quot;&gt;What’s the future of X11-apps on Ubuntu Touch?&lt;/h3&gt;
+
+&lt;p&gt;It’s still possible to install desktop Linux apps on Ubuntu Touch using a Libertine container. It’s not a very smooth experience, so we did not preinstall desktop apps in our images. If you’re interested in playing with Libertine, you can &lt;a href=&quot;https://forums.ubports.com/topic/262/desktop-apps/2&quot;&gt;follow this guide&lt;/a&gt; a user wrote on our forum.&lt;/p&gt;
+
+&lt;p&gt;For 16.04, we definitely want to make installing X11 and Wayland apps simple and easy, but that’s still looking to the future.&lt;/p&gt;
+
+&lt;h3 id=&quot;whats-the-status-of-mir-on-top-of-wayland&quot;&gt;What’s the status of Mir on top of Wayland?&lt;/h3&gt;
+
+&lt;p&gt;It depends on who you ask. If you ask a user, the platform is completely unusable. If you ask a developer, most of the stuff is already there. It &lt;a href=&quot;https://github.com/ubports/mir/commit/a8cd1fcc1eb15c45297b2181fc93a3503aa69150&quot;&gt;is all developed in public&lt;/a&gt;, but it’s in a very early stage of development.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-cant-i-just-apt-get-install-something&quot;&gt;Why can’t i just apt-get install something?&lt;/h3&gt;
+
+&lt;p&gt;In fact, it is possible to use &lt;code class=&quot;highlighter-rouge&quot;&gt;apt&lt;/code&gt; on the device if the filesystem is made writable. That’s not recommended for most users since it’s easy to break the system doing that. Unlike most desktop Linux distributions, we are using &lt;a href=&quot;https://wiki.ubuntu.com/ImageBasedUpgrades/&quot;&gt;image-based upgrades&lt;/a&gt; to update the system. That means that the &lt;a href=&quot;https://wiki.ubports.com/wiki/How-a-UBports-Image-is-Built&quot;&gt;root-filesystem and all the packages are put together by us&lt;/a&gt; and delivered to the device in one piece. This method allows for a lot faster updates than just running &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt update &amp;amp;&amp;amp; sudo apt upgrade&lt;/code&gt; on the device, if you ever updated a Raspberry Pi, you know what we’re talking about.&lt;/p&gt;
+
+&lt;p&gt;We are looking into making this process safe, easy and noob-friendly without taking away any hacker functionality in the future. *cough* Snappy *cough*.&lt;/p&gt;
+
+&lt;h3 id=&quot;have-you-thought-about-asking-canonical-to-ask-the-developers-to-move-their-apps-to-the-openstore&quot;&gt;Have you thought about asking Canonical to ask the developers to move their apps to the OpenStore?&lt;/h3&gt;
+
+&lt;p&gt;They would probably not do that. We already talked to a lot of developers and most actively maintained apps have been moved, so there’s also not really a need for that. If you find an app in the Click Store that you would like to see in the OpenStore, try and get ahold of the developer yourself and ask them if they would be up to move their app themselves.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-do-i-make-an-app&quot;&gt;How do I make an App?&lt;/h3&gt;
+
+&lt;p&gt;App development on Ubuntu Touch is diffcult. The Ubuntu SDK is very broken and we are understaffed to fix it for the moment. Still there are some developers on the forum, that are always happy to help newbies solve problems. Also worth mentioning are &lt;a href=&quot;https://forums.ubports.com/topic/184/ubuntu-touch-programming-course&quot;&gt;the app development guide&lt;/a&gt; written by Mimecar,  &lt;a href=&quot;https://wiki.ubports.com/wiki/Set-up-a-Clickable-working-environment-inside-an-LXC-container&quot;&gt;Clickable&lt;/a&gt; from Brian Douglass and &lt;a href=&quot;https://docs.ubuntu.com/phone/en/&quot;&gt;the canonical documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Since most Apps are open source anyways, you can also try and take a look at their source code.&lt;/p&gt;
+
+&lt;h3 id=&quot;whats-the-next-patreon-goal&quot;&gt;What’s the next patreon goal?&lt;/h3&gt;
+
+&lt;p&gt;That kind of depends on what the community wants to see. We are thinking about additional financial support for Anbox and Halium, but that’s yet to be decided. Feel free to share your feedback in the comment section.&lt;/p&gt;
+
+&lt;h3 id=&quot;whats-up-with-the-ubuntu-touch-emulator&quot;&gt;What’s up with the Ubuntu Touch emulator?&lt;/h3&gt;
+
+&lt;p&gt;The emulator has been broken for a while and it’s not our highest priority to fix it at the moment. To fix it, our HAL would have to be ported to the Goldfish device, so it might make more sense to wait for Halium before fixing it. Maybe someone in the community wants to pick it up before then?&lt;/p&gt;
+
+&lt;h2 id=&quot;thats-it&quot;&gt;That’s it!&lt;/h2&gt;
+
+&lt;p&gt;You still have questions that haven’t been answered yet? No problem, our next Q&amp;amp;A will happen on Saturday, June 10 at 6 PM UTC. If you won’t be able to catch us live, be sure to get your questions in beforehand in the comment section down below.&lt;/p&gt;
+
+&lt;p&gt;That’s it for this time, make sure to catch the next one. If you want to discuss this post, you can do that on the &lt;a href=&quot;https://forums.ubports.com&quot;&gt;UBports forums&lt;/a&gt; or in our &lt;a href=&quot;https://ubports.com/telegram&quot;&gt;Telegram supergroup&lt;/a&gt;. There’s also an IRC channel at #ubports on Freenode. Be sure to subscribe to our &lt;a href=&quot;https://bit.ly/ubports&quot;&gt;E-Mail newsletter to stay posted on all things UBports&lt;/a&gt;!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Dalton, Jan and Andy&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Thu, 01 Jun 2017 00:00:00 -0500</pubDate>
+        <link>http://blog.ubports.com/2017/06/01/community-update.html</link>
+        <guid isPermaLink="true">http://blog.ubports.com/2017/06/01/community-update.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>UBports Community Q&amp;A: May 13, 2017</title>
@@ -39,7 +194,7 @@
 &lt;h3 id=&quot;are-we-going-to-use-snaps&quot;&gt;Are we going to use snaps?&lt;/h3&gt;
 &lt;p&gt;The plan is to use snaps in our yet-to-come non-legacy branch. We can’t decide yet if it will be the only form of delivering packages to the next generation of Ubuntu Touch, but we definitely want it!&lt;/p&gt;
 
-&lt;h3 id=&quot;why-arent-the-legacy-devices-listed-on-devicesubportscom-yet&quot;&gt;Why aren’t the legacy devices listed on &lt;a href=&quot;devices.ubports.com&quot;&gt;devices.ubports.com&lt;/a&gt; yet?&lt;/h3&gt;
+&lt;h3 id=&quot;why-arent-the-legacy-devices-listed-on-devicesubportscomdevicesubportscom-yet&quot;&gt;Why aren’t the legacy devices listed on &lt;a href=&quot;devices.ubports.com&quot;&gt;devices.ubports.com&lt;/a&gt; yet?&lt;/h3&gt;
 &lt;p&gt;Since the images are not completely tested, we did not update the page yet. This should happen within a week or so.&lt;/p&gt;
 
 &lt;h3 id=&quot;will-there-be-support-for-the-nexus-4&quot;&gt;Will there be support for the Nexus 4?&lt;/h3&gt;
@@ -364,7 +519,7 @@ We have mirrored the system-image-server so we can host the old images at some p
 
 &lt;p&gt;A: No, but we’re going to make the system more open and usable rather than locked down.&lt;/p&gt;
 
-&lt;h4 id=&quot;q-why-arent-we-collaborating-with-yunit&quot;&gt;Q: Why aren’t we collaborating with &lt;a href=&quot;https://yunit.io&quot;&gt;Yunit&lt;/a&gt;?&lt;/h4&gt;
+&lt;h4 id=&quot;q-why-arent-we-collaborating-with-yunithttpsyunitio&quot;&gt;Q: Why aren’t we collaborating with &lt;a href=&quot;https://yunit.io&quot;&gt;Yunit&lt;/a&gt;?&lt;/h4&gt;
 
 &lt;p&gt;A: We are having conversations with them. They want more desktop focus while we have more mobile focus. Both projects benefit from the other’s work. Having two forks of Unity 8 makes no sense.&lt;/p&gt;
 
@@ -450,7 +605,7 @@ inb4 a Chinese company takes the software and ships it as closed-source, making 
 
 &lt;p&gt;A: If we wanted to use it for Git only, sure. But we don’t. So no. GitHub is simply a more accessible platform.&lt;/p&gt;
 
-&lt;h4 id=&quot;q-are-we-coming-to-ubucon-europe&quot;&gt;Q: Are we coming to &lt;a href=&quot;https://ubucon.paris&quot;&gt;Ubucon Europe&lt;/a&gt;?&lt;/h4&gt;
+&lt;h4 id=&quot;q-are-we-coming-to-ubucon-europehttpsubuconparis&quot;&gt;Q: Are we coming to &lt;a href=&quot;https://ubucon.paris&quot;&gt;Ubucon Europe&lt;/a&gt;?&lt;/h4&gt;
 
 &lt;p&gt;A: YES! We’re going to be showing off all of our work that hasn’t happened yet! Go future us! WOOOOOH!&lt;/p&gt;
 
@@ -580,12 +735,12 @@ inb4 a Chinese company takes the software and ships it as closed-source, making 
 &lt;p&gt;The current daily builds for the Fairphone 2 have everything that you’ll find on &lt;a href=&quot;https://devices.ubports.com/#/FP2&quot;&gt;the device page&lt;/a&gt; PLUS some basic GSM support. You are able to connect to a GSM network with SIM 1 at least (I don’t have a second to test), send and receive SMS, and Marius reports that he has calling in a very experimental stage, though this may not be on system-image-server at the time of this writing. Mobile data doesn’t work quite yet, but we’re working on it.&lt;/p&gt;
 
 &lt;p&gt;To flash the development build, first note that it is not very stable and things break quite often. Now that that’s out of the way, you’ll need to first flash the recovery.img from &lt;a href=&quot;https://seafile.nigle.nl/d/62d505f0a7/&quot;&gt;here&lt;/a&gt;,
-Then run these commands:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;adb shell mount -a &amp;amp;&amp;amp;
+Then run these commands:
+&lt;code class=&quot;highlighter-rouge&quot;&gt;
+adb shell mount -a &amp;amp;&amp;amp;
 adb shell mount /cache &amp;amp;&amp;amp;
 ubuntu-device-flash --server=http://system-image.ubports.com touch --channel=ubuntu-touch/devel_rc-proposed --device=FP2
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;(Edit: I had to put them in this terrible block because this Jekyll theme is annoying)&lt;/p&gt;
 
@@ -625,41 +780,6 @@ ubuntu-device-flash --server=http://system-image.ubports.com touch --channel=ubu
         <pubDate>Tue, 22 Nov 2016 00:00:00 -0600</pubDate>
         <link>http://blog.ubports.com/2016/11/22/new-shiny.html</link>
         <guid isPermaLink="true">http://blog.ubports.com/2016/11/22/new-shiny.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Is UBPorts dead?</title>
-        <description>&lt;p&gt;We’ve been seeing a lot of questions on places like reddit.com/r/ubuntu asking if Ubuntu Touch or UBPorts are dead. We’re here to answer that once and for all.&lt;/p&gt;
-
-&lt;p&gt;No.&lt;/p&gt;
-
-&lt;p&gt;Anyway…&lt;/p&gt;
-
-&lt;p&gt;It’s been a busy couple of weeks here at UBPorts. We’ve been trying our hardest to get a Nexus 5 devel build out the door and we need that to boot and work fine. We’re very close, so stay tuned.&lt;/p&gt;
-
-&lt;p&gt;There has also been a good amount of work done on the OPO and FP2 but not much publicly has been said.&lt;/p&gt;
-
-&lt;p&gt;You might ask, “Why is it taking so long?” Well, my good eager beaver, it’s because UBPorts switched to using CyanogenMod 12.1 instead of Android 4.4.2 as its base. As we manage to get it stable, it will hopefully enable more devices (all of them that have CyanogenMod 12.1 builds and a willing developer).&lt;/p&gt;
-
-&lt;p&gt;There has also been a lot going on prepairing for the soon to come ubucon, which, if all goes to plan, should be a very exciting even for ubports.&lt;/p&gt;
-
-&lt;p&gt;I’ve been working on documentation for various parts of the project and all of that work is going into the &lt;a href=&quot;https://wiki.ubports.com&quot;&gt;UBPorts Wiki&lt;/a&gt;. I’m trying to detail parts of the porting process that are frequently asked about in our IRC. If you have anything that you’d like to contribute, please feel free to add it to the Wiki!&lt;/p&gt;
-
-&lt;p&gt;And I’ll end today with a call to action: if you own the Nexus 5X and are willing to help the porting effort, be sure to check &lt;a href=&quot;https://wiki.ubports.com/wiki/Nexus-5X-Developer-Information&quot;&gt;this page&lt;/a&gt; out! Of course, if you have any other device and a will to work with us, we will certainly welcome you!&lt;/p&gt;
-
-&lt;p&gt;From the community, we also have some videos from a user showing off the &lt;a href=&quot;https://www.youtube.com/channel/UCf7MNr0xlN6g36HNiXrvLmw&quot;&gt;FairPhone 2&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Thanks for reading. Hopefully I’ll get better at writing these posts eventually.&lt;/p&gt;
-
-&lt;p&gt;-&lt;a href=&quot;https://github.com/UniversalSuperBox&quot;&gt;UniversalSuperBox&lt;/a&gt;
-(And Chloe too)&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 11 Nov 2016 00:00:00 -0600</pubDate>
-        <link>http://blog.ubports.com/2016/11/11/is-ubports-dead.html</link>
-        <guid isPermaLink="true">http://blog.ubports.com/2016/11/11/is-ubports-dead.html</guid>
         
         
       </item>
