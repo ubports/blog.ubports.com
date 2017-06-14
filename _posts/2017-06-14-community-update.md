@@ -27,7 +27,6 @@ This was the most exciting news for us. OTA-1 is the culmination of our efforts 
 * Experimental AGPS support
 * The UBports Welcome app
 * The amazing OpenStore
-* A new UBports Welcome App
 * Terminal and File Browser are preinstalled (It's the little things!)
 
 As well as bug fixes for the UBports ported devices. You can see a list of bugs targeted and closed for this release [here](https://github.com/ubports/ubports-touch/milestone/1?closed=1).
