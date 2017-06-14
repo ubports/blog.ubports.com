@@ -69,7 +69,7 @@ We're carefully weighing our options on changing the name. We have nothing more 
 
 ### What will happen to the Nexus 7 2013 WiFi (flo)?
 
-This was a device that Canonical provided an image for, but we don't yet have one available. We do not have a test device available. Also, our developers have a lot of projects going on right now. If you'd like to try porting Ubuntu Touch to this device yourself (and don't want to wait for Halium and 16.04-based images), please check out our [forum](forums.ubports.com) to collaborate with others.
+This was a device that Canonical provided an image for, but we don't yet have one available. We do not have a test device available. Also, our developers have a lot of projects going on right now. If you'd like to try porting Ubuntu Touch to this device yourself (and don't want to wait for Halium and 16.04-based images), please check out our [forum](https://forums.ubports.com) to collaborate with others.
 
 ### Can you make a guide that makes it easier for people to choose a channel to flash?
 
@@ -129,5 +129,5 @@ Tell everyone about UBports! We're going to be more active on our social media i
 
 ---
 
-Well, that's it for this time! Thank you again to everyone who has contributed their time, money, and excitement to our project! We'll be back in two weeks with [another community update](https://www.youtube.com/watch?v=0BoiGoXrVCo), as always! In the meantime, you can get a hold of us on [our forum](https:forums.ubports.com), [Telegram supergroup](https://ubports.com/telegram), or #ubports on Freenode (which is bridged to that Telegram channel).
+Well, that's it for this time! Thank you again to everyone who has contributed their time, money, and excitement to our project! We'll be back in two weeks with [another community update](https://www.youtube.com/watch?v=0BoiGoXrVCo), as always! In the meantime, you can get a hold of us on [our forum](https://forums.ubports.com), [Telegram supergroup](https://ubports.com/telegram), or #ubports on Freenode (which is bridged to that Telegram channel).
 

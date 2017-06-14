@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.ubports.com/</link>
     <atom:link href="http://blog.ubports.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 14 Jun 2017 07:27:45 -0500</pubDate>
-    <lastBuildDate>Wed, 14 Jun 2017 07:27:45 -0500</lastBuildDate>
+    <pubDate>Wed, 14 Jun 2017 16:21:46 -0500</pubDate>
+    <lastBuildDate>Wed, 14 Jun 2017 16:21:46 -0500</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -79,7 +79,7 @@
 
 &lt;h3 id=&quot;what-will-happen-to-the-nexus-7-2013-wifi-flo&quot;&gt;What will happen to the Nexus 7 2013 WiFi (flo)?&lt;/h3&gt;
 
-&lt;p&gt;This was a device that Canonical provided an image for, but we don’t yet have one available. We do not have a test device available. Also, our developers have a lot of projects going on right now. If you’d like to try porting Ubuntu Touch to this device yourself (and don’t want to wait for Halium and 16.04-based images), please check out our &lt;a href=&quot;forums.ubports.com&quot;&gt;forum&lt;/a&gt; to collaborate with others.&lt;/p&gt;
+&lt;p&gt;This was a device that Canonical provided an image for, but we don’t yet have one available. We do not have a test device available. Also, our developers have a lot of projects going on right now. If you’d like to try porting Ubuntu Touch to this device yourself (and don’t want to wait for Halium and 16.04-based images), please check out our &lt;a href=&quot;https://forums.ubports.com&quot;&gt;forum&lt;/a&gt; to collaborate with others.&lt;/p&gt;
 
 &lt;h3 id=&quot;can-you-make-a-guide-that-makes-it-easier-for-people-to-choose-a-channel-to-flash&quot;&gt;Can you make a guide that makes it easier for people to choose a channel to flash?&lt;/h3&gt;
 
@@ -139,7 +139,7 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;Well, that’s it for this time! Thank you again to everyone who has contributed their time, money, and excitement to our project! We’ll be back in two weeks with &lt;a href=&quot;https://www.youtube.com/watch?v=0BoiGoXrVCo&quot;&gt;another community update&lt;/a&gt;, as always! In the meantime, you can get a hold of us on &lt;a href=&quot;https:forums.ubports.com&quot;&gt;our forum&lt;/a&gt;, &lt;a href=&quot;https://ubports.com/telegram&quot;&gt;Telegram supergroup&lt;/a&gt;, or #ubports on Freenode (which is bridged to that Telegram channel).&lt;/p&gt;
+&lt;p&gt;Well, that’s it for this time! Thank you again to everyone who has contributed their time, money, and excitement to our project! We’ll be back in two weeks with &lt;a href=&quot;https://www.youtube.com/watch?v=0BoiGoXrVCo&quot;&gt;another community update&lt;/a&gt;, as always! In the meantime, you can get a hold of us on &lt;a href=&quot;https://forums.ubports.com&quot;&gt;our forum&lt;/a&gt;, &lt;a href=&quot;https://ubports.com/telegram&quot;&gt;Telegram supergroup&lt;/a&gt;, or #ubports on Freenode (which is bridged to that Telegram channel).&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 14 Jun 2017 07:00:00 -0500</pubDate>
