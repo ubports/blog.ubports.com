@@ -6,9 +6,151 @@
 </description>
     <link>http://blog.ubports.com/</link>
     <atom:link href="http://blog.ubports.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Jun 2017 15:45:54 -0500</pubDate>
-    <lastBuildDate>Thu, 01 Jun 2017 15:45:54 -0500</lastBuildDate>
+    <pubDate>Wed, 14 Jun 2017 07:17:04 -0500</pubDate>
+    <lastBuildDate>Wed, 14 Jun 2017 07:17:04 -0500</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Stable OTA-1, Halium is Heating up, Convergence Works!</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://youtu.be/g3bIrfqmMek&quot;&gt;&lt;img src=&quot;/assets/2017/06/14-Convergence.png&quot; alt=&quot;Ubuntu Touch 16.04 in Windowed Mode&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s been another great couple of weeks, and we had a lot of news to tell you all about during our &lt;a href=&quot;https://youtu.be/g3bIrfqmMek&quot;&gt;latest Community Update&lt;/a&gt;! Read on to discover all of the juicy details!&lt;/p&gt;
+
+&lt;h2 id=&quot;thank-you-to-patreons-and-sponsors&quot;&gt;Thank you to Patreons and Sponsors!&lt;/h2&gt;
+
+&lt;p&gt;We want to take a bit of time to thank all of our &lt;a href=&quot;https://patreon.com/ubports&quot;&gt;Patrons&lt;/a&gt; and &lt;a href=&quot;https://ubports.com/sponsors&quot;&gt;sponsors&lt;/a&gt;. You are all proving to us that what we do is important and useful to the wider community. Thanks for sharing the ride with us. If it wasn’t for you, we wouldn’t be here.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;the-news&quot;&gt;The News&lt;/h2&gt;
+
+&lt;h3 id=&quot;stable-ota-1-is-shipping-except-the-nexus-4-and-5&quot;&gt;Stable OTA-1 is shipping! (except the Nexus 4 and 5)&lt;/h3&gt;
+
+&lt;p&gt;The UBports project is proud to announce Stable OTA-1 for all of our officially supported devices, minus the Nexus 5 (hammerhead) and Nexus 4 (mako).&lt;/p&gt;
+
+&lt;p&gt;This was the most exciting news for us. OTA-1 is the culmination of our efforts over the past two months. It brings many bug fixes and enhancements to the platform, including:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Experimental AGPS support&lt;/li&gt;
+  &lt;li&gt;The UBports Welcome app&lt;/li&gt;
+  &lt;li&gt;The amazing OpenStore&lt;/li&gt;
+  &lt;li&gt;A new UBports Welcome App&lt;/li&gt;
+  &lt;li&gt;Terminal and File Browser are preinstalled (It’s the little things!)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As well as bug fixes for the UBports ported devices. You can see a list of bugs targeted and closed for this release &lt;a href=&quot;https://github.com/ubports/ubports-touch/milestone/1?closed=1&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Nexus 5 will be receiving the update shortly. A last-minute regression found in the battery meter caused us to pull the update. The Nexus 4 is being brought up separately from the rest of the devices and its OTA-1 release will be announced when it is ready.&lt;/p&gt;
+
+&lt;h3 id=&quot;osapp-developer-meeting&quot;&gt;OS/App Developer Meeting&lt;/h3&gt;
+
+&lt;p&gt;On June 1st, we invited about 20 Ubuntu Touch App and Platform developers to a meeting where we discussed how we can do things better in the future. A lot came out of this meeting and we’d love to discuss all of it here, but there’s a much better write-up &lt;a href=&quot;https://forums.ubports.com/topic/273/june-1-2017-app-developer-os-developer-meeting/14&quot;&gt;in our forum&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;These were some of the big discussion points:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Snaps may be a good addition to the platform, but we’ll need to make modifications to snapd before we can use them&lt;/li&gt;
+  &lt;li&gt;To service notifications in the future while improving user privacy, we will implement “headless apps”. The OS will call these every few minutes and allow them to do some work in the background such as check for messages. This will be done with battery savings and user control in mind.&lt;/li&gt;
+  &lt;li&gt;We would really like to have the newest features in Qt 5.9 available to us, such as QtQuick 2. This will require Yunit to be built with Qt 5.9, which was not officially packaged in 16.04 at the time of the meeting. More discussions are happening on this.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;halium-is-moving-quickly&quot;&gt;Halium is Moving Quickly&lt;/h3&gt;
+
+&lt;p&gt;Halium, as you may know, is a project aiming to standardize the Android hardware compatibility layer between many Linux distributions. This layer is required because Android drivers can’t be used natively in a regular Linux distribution. This week the project had a lot to show off - it can boot both Ubuntu Touch and Plasma Mobile.&lt;/p&gt;
+
+&lt;p&gt;As you can see in &lt;a href=&quot;https://twitter.com/HaliumProject/status/871592584136622081&quot;&gt;this tweet&lt;/a&gt;, Halium can boot both OS’s on the Nexus 5. The third image, though, is the most interesting. It shows Plasma Mobile booting on the Fairphone 2, a phone that the OS hasn’t been explicitly ported to. It’s easy to see the opportunities that Halium opens up and we’re proud to be a part of the project.&lt;/p&gt;
+
+&lt;h3 id=&quot;we-have-a-public-roadmap&quot;&gt;We have a Public Roadmap!&lt;/h3&gt;
+
+&lt;p&gt;Okay, it’s still a work in progress, but you can see the goals that we’re setting for every release on &lt;a href=&quot;https://github.com/ubports/ubports-touch/milestones&quot;&gt;our ubports-touch milestone tracker&lt;/a&gt;. This lets the community see what we’re targeting to cut a release. The 16.04 milestones are still filling up with enhancements, so stay tuned!&lt;/p&gt;
+
+&lt;h3 id=&quot;marius-showed-off-convergence&quot;&gt;Marius showed off Convergence&lt;/h3&gt;
+
+&lt;p&gt;At this point in the update, Marius took out his trusty Nexus 5 and Slimport cable to show off convergence. It’s a little difficult to see his screen, but you can find this at &lt;a href=&quot;https://youtu.be/g3bIrfqmMek?t=38m0s&quot;&gt;38:00&lt;/a&gt; in the video.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;questions-and-answers&quot;&gt;Questions and Answers&lt;/h2&gt;
+
+&lt;p&gt;With all of our news out of the way, we began taking questions from the community.&lt;/p&gt;
+
+&lt;h3 id=&quot;is-the-branding-staying-the-same-will-we-keep-the-ubuntu-touch-and-ubports-name&quot;&gt;Is the branding staying the same? Will we keep the Ubuntu Touch and UBports name?&lt;/h3&gt;
+
+&lt;p&gt;We’re carefully weighing our options on changing the name. We have nothing more to say on this topic right now.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-will-happen-to-the-nexus-7-2013-wifi-flo&quot;&gt;What will happen to the Nexus 7 2013 WiFi (flo)?&lt;/h3&gt;
+
+&lt;p&gt;This was a device that Canonical provided an image for, but we don’t yet have one available. We do not have a test device available. Also, our developers have a lot of projects going on right now. If you’d like to try porting Ubuntu Touch to this device yourself (and don’t want to wait for Halium and 16.04-based images), please check out our &lt;a href=&quot;forums.ubports.com&quot;&gt;forum&lt;/a&gt; to collaborate with others.&lt;/p&gt;
+
+&lt;h3 id=&quot;can-you-make-a-guide-that-makes-it-easier-for-people-to-choose-a-channel-to-flash&quot;&gt;Can you make a guide that makes it easier for people to choose a channel to flash?&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://wiki.ubports.com/wiki/Release-Channels&quot;&gt;Sure we can!&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;whats-happening-in-our-collaboration-with-yunit&quot;&gt;What’s happening in our collaboration with Yunit?&lt;/h3&gt;
+
+&lt;p&gt;Yunit is &lt;a href=&quot;https://forum.yunit.io/viewtopic.php?f=5&amp;amp;p=215#p215&quot;&gt;working on backporting its stack to 16.04&lt;/a&gt; since it’s only running on Debian Unstable and Ubuntu right now. That’ll be really helpful.&lt;/p&gt;
+
+&lt;h3 id=&quot;whats-the-status-of-the-switch-to-ubports-script&quot;&gt;What’s the status of the switch to UBports script?&lt;/h3&gt;
+
+&lt;p&gt;It’s just a proof-of-concept for now, but if you want to try it, &lt;a href=&quot;https://github.com/mariogrip/switch-to-ubports&quot;&gt;knock yourself out&lt;/a&gt;. It might be integrated into the UBports installer in the future.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-does-googles-project-treble-do-for-ubports-and-halium&quot;&gt;What does Google’s Project Treble do for UBports and Halium?&lt;/h3&gt;
+
+&lt;p&gt;Google recently announced “a modular base for Android” to solve the problem of having to backport Android updates to every device seperately. While Treble does sound similar to Haliums approach, it doesn’t eliminate the need for Libhybris, the translation library for Android’s bionic drivers. It remains to be seen if this project will change our life for the better, but since it’s just been announced, we can just continue what we’re doing at the moment for now.&lt;/p&gt;
+
+&lt;h3 id=&quot;whats-happening-with-anbox&quot;&gt;What’s happening with Anbox?&lt;/h3&gt;
+
+&lt;p&gt;We definitely want Android App compatibility, but it is not our highest priority for the moment. Since there’s so much to be done, it will also probably not land for 15.04, but we’re looking forward to playing around with it on the soon-to-come 16.04 images. It is important to point out here, that we still need top push for native apps. Anbox will just be a way of getting crucial android apps that don’t exist on Ubuntu Touch otherwise to run, similar to Wine on the Linux Desktop. The experience will probably not be the same, but it will help eliminate the immediate need. Apps like WhatsApp, Snapchat or Netflix will probably not be ported to Ubuntu Touch, so it makes sense to run them in Anbox if it’s possible.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-is-anbox-needed-cant-you-just-use-dalvik-from-the-android-container&quot;&gt;Why is Anbox needed? Can’t you just use Dalvik from the Android container?&lt;/h3&gt;
+
+&lt;p&gt;It’s not that simple. This would require us to build compatibility with the Mir display server and all of the userland, it doesn’t work like that.&lt;/p&gt;
+
+&lt;p&gt;Also, &lt;strong&gt;we don’t want to be android!&lt;/strong&gt; We want Ubuntu Touch to be a GNU/Linux distribution for mobile devices, the Android container is just the way for us to get hardware access and we don’t want features to depend on it.&lt;/p&gt;
+
+&lt;h3 id=&quot;whats-the-first-feature-you-will-add-to-ubuntu-touch&quot;&gt;What’s the first feature you will add to Ubuntu Touch?&lt;/h3&gt;
+
+&lt;p&gt;Well, we already archieved a lot. Agps, bug fixes, minor UI improvements, updates on the core apps, etc. A big jump will be of course the transition to 16.04 and with it the upcoming snap support, but if you’re looking for features from a user perspective, it will probably be Anbox and .apk support.&lt;/p&gt;
+
+&lt;h3 id=&quot;is-it-possible-to-use-the-ubuntu-ui-toolkit-on-1704-to-develop-apps&quot;&gt;Is it possible to use the Ubuntu UI toolkit on 17.04 to develop apps?&lt;/h3&gt;
+
+&lt;p&gt;Not right now, and we don’t have the resources to make it work right away. If you don’t want to use 16.04, you can &lt;a href=&quot;https://wiki.ubports.com/wiki/Set-up-a-Clickable-working-environment-inside-an-LXC-container&quot;&gt;run it inside an LXD container&lt;/a&gt; to create your apps.&lt;/p&gt;
+
+&lt;h3 id=&quot;will-ubports-ever-come-to-closed-source-devices&quot;&gt;Will UBports ever come to closed-source devices?&lt;/h3&gt;
+
+&lt;p&gt;No. The device tree needs to be open-source, so the porters can see what’s happening underneath. Ubuntu Touch on the iPhone is not going to happen.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;calls-for-help&quot;&gt;Calls for Help&lt;/h2&gt;
+
+&lt;p&gt;We always get people asking “How can I help you guys out?” Well, here are a few things that we’d really appreciate!&lt;/p&gt;
+
+&lt;h3 id=&quot;marketing&quot;&gt;Marketing&lt;/h3&gt;
+
+&lt;p&gt;Our marketing team is working to bring you guest blog posts, interviews, and behind the scenes snapshots of all those involved in making this project possible! If you’d like to help the UBports Marketing team spread the word about our wonderful OS, fill out the form &lt;a href=&quot;http://bit.ly/ubportsmarketingsignup&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;core-app-maintainers&quot;&gt;Core App Maintainers&lt;/h3&gt;
+
+&lt;p&gt;We’re looking for help maintaining our Core Apps. If you’d like to learn about developing for the Ubuntu Touch platform, check out the list of apps &lt;a href=&quot;https://github.com/ubports/?utf8=%E2%9C%93&amp;amp;q=-app&amp;amp;type=&amp;amp;language=&quot;&gt;here&lt;/a&gt; and pick one you like! There’s also a guide to setting up Clickable, a development environment for Click apps, &lt;a href=&quot;https://wiki.ubports.com/wiki/Set-up-a-Clickable-working-environment-inside-an-LXC-container&quot;&gt;here&lt;/a&gt;. Be sure to get a hold of us on &lt;a href=&quot;https://forums.ubports.com&quot;&gt;the forum&lt;/a&gt;, we have a developer community that’s happy to help!&lt;/p&gt;
+
+&lt;h3 id=&quot;spread-the-word&quot;&gt;Spread the word!&lt;/h3&gt;
+
+&lt;p&gt;Tell everyone about UBports! We’re going to be more active on our social media in the coming weeks, so be sure to check out our &lt;a href=&quot;https://twitter.com/ubports&quot;&gt;Twitter&lt;/a&gt;, &lt;a href=&quot;https://mastodon.rocks/@UBports&quot;&gt;Mastodon&lt;/a&gt;, and &lt;a href=&quot;https://plus.google.com/+UBports&quot;&gt;Google Plus&lt;/a&gt; accounts.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Well, that’s it for this time! Thank you again to everyone who has contributed their time, money, and excitement to our project! We’ll be back in two weeks with &lt;a href=&quot;https://www.youtube.com/watch?v=0BoiGoXrVCo&quot;&gt;another community update&lt;/a&gt;, as always! In the meantime, you can get a hold of us on &lt;a href=&quot;https:forums.ubports.com&quot;&gt;our forum&lt;/a&gt;, &lt;a href=&quot;https://ubports.com/telegram&quot;&gt;Telegram supergroup&lt;/a&gt;, or #ubports on Freenode (which is bridged to that Telegram channel).&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 14 Jun 2017 07:00:00 -0500</pubDate>
+        <link>http://blog.ubports.com/qanda/2017/06/14/community-update.html</link>
+        <guid isPermaLink="true">http://blog.ubports.com/qanda/2017/06/14/community-update.html</guid>
+        
+        
+        <category>QandA</category>
+        
+      </item>
     
       <item>
         <title>AGPS, App Updates, Halium, and more!</title>
@@ -194,7 +336,7 @@
 &lt;h3 id=&quot;are-we-going-to-use-snaps&quot;&gt;Are we going to use snaps?&lt;/h3&gt;
 &lt;p&gt;The plan is to use snaps in our yet-to-come non-legacy branch. We can’t decide yet if it will be the only form of delivering packages to the next generation of Ubuntu Touch, but we definitely want it!&lt;/p&gt;
 
-&lt;h3 id=&quot;why-arent-the-legacy-devices-listed-on-devicesubportscom-yet&quot;&gt;Why aren’t the legacy devices listed on &lt;a href=&quot;devices.ubports.com&quot;&gt;devices.ubports.com&lt;/a&gt; yet?&lt;/h3&gt;
+&lt;h3 id=&quot;why-arent-the-legacy-devices-listed-on-devicesubportscomdevicesubportscom-yet&quot;&gt;Why aren’t the legacy devices listed on &lt;a href=&quot;devices.ubports.com&quot;&gt;devices.ubports.com&lt;/a&gt; yet?&lt;/h3&gt;
 &lt;p&gt;Since the images are not completely tested, we did not update the page yet. This should happen within a week or so.&lt;/p&gt;
 
 &lt;h3 id=&quot;will-there-be-support-for-the-nexus-4&quot;&gt;Will there be support for the Nexus 4?&lt;/h3&gt;
@@ -519,7 +661,7 @@ We have mirrored the system-image-server so we can host the old images at some p
 
 &lt;p&gt;A: No, but we’re going to make the system more open and usable rather than locked down.&lt;/p&gt;
 
-&lt;h4 id=&quot;q-why-arent-we-collaborating-with-yunit&quot;&gt;Q: Why aren’t we collaborating with &lt;a href=&quot;https://yunit.io&quot;&gt;Yunit&lt;/a&gt;?&lt;/h4&gt;
+&lt;h4 id=&quot;q-why-arent-we-collaborating-with-yunithttpsyunitio&quot;&gt;Q: Why aren’t we collaborating with &lt;a href=&quot;https://yunit.io&quot;&gt;Yunit&lt;/a&gt;?&lt;/h4&gt;
 
 &lt;p&gt;A: We are having conversations with them. They want more desktop focus while we have more mobile focus. Both projects benefit from the other’s work. Having two forks of Unity 8 makes no sense.&lt;/p&gt;
 
@@ -605,7 +747,7 @@ inb4 a Chinese company takes the software and ships it as closed-source, making 
 
 &lt;p&gt;A: If we wanted to use it for Git only, sure. But we don’t. So no. GitHub is simply a more accessible platform.&lt;/p&gt;
 
-&lt;h4 id=&quot;q-are-we-coming-to-ubucon-europe&quot;&gt;Q: Are we coming to &lt;a href=&quot;https://ubucon.paris&quot;&gt;Ubucon Europe&lt;/a&gt;?&lt;/h4&gt;
+&lt;h4 id=&quot;q-are-we-coming-to-ubucon-europehttpsubuconparis&quot;&gt;Q: Are we coming to &lt;a href=&quot;https://ubucon.paris&quot;&gt;Ubucon Europe&lt;/a&gt;?&lt;/h4&gt;
 
 &lt;p&gt;A: YES! We’re going to be showing off all of our work that hasn’t happened yet! Go future us! WOOOOOH!&lt;/p&gt;
 
@@ -735,12 +877,12 @@ inb4 a Chinese company takes the software and ships it as closed-source, making 
 &lt;p&gt;The current daily builds for the Fairphone 2 have everything that you’ll find on &lt;a href=&quot;https://devices.ubports.com/#/FP2&quot;&gt;the device page&lt;/a&gt; PLUS some basic GSM support. You are able to connect to a GSM network with SIM 1 at least (I don’t have a second to test), send and receive SMS, and Marius reports that he has calling in a very experimental stage, though this may not be on system-image-server at the time of this writing. Mobile data doesn’t work quite yet, but we’re working on it.&lt;/p&gt;
 
 &lt;p&gt;To flash the development build, first note that it is not very stable and things break quite often. Now that that’s out of the way, you’ll need to first flash the recovery.img from &lt;a href=&quot;https://seafile.nigle.nl/d/62d505f0a7/&quot;&gt;here&lt;/a&gt;,
-Then run these commands:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;adb shell mount -a &amp;amp;&amp;amp;
+Then run these commands:
+&lt;code class=&quot;highlighter-rouge&quot;&gt;
+adb shell mount -a &amp;amp;&amp;amp;
 adb shell mount /cache &amp;amp;&amp;amp;
 ubuntu-device-flash --server=http://system-image.ubports.com touch --channel=ubuntu-touch/devel_rc-proposed --device=FP2
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;(Edit: I had to put them in this terrible block because this Jekyll theme is annoying)&lt;/p&gt;
 
@@ -755,31 +897,6 @@ ubuntu-device-flash --server=http://system-image.ubports.com touch --channel=ubu
         <pubDate>Mon, 26 Dec 2016 00:00:00 -0600</pubDate>
         <link>http://blog.ubports.com/2016/12/26/happy-holidays-from-ubports.html</link>
         <guid isPermaLink="true">http://blog.ubports.com/2016/12/26/happy-holidays-from-ubports.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>The StationDock</title>
-        <description>&lt;p&gt;(Marius Quabeck at ubuntufun.de wrote about this first. Using Google Translate, I shamelessly ripped off a lot of his article. Give him some pageviews if you want to see the real source: &lt;a href=&quot;http://ubuntufun.de/2016/11/exklusiv-ein-station-dock-fuer-ubuntu-touch-mit-video/&quot;&gt;here&lt;/a&gt;.)&lt;/p&gt;
-
-&lt;p&gt;Since its inception, Ubuntu Touch has touted convergence: the ability to move between the phone or tablet display to a larger, more comfortable working display on command. With Mir and Unity 8 in a working state, it’s getting closer and closer to that every day.&lt;/p&gt;
-
-&lt;p&gt;That poses an important question: how do you get your phone screen onto the larger one? You can plug into the HDMI port on your phone… if you have one, and the number of phones with that option is quickly dwindling. So, your other option is Miracast. But Miracast introduces latency and artifacts into your transmission (especially in a RF-heavy area). This is acceptable for showing images or streaming video, but can get quite annoying for a desktop experience.&lt;/p&gt;
-
-&lt;p&gt;Today we’re announcing the StationDock project: a dock for your Ubuntu Touch smartphone. Plugging your phone in creates a small wired network between the Raspberry Pi in the dock and your phone, thanks to RNDIS. The phone then transmits Miracast packets over this connection, allowing reduced latency and a better overall experience.&lt;/p&gt;
-
-&lt;p&gt;The dock features 2 USB ports, HDMI out, and an audio jack. It may or may not include a microphone jack in the finished product. Inside the (currently) 3D-printed enclosure is a Raspberry Pi and a large battery to charge your device and keep the dock running off the charger.&lt;/p&gt;
-
-&lt;p&gt;We’ll be posting more details, including our Kickstarter campaign, in the coming weeks. We hope that you’re as excited as we are.&lt;/p&gt;
-
-&lt;p&gt;If you’re looking for news about device ports, stay tuned! I’ll be writing another post shortly!&lt;/p&gt;
-
-&lt;p&gt;-UniversalSuperBox&lt;/p&gt;
-</description>
-        <pubDate>Tue, 22 Nov 2016 00:00:00 -0600</pubDate>
-        <link>http://blog.ubports.com/2016/11/22/new-shiny.html</link>
-        <guid isPermaLink="true">http://blog.ubports.com/2016/11/22/new-shiny.html</guid>
         
         
       </item>

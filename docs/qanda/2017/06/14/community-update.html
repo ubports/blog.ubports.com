@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+  <title>Stable OTA-1, Halium is Heating up, Convergence Works!</title>
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://blog.ubports.com/qanda/2017/06/14/community-update.html">
+  <link rel="alternate" type="application/rss+xml" title="UBports blog" href="http://blog.ubports.com/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="https://ubports.com/">UBports</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        <a class="page-link" href="https://devices.ubports.com/">Devices</a>
+        <a class="page-link" href="https://forums.ubports.com/">Forums</a>
+        <a class="page-link" href="https://wiki.ubports.com/">Wiki</a>
+        <a class="page-link" href="https://blog.ubports.com/">Blog</a>
+        <a class="page-link" href="https://ubports.com/get-involved">Get Involved</a>
+        <a class="page-link" href="https://ubports.com/sponsors">Sponsors</a>
+        <a class="page-link" href="https://ubports.com/team">Team</a>
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Stable OTA-1, Halium is Heating up, Convergence Works!</h1>
+    <p class="post-meta"><time datetime="2017-06-14T07:00:00-05:00" itemprop="datePublished">Jun 14, 2017</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p><a href="https://youtu.be/g3bIrfqmMek"><img src="/assets/2017/06/14-Convergence.png" alt="Ubuntu Touch 16.04 in Windowed Mode" /></a></p>
+
+<p>It’s been another great couple of weeks, and we had a lot of news to tell you all about during our <a href="https://youtu.be/g3bIrfqmMek">latest Community Update</a>! Read on to discover all of the juicy details!</p>
+
+<h2 id="thank-you-to-patreons-and-sponsors">Thank you to Patreons and Sponsors!</h2>
+
+<p>We want to take a bit of time to thank all of our <a href="https://patreon.com/ubports">Patrons</a> and <a href="https://ubports.com/sponsors">sponsors</a>. You are all proving to us that what we do is important and useful to the wider community. Thanks for sharing the ride with us. If it wasn’t for you, we wouldn’t be here.</p>
+
+<hr />
+
+<h2 id="the-news">The News</h2>
+
+<h3 id="stable-ota-1-is-shipping-except-the-nexus-4-and-5">Stable OTA-1 is shipping! (except the Nexus 4 and 5)</h3>
+
+<p>The UBports project is proud to announce Stable OTA-1 for all of our officially supported devices, minus the Nexus 5 (hammerhead) and Nexus 4 (mako).</p>
+
+<p>This was the most exciting news for us. OTA-1 is the culmination of our efforts over the past two months. It brings many bug fixes and enhancements to the platform, including:</p>
+
+<ul>
+  <li>Experimental AGPS support</li>
+  <li>The UBports Welcome app</li>
+  <li>The amazing OpenStore</li>
+  <li>A new UBports Welcome App</li>
+  <li>Terminal and File Browser are preinstalled (It’s the little things!)</li>
+</ul>
+
+<p>As well as bug fixes for the UBports ported devices. You can see a list of bugs targeted and closed for this release <a href="https://github.com/ubports/ubports-touch/milestone/1?closed=1">here</a>.</p>
+
+<p>The Nexus 5 will be receiving the update shortly. A last-minute regression found in the battery meter caused us to pull the update. The Nexus 4 is being brought up separately from the rest of the devices and its OTA-1 release will be announced when it is ready.</p>
+
+<h3 id="osapp-developer-meeting">OS/App Developer Meeting</h3>
+
+<p>On June 1st, we invited about 20 Ubuntu Touch App and Platform developers to a meeting where we discussed how we can do things better in the future. A lot came out of this meeting and we’d love to discuss all of it here, but there’s a much better write-up <a href="https://forums.ubports.com/topic/273/june-1-2017-app-developer-os-developer-meeting/14">in our forum</a>.</p>
+
+<p>These were some of the big discussion points:</p>
+
+<ul>
+  <li>Snaps may be a good addition to the platform, but we’ll need to make modifications to snapd before we can use them</li>
+  <li>To service notifications in the future while improving user privacy, we will implement “headless apps”. The OS will call these every few minutes and allow them to do some work in the background such as check for messages. This will be done with battery savings and user control in mind.</li>
+  <li>We would really like to have the newest features in Qt 5.9 available to us, such as QtQuick 2. This will require Yunit to be built with Qt 5.9, which was not officially packaged in 16.04 at the time of the meeting. More discussions are happening on this.</li>
+</ul>
+
+<h3 id="halium-is-moving-quickly">Halium is Moving Quickly</h3>
+
+<p>Halium, as you may know, is a project aiming to standardize the Android hardware compatibility layer between many Linux distributions. This layer is required because Android drivers can’t be used natively in a regular Linux distribution. This week the project had a lot to show off - it can boot both Ubuntu Touch and Plasma Mobile.</p>
+
+<p>As you can see in <a href="https://twitter.com/HaliumProject/status/871592584136622081">this tweet</a>, Halium can boot both OS’s on the Nexus 5. The third image, though, is the most interesting. It shows Plasma Mobile booting on the Fairphone 2, a phone that the OS hasn’t been explicitly ported to. It’s easy to see the opportunities that Halium opens up and we’re proud to be a part of the project.</p>
+
+<h3 id="we-have-a-public-roadmap">We have a Public Roadmap!</h3>
+
+<p>Okay, it’s still a work in progress, but you can see the goals that we’re setting for every release on <a href="https://github.com/ubports/ubports-touch/milestones">our ubports-touch milestone tracker</a>. This lets the community see what we’re targeting to cut a release. The 16.04 milestones are still filling up with enhancements, so stay tuned!</p>
+
+<h3 id="marius-showed-off-convergence">Marius showed off Convergence</h3>
+
+<p>At this point in the update, Marius took out his trusty Nexus 5 and Slimport cable to show off convergence. It’s a little difficult to see his screen, but you can find this at <a href="https://youtu.be/g3bIrfqmMek?t=38m0s">38:00</a> in the video.</p>
+
+<hr />
+
+<h2 id="questions-and-answers">Questions and Answers</h2>
+
+<p>With all of our news out of the way, we began taking questions from the community.</p>
+
+<h3 id="is-the-branding-staying-the-same-will-we-keep-the-ubuntu-touch-and-ubports-name">Is the branding staying the same? Will we keep the Ubuntu Touch and UBports name?</h3>
+
+<p>We’re carefully weighing our options on changing the name. We have nothing more to say on this topic right now.</p>
+
+<h3 id="what-will-happen-to-the-nexus-7-2013-wifi-flo">What will happen to the Nexus 7 2013 WiFi (flo)?</h3>
+
+<p>This was a device that Canonical provided an image for, but we don’t yet have one available. We do not have a test device available. Also, our developers have a lot of projects going on right now. If you’d like to try porting Ubuntu Touch to this device yourself (and don’t want to wait for Halium and 16.04-based images), please check out our <a href="forums.ubports.com">forum</a> to collaborate with others.</p>
+
+<h3 id="can-you-make-a-guide-that-makes-it-easier-for-people-to-choose-a-channel-to-flash">Can you make a guide that makes it easier for people to choose a channel to flash?</h3>
+
+<p><a href="https://wiki.ubports.com/wiki/Release-Channels">Sure we can!</a></p>
+
+<h3 id="whats-happening-in-our-collaboration-with-yunit">What’s happening in our collaboration with Yunit?</h3>
+
+<p>Yunit is <a href="https://forum.yunit.io/viewtopic.php?f=5&amp;p=215#p215">working on backporting its stack to 16.04</a> since it’s only running on Debian Unstable and Ubuntu right now. That’ll be really helpful.</p>
+
+<h3 id="whats-the-status-of-the-switch-to-ubports-script">What’s the status of the switch to UBports script?</h3>
+
+<p>It’s just a proof-of-concept for now, but if you want to try it, <a href="https://github.com/mariogrip/switch-to-ubports">knock yourself out</a>. It might be integrated into the UBports installer in the future.</p>
+
+<h3 id="what-does-googles-project-treble-do-for-ubports-and-halium">What does Google’s Project Treble do for UBports and Halium?</h3>
+
+<p>Google recently announced “a modular base for Android” to solve the problem of having to backport Android updates to every device seperately. While Treble does sound similar to Haliums approach, it doesn’t eliminate the need for Libhybris, the translation library for Android’s bionic drivers. It remains to be seen if this project will change our life for the better, but since it’s just been announced, we can just continue what we’re doing at the moment for now.</p>
+
+<h3 id="whats-happening-with-anbox">What’s happening with Anbox?</h3>
+
+<p>We definitely want Android App compatibility, but it is not our highest priority for the moment. Since there’s so much to be done, it will also probably not land for 15.04, but we’re looking forward to playing around with it on the soon-to-come 16.04 images. It is important to point out here, that we still need top push for native apps. Anbox will just be a way of getting crucial android apps that don’t exist on Ubuntu Touch otherwise to run, similar to Wine on the Linux Desktop. The experience will probably not be the same, but it will help eliminate the immediate need. Apps like WhatsApp, Snapchat or Netflix will probably not be ported to Ubuntu Touch, so it makes sense to run them in Anbox if it’s possible.</p>
+
+<h3 id="why-is-anbox-needed-cant-you-just-use-dalvik-from-the-android-container">Why is Anbox needed? Can’t you just use Dalvik from the Android container?</h3>
+
+<p>It’s not that simple. This would require us to build compatibility with the Mir display server and all of the userland, it doesn’t work like that.</p>
+
+<p>Also, <strong>we don’t want to be android!</strong> We want Ubuntu Touch to be a GNU/Linux distribution for mobile devices, the Android container is just the way for us to get hardware access and we don’t want features to depend on it.</p>
+
+<h3 id="whats-the-first-feature-you-will-add-to-ubuntu-touch">What’s the first feature you will add to Ubuntu Touch?</h3>
+
+<p>Well, we already archieved a lot. Agps, bug fixes, minor UI improvements, updates on the core apps, etc. A big jump will be of course the transition to 16.04 and with it the upcoming snap support, but if you’re looking for features from a user perspective, it will probably be Anbox and .apk support.</p>
+
+<h3 id="is-it-possible-to-use-the-ubuntu-ui-toolkit-on-1704-to-develop-apps">Is it possible to use the Ubuntu UI toolkit on 17.04 to develop apps?</h3>
+
+<p>Not right now, and we don’t have the resources to make it work right away. If you don’t want to use 16.04, you can <a href="https://wiki.ubports.com/wiki/Set-up-a-Clickable-working-environment-inside-an-LXC-container">run it inside an LXD container</a> to create your apps.</p>
+
+<h3 id="will-ubports-ever-come-to-closed-source-devices">Will UBports ever come to closed-source devices?</h3>
+
+<p>No. The device tree needs to be open-source, so the porters can see what’s happening underneath. Ubuntu Touch on the iPhone is not going to happen.</p>
+
+<hr />
+
+<h2 id="calls-for-help">Calls for Help</h2>
+
+<p>We always get people asking “How can I help you guys out?” Well, here are a few things that we’d really appreciate!</p>
+
+<h3 id="marketing">Marketing</h3>
+
+<p>Our marketing team is working to bring you guest blog posts, interviews, and behind the scenes snapshots of all those involved in making this project possible! If you’d like to help the UBports Marketing team spread the word about our wonderful OS, fill out the form <a href="http://bit.ly/ubportsmarketingsignup">here</a></p>
+
+<h3 id="core-app-maintainers">Core App Maintainers</h3>
+
+<p>We’re looking for help maintaining our Core Apps. If you’d like to learn about developing for the Ubuntu Touch platform, check out the list of apps <a href="https://github.com/ubports/?utf8=%E2%9C%93&amp;q=-app&amp;type=&amp;language=">here</a> and pick one you like! There’s also a guide to setting up Clickable, a development environment for Click apps, <a href="https://wiki.ubports.com/wiki/Set-up-a-Clickable-working-environment-inside-an-LXC-container">here</a>. Be sure to get a hold of us on <a href="https://forums.ubports.com">the forum</a>, we have a developer community that’s happy to help!</p>
+
+<h3 id="spread-the-word">Spread the word!</h3>
+
+<p>Tell everyone about UBports! We’re going to be more active on our social media in the coming weeks, so be sure to check out our <a href="https://twitter.com/ubports">Twitter</a>, <a href="https://mastodon.rocks/@UBports">Mastodon</a>, and <a href="https://plus.google.com/+UBports">Google Plus</a> accounts.</p>
+
+<hr />
+
+<p>Well, that’s it for this time! Thank you again to everyone who has contributed their time, money, and excitement to our project! We’ll be back in two weeks with <a href="https://www.youtube.com/watch?v=0BoiGoXrVCo">another community update</a>, as always! In the meantime, you can get a hold of us on <a href="https:forums.ubports.com">our forum</a>, <a href="https://ubports.com/telegram">Telegram supergroup</a>, or #ubports on Freenode (which is bridged to that Telegram channel).</p>
+
+
+  </div>
+
+  <div id="disqus_thread"></div>
+  <script>
+
+  /**
+  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+  /*
+  var disqus_config = function () {
+  this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+  this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+  };
+  */
+  (function() { // DON'T EDIT BELOW THIS LINE
+  var d = document, s = d.createElement('script');
+  s.src = 'https://blog-ubports-com.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+  <!-- Begin MailChimp Signup Form -->
+
+  <div id="mc_embed_signup">
+  <form action="//ubports.us15.list-manage.com/subscribe/post?u=ca89ecb13b3d1e31cc2af97a2&amp;id=3a9d661915" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <div id="mc_embed_signup_scroll">
+  	<label for="mce-EMAIL">Like what you just read? Sign up for our community mailing list for other news and information!</label>
+  	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ca89ecb13b3d1e31cc2af97a2_3a9d661915" tabindex="-1" value=""></div>
+      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+      </div>
+  </form>
+  </div>
+
+  <!--End mc_embed_signup-->
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">UBports blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>UBports blog</li>
+          <li><a href="mailto:blog@ubports.com">blog@ubports.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/ubports"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">ubports</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/ubports"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">ubports</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>UBports blog. Ubuntu touch porting to android devices
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
