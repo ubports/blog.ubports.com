@@ -6,9 +6,9 @@
 </description>
     <link>http://blog.ubports.com/</link>
     <atom:link href="http://blog.ubports.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 14 Jun 2017 16:21:46 -0500</pubDate>
-    <lastBuildDate>Wed, 14 Jun 2017 16:21:46 -0500</lastBuildDate>
-    <generator>Jekyll v3.4.3</generator>
+    <pubDate>Sun, 18 Jun 2017 10:15:37 -0500</pubDate>
+    <lastBuildDate>Sun, 18 Jun 2017 10:15:37 -0500</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
     
       <item>
         <title>Stable OTA-1, Halium is Heating up, Convergence Works!</title>
@@ -24,7 +24,7 @@
 
 &lt;h2 id=&quot;the-news&quot;&gt;The News&lt;/h2&gt;
 
-&lt;h3 id=&quot;stable-ota-1-is-shipping-except-the-nexus-4-and-5&quot;&gt;Stable OTA-1 is shipping! (except the Nexus 4 and 5)&lt;/h3&gt;
+&lt;h3 id=&quot;stable-ota-1-is-shipping-except-the-nexus-4&quot;&gt;Stable OTA-1 is shipping! (except the Nexus 4)&lt;/h3&gt;
 
 &lt;p&gt;The UBports project is proud to announce Stable OTA-1 for all of our officially supported devices, minus the Nexus 5 (hammerhead) and Nexus 4 (mako).&lt;/p&gt;
 
@@ -39,7 +39,9 @@
 
 &lt;p&gt;As well as bug fixes for the UBports ported devices. You can see a list of bugs targeted and closed for this release &lt;a href=&quot;https://github.com/ubports/ubports-touch/milestone/1?closed=1&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;The Nexus 5 will be receiving the update shortly. A last-minute regression found in the battery meter caused us to pull the update. The Nexus 4 is being brought up separately from the rest of the devices and its OTA-1 release will be announced when it is ready.&lt;/p&gt;
+&lt;p&gt;The Nexus 4 is being brought up separately from the rest of the devices and its OTA-1 release will be announced when it is ready.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update (June 18)&lt;/strong&gt;: The update for the Nexus 5 has beeen released! Now all of you Nexus 5 owners can flash Stable images as well! Please see &lt;a href=&quot;https://devices.ubports.com/#/hammerhead&quot;&gt;Our Devices website&lt;/a&gt; or download &lt;a href=&quot;https://github.com/ubports/ubports-installer/releases&quot;&gt;The UBports installer beta&lt;/a&gt; to flash your device.&lt;/p&gt;
 
 &lt;h3 id=&quot;osapp-developer-meeting&quot;&gt;OS/App Developer Meeting&lt;/h3&gt;
 
@@ -772,7 +774,7 @@ inb4 a Chinese company takes the software and ships it as closed-source, making 
       </item>
     
       <item>
-        <title>UBports Developer's Meeting - March 29, 2017</title>
+        <title>UBports Developer&#39;s Meeting - March 29, 2017</title>
         <description>&lt;p&gt;&lt;img src=&quot;http://blog.ubports.com/assets/2017/03/30-conferencecall.jpg&quot; alt=&quot;conferencecall&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Yesterday some users and developers from UBports got together online to discuss the project’s present and future goals. There was fun discussion, everyone’s drinks of choice (for all members for which it was legal), and plenty of cats in the webcam frame. We spent some time on a few topics that should be interesting to the community at large.&lt;/p&gt;

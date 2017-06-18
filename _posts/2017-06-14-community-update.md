@@ -18,7 +18,7 @@ We want to take a bit of time to thank all of our [Patrons](https://patreon.com/
 
 ## The News
 
-### Stable OTA-1 is shipping! (except the Nexus 4 and 5)
+### Stable OTA-1 is shipping! (except the Nexus 4)
 
 The UBports project is proud to announce Stable OTA-1 for all of our officially supported devices, minus the Nexus 5 (hammerhead) and Nexus 4 (mako).
 
@@ -31,7 +31,9 @@ This was the most exciting news for us. OTA-1 is the culmination of our efforts 
 
 As well as bug fixes for the UBports ported devices. You can see a list of bugs targeted and closed for this release [here](https://github.com/ubports/ubports-touch/milestone/1?closed=1).
 
-The Nexus 5 will be receiving the update shortly. A last-minute regression found in the battery meter caused us to pull the update. The Nexus 4 is being brought up separately from the rest of the devices and its OTA-1 release will be announced when it is ready.
+The Nexus 4 is being brought up separately from the rest of the devices and its OTA-1 release will be announced when it is ready.
+
+**Update (June 18)**: The update for the Nexus 5 has beeen released! Now all of you Nexus 5 owners can flash Stable images as well! Please see [Our Devices website](https://devices.ubports.com/#/hammerhead) or download [The UBports installer beta](https://github.com/ubports/ubports-installer/releases) to flash your device.
 
 ### OS/App Developer Meeting
 
