@@ -1,14 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>UBports blog</title>
+    <title>UBports DevBlog</title>
     <description>UBports blog. Ubuntu touch porting to android devices
 </description>
-    <link>http://blog.ubports.com/</link>
-    <atom:link href="http://blog.ubports.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Jun 2017 10:15:37 -0500</pubDate>
-    <lastBuildDate>Sun, 18 Jun 2017 10:15:37 -0500</lastBuildDate>
-    <generator>Jekyll v3.0.1</generator>
+    <link>http://devblog.ubports.com/</link>
+    <atom:link href="http://devblog.ubports.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 26 Jun 2017 14:34:28 -0500</pubDate>
+    <lastBuildDate>Mon, 26 Jun 2017 14:34:28 -0500</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Core Apps, Backup Script, and a New Website</title>
+        <description>&lt;p&gt;Our latest Community Update was on June 24, 2017. If you’d like to watch the video version, you can find it &lt;a href=&quot;https://www.youtube.com/watch?v=0BoiGoXrVCo&quot;&gt;here&lt;/a&gt;. These sessions typically occur every two weeks at 1800 UTC so come along next time if you have a question. You can also catch up on previous ones on &lt;a href=&quot;https://www.youtube.com/channel/UCDGJ7jdEoOx6_o_GbkjFaBg&quot;&gt;our youtube channel&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Two weeks have already passed since our last Q&amp;amp;A and a huge amount of behind-the-scenes work here at UBports. Whilst many of the behind-the-scenes updates listed below are not immediate in their impact they are all critical not just for sustaining existing progress but also for the eventual development of new builds for new devices. Some developments like those of of Halium and Core Apps, although currently invisible, will lead to a much smoother, better mobile operating system in the future. We’re pleased with the progress and excited to share it with you below along with updates from Halium, Core Apps Update, Backup Script for devices, Ubuntu 16.04, our new website, sponsor news and updates about the UBports Foundation.&lt;/p&gt;
+
+&lt;p&gt;Before we begin, as usual, we are honoured to take a moment to thank all of our sponsors. Our &lt;a href=&quot;https://www.patreon.com/ubports&quot;&gt;Patreon&lt;/a&gt; (public voluntary donations)  reached $1800 per month today - a staggering amount for a project that was just a ‘garage band’ three months ago. Thank you all for voting and encouraging with your wallet, telling us that our mission is important.&lt;/p&gt;
+
+&lt;p&gt;Recently, we’ve been discussing what we could do with the revenues beyond paying developers. One idea being considered is having an “app dev” fund where we buy and ship budding developers a device to help them make their app.&lt;/p&gt;
+
+&lt;p&gt;We’d also like to thank our largest sponsor, &lt;a href=&quot;https://smoose.nl&quot;&gt;Smoose&lt;/a&gt;. Smoose is a Dutch IT services company focused on making the workplace more open (source). They’ve made a lot of our work in the past year possible by distributing phones to developers, sending us to events (MWC was really cool!), and generally offering support wherever possible.&lt;/p&gt;
+
+&lt;h3 id=&quot;halium-71&quot;&gt;Halium 7.1&lt;/h3&gt;
+
+&lt;p&gt;Halium is one of the fastest-moving projects that the alternative mobile OS community has seen lately. Halium is a common platform for running GNU/Linux distributions on Android phones.&lt;/p&gt;
+
+&lt;p&gt;It started just two months ago with “Hey, all of our projects use the same library and we should make it standard.” Now, it is to a point where it is able to boot Ubuntu Touch 16.04 and Plasma Mobile on devices with Android 5.1. Today, Marius announced another huge leap for the project: budding Android 7.1 support.&lt;/p&gt;
+
+&lt;p&gt;The code for Halium 7.1 has been released on &lt;a href=&quot;https://github.com/Halium/android/tree/halium-7.1&quot;&gt;Halium’s GitHub organization&lt;/a&gt;. It is to a point where developers can build it and flash it to a device with ADB debugging. Most hardware isn’t working yet, but getting to the debugging point is an important first step for Android devices.&lt;/p&gt;
+
+&lt;p&gt;More info about Halium can be found on &lt;a href=&quot;https://halium.org/&quot;&gt;their website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Many people have noticed that we’ve been pouring a lot of development time into Halium rather than the Ubuntu Touch system itself. This is because we need a stable system underneath Ubuntu Touch before we’re able to continue developing it. When debugging software, it’s important to know that you’re going to get the same results every time you run it. Halium gives us this peace of mind.&lt;/p&gt;
+
+&lt;h3 id=&quot;core-apps&quot;&gt;Core Apps&lt;/h3&gt;
+
+&lt;p&gt;Thank you to all of our community members who have been contributing to the Ubuntu Touch core apps. These are those apps that were mostly originally developed by Canonical or partners, but still need updating to keep them running smoothly and securely. There have been many pull requests sent applying to the Gallery, Clock, and Keyboard with many more coming in daily so the promise of updates and fixes for the future is strong.&lt;/p&gt;
+
+&lt;p&gt;Some of the (still unreleased) changes include:
+    The Gallery app allows you to zoom in further to your photos
+    The Clock app has some UI tweaks (it also nuked its automated build environment, which was fun.)
+    Lots of translation improvements&lt;/p&gt;
+
+&lt;p&gt;We’ve also been focusing more of our concerns on localization. Ubuntu Touch must be made as accessible as possible to people around the world, in their native languages. Canonical was able to use Launchpad to perform translation, but we don’t have that hooked up quite yet. If you have any suggestions or input on software that makes your life as a translator easier, let us know in &lt;a href=&quot;https://forums.ubports.com/topic/386/localization-software-evaluations&quot;&gt;this forum thread&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We’re also looking at ways to set up our build server so it becomes even more automatic using Jenkins pipelines. These will automatically build any pull requests that you send in to our GitHub app repositories, enabling us to make faster and more useful decisions on merging code.&lt;/p&gt;
+
+&lt;p&gt;This is a prime example of the free and open software community really stepping up to further a project that they care about. We appreciate your support.&lt;/p&gt;
+
+&lt;h3 id=&quot;backup-script&quot;&gt;Backup Script&lt;/h3&gt;
+
+&lt;p&gt;Florian (@flohack) has written an excellent little script that helps you back up and restore the data on your phone. This will be really handy if you’re switching from the Canonical build to the UBports one.&lt;/p&gt;
+
+&lt;p&gt;Be aware, some system settings like saved Wi-Fi networks are not backed up. We also don’t back up the apps that you have installed, you will need to grab those again under the new install. We don’t have an exact list of what you’ll since it isn’t really clear where UT stores all of its settings, or how to restore them. A good rule of thumb is that you’ll keep all of your data, keep most of your app settings, lose your system settings.&lt;/p&gt;
+
+&lt;p&gt;The script has been integrated into &lt;a href=&quot;https://github.com/mariusquabeck/magic-device-tool&quot;&gt;Marius Quabeck’s magic-device-tool&lt;/a&gt;. We’d love if you tried it out on your non-main device and gave us your feedback!&lt;/p&gt;
+
+&lt;h3 id=&quot;marius-talks-about-1604-for-a-while&quot;&gt;Marius talks about 16.04 for a while&lt;/h3&gt;
+
+&lt;p&gt;A lot of work is happening on the low-level bugs in the 16.04 version of Ubuntu Touch. These are bugs that prevent us from releasing any 16.04 images to the community. Stay tuned!&lt;/p&gt;
+
+&lt;h3 id=&quot;our-new-website&quot;&gt;Our New Website&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.smoose.nl/&quot;&gt;Smoose&lt;/a&gt;, the main sponsor of UBports for some time, promised to give us a new website while we were at Mobile World Congress earlier this year. This week, they delivered on that promise.&lt;/p&gt;
+
+&lt;p&gt;Our new website, based on Odoo, looks and works better than anything we’ve ever had. We love it and we hope that you do too. If you have feedback, our marketing team would appreciate it. You can fill out the feedback form &lt;a href=&quot;https://ubports.com/survey/start/website-feedback-needed-4&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Tangentally, our marketing team is working on putting all of our social media accounts in one feed so they can answer questions faster. They also created an account on Diaspora* (ubports@diasp.ca).&lt;/p&gt;
+
+&lt;h3 id=&quot;security-discussion&quot;&gt;Security Discussion&lt;/h3&gt;
+
+&lt;p&gt;We received a forum post recently asking how we are handling security. Generally speaking, this is how we are protecting your phone:&lt;/p&gt;
+
+&lt;p&gt;System images are GPG signed and verified on your device. You can learn more about this process &lt;a href=&quot;https://wiki.ubuntu.com/ImageBasedUpgrades/GPG&quot;&gt;here&lt;/a&gt;
+Apps in the OpenStore go under manual review if they request a certain set of permissions. This means that a real person looks over the app to make sure it’s safe before anyone can ever download it. You can read more about the submission and review process at &lt;a href=&quot;https://open.uappexplorer.com/submit&quot;&gt;the OpenStore’s Submit page&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;ubports-foundation&quot;&gt;UBports Foundation&lt;/h3&gt;
+
+&lt;p&gt;This is the big news that we were teasing everyone about leading up to the Q&amp;amp;A. It has finally gotten to a point where we are ready to make the announcement ‘official’ in the most basic sense of the word.&lt;/p&gt;
+
+&lt;p&gt;Therefore, UBports project presents… The UBports Foundation! (&lt;em&gt;Insert symphonic hit and crowd cheering sounds here&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;The UBports Foundation is a German non-profit entity (stiftung)created with the purpose of furthering the Ubuntu Touch platform. The way that this entity achieves this goal is to be decided by its board, but in general it will allow UBports to perform the following actions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Collect money (Tax deductible for all you Europeans!)&lt;/li&gt;
+  &lt;li&gt;Spend money&lt;/li&gt;
+  &lt;li&gt;Negotiate contracts as a legal entity (This will make more sense as time goes on)&lt;/li&gt;
+  &lt;li&gt;Provide transparency of usage of funds&lt;/li&gt;
+  &lt;li&gt;Provide transparency in decision making&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Community contributors will be able to apply to become voting members of the Foundation, and be able to democratically elect the Board of Directors. The application process isn’t going to be 100% painless (sorry to drive-by contributors). We’ll go with 90% painless. We’re taking the project seriously and we want the team to do so as well. Therefore, we must have some processes and audits in place.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, we aren’t comfortable sharing the Foundation’s founding documents quite yet as they have information about sponsorships and agreements that aren’t fully settled. Stay tuned and we’ll bring all of this to light.&lt;/p&gt;
+
+&lt;h3 id=&quot;community-questions&quot;&gt;Community Questions&lt;/h3&gt;
+
+&lt;p&gt;At this point, we took some questions from live chat and things we’ve been seeing around the community&lt;/p&gt;
+
+&lt;h4 id=&quot;for-app-development-should-i-learn-qml-or-c&quot;&gt;For app development, should I learn QML or C++?&lt;/h4&gt;
+
+&lt;p&gt;You should learn both. QML is good for some things, but C++ really pulls the language together on the Ubuntu Touch platform. There are also some Python bindings found in PyOtherSide that can make development easier if you know Python.&lt;/p&gt;
+
+&lt;h4 id=&quot;can-you-make-apps-that-run-on-plasma-mobile-sailfish-and-ut&quot;&gt;Can you make apps that run on Plasma Mobile, sailfish and UT?&lt;/h4&gt;
+
+&lt;p&gt;Plasma Mobile runs UT apps. It shouldn’t be too hard to go the other way. Sailfish, on the other hand, has some pretty custom things in their OS (not to say that Ubuntu Touch does not) that cause some problems.&lt;/p&gt;
+
+&lt;p&gt;So, if that wasn’t wishy-washy enough for you, the answer for Sailfish apps is an honest “We don’t know.”&lt;/p&gt;
+
+&lt;h4 id=&quot;will-you-port-to-the-oneplus-3-and-oneplus-5&quot;&gt;Will you port to the OnePlus 3 and OnePlus 5?&lt;/h4&gt;
+
+&lt;p&gt;This was a funny question to receive during live chat after we had just said “We’re not porting to new devices” earlier in the video.&lt;/p&gt;
+
+&lt;p&gt;However, the answer probably isn’t quite what you expect. The OnePlus 5 has become one of Halium’s unofficial official testing devices for Halium 7.1, so… yes. We will have Ubuntu Touch on the OnePlus 5.&lt;/p&gt;
+
+&lt;p&gt;And at the same time, OnePlus 3 was also used to test Halium 7.1, This was used before OnePlus 5 was released as an debug device, so expect this device also.&lt;/p&gt;
+
+&lt;p&gt;When will it be released?  “It’ll be released when it’s ready.”&lt;/p&gt;
+
+&lt;h4 id=&quot;hey-you-have-bugs-in-your-bug-trackers-for-1504-will-you-fix-them&quot;&gt;Hey! You have bugs in your bug trackers for 15.04! Will you fix them?&lt;/h4&gt;
+
+&lt;p&gt;It depends. We’re balancing our time between 15.04 bugfixes and 16.04 bringup. 15.04 is such a buggy and unsupported platform that we’d really love to run from it as quickly as possible.&lt;/p&gt;
+
+&lt;p&gt;For everyone with the Legacy devices, we’re keeping the lights on for you. We’re not going to make your experience perfect, though.&lt;/p&gt;
+
+&lt;p&gt;Tangentially, we’d really love for some UI/UX designers to join our team. Drop us a line if you’ve got great ideas for the platform!&lt;/p&gt;
+
+&lt;h4 id=&quot;how-is-the-tablet-os-going&quot;&gt;How is the tablet OS going?&lt;/h4&gt;
+
+&lt;p&gt;The OS is the same between phones and tablets. Progress on one side is progress on the other. Convergence!&lt;/p&gt;
+
+&lt;h4 id=&quot;you-should-fix-the-long-boot-time-bug-on-the-m10-fhd&quot;&gt;You should fix the long boot-time bug on the M10 FHD.&lt;/h4&gt;
+
+&lt;p&gt;We need a developer that is willing to dedicate the time to tracking down and fixing that bug. At the moment, it rates pretty low on our list of priorities. The long boot time is inconvenient when you need to reboot your tablet, but it isn’t experience-shattering.&lt;/p&gt;
+
+&lt;h4 id=&quot;why-arent-all-devices-getting-1604&quot;&gt;Why aren’t all devices getting 16.04?&lt;/h4&gt;
+
+&lt;p&gt;A few reasons:
+    Some of the old official devices are too low-end and can’t show off the Ubuntu Touch platform. Would you rather show off your favorite GNU/Linux distribution running on a sleek, new computer or a 2007 one? Which will get you a better crowd response?
+    All of the old official devices are closed-source so we can’t fix hardware enablement issues
+    16.04 requires Linux kernel 3.10 at a minimum to function
+    We don’t have the resources to support all of these devices, especially considering the manufacturer of their chipset&lt;/p&gt;
+
+&lt;p&gt;If you’d like to maintain these devices into the 16.04 transition, we will support you as much as we can. We can’t guarantee that the work will be fruitful, though.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;That’s all for this week! We hope you enjoyed our action-packed Update as much as we did. We’ll see you for the next one on July 8, 2017 at 1800 UTC!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 26 Jun 2017 14:00:00 -0500</pubDate>
+        <link>http://devblog.ubports.com/qanda/2017/06/26/community-update.html</link>
+        <guid isPermaLink="true">http://devblog.ubports.com/qanda/2017/06/26/community-update.html</guid>
+        
+        
+        <category>QandA</category>
+        
+      </item>
     
       <item>
         <title>Stable OTA-1, Halium is Heating up, Convergence Works!</title>
@@ -145,8 +294,8 @@
 
 </description>
         <pubDate>Wed, 14 Jun 2017 07:00:00 -0500</pubDate>
-        <link>http://blog.ubports.com/qanda/2017/06/14/community-update.html</link>
-        <guid isPermaLink="true">http://blog.ubports.com/qanda/2017/06/14/community-update.html</guid>
+        <link>http://devblog.ubports.com/qanda/2017/06/14/community-update.html</link>
+        <guid isPermaLink="true">http://devblog.ubports.com/qanda/2017/06/14/community-update.html</guid>
         
         
         <category>QandA</category>
@@ -155,7 +304,7 @@
     
       <item>
         <title>AGPS, App Updates, Halium, and more!</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://youtu.be/517OFPd_VTI&quot;&gt;&lt;img src=&quot;http://blog.ubports.com/assets/2017/06/01-xenial-halium.png&quot; alt=&quot;Ubuntu 16.04 running inside Halium&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;a href=&quot;https://youtu.be/517OFPd_VTI&quot;&gt;&lt;img src=&quot;http://devblog.ubports.com/assets/2017/06/01-xenial-halium.png&quot; alt=&quot;Ubuntu 16.04 running inside Halium&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;We had our latest Community Update and Q&amp;amp;A on May 27th. You can watch it &lt;a href=&quot;https://youtu.be/517OFPd_VTI&quot;&gt;here&lt;/a&gt;. There were lots of news stories and questions to go through, so we’d better start!&lt;/p&gt;
 
@@ -302,15 +451,15 @@
 
 </description>
         <pubDate>Thu, 01 Jun 2017 00:00:00 -0500</pubDate>
-        <link>http://blog.ubports.com/2017/06/01/community-update.html</link>
-        <guid isPermaLink="true">http://blog.ubports.com/2017/06/01/community-update.html</guid>
+        <link>http://devblog.ubports.com/2017/06/01/community-update.html</link>
+        <guid isPermaLink="true">http://devblog.ubports.com/2017/06/01/community-update.html</guid>
         
         
       </item>
     
       <item>
         <title>UBports Community Q&amp;A: May 13, 2017</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://youtu.be/s-_L3J6EvgY&quot;&gt;&lt;img src=&quot;http://blog.ubports.com/assets/2017/05/13-openstore.png&quot; alt=&quot;livestream&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;a href=&quot;https://youtu.be/s-_L3J6EvgY&quot;&gt;&lt;img src=&quot;http://devblog.ubports.com/assets/2017/05/13-openstore.png&quot; alt=&quot;livestream&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;A little late, but here’s the summary of &lt;a href=&quot;https://youtu.be/s-_L3J6EvgY&quot;&gt;our latest Q&amp;amp;A session&lt;/a&gt;. Some facts from the video are already outdated, so read on for a slightly edited summary. Enjoy!&lt;/p&gt;
 
@@ -387,15 +536,15 @@
 &lt;p&gt;P.S.: Be sure to &lt;a href=&quot;https://bit.ly/ubports&quot;&gt;subscribe to our new and shiny mailing list&lt;/a&gt;!&lt;/p&gt;
 </description>
         <pubDate>Sat, 13 May 2017 00:00:00 -0500</pubDate>
-        <link>http://blog.ubports.com/2017/05/13/ubports-qa.html</link>
-        <guid isPermaLink="true">http://blog.ubports.com/2017/05/13/ubports-qa.html</guid>
+        <link>http://devblog.ubports.com/2017/05/13/ubports-qa.html</link>
+        <guid isPermaLink="true">http://devblog.ubports.com/2017/05/13/ubports-qa.html</guid>
         
         
       </item>
     
       <item>
         <title>UBports Community Q&amp;A: April 29, 2017</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://youtu.be/UvfeCj6SRGg&quot;&gt;&lt;img src=&quot;http://blog.ubports.com/assets/2017/04/29-dalton.png&quot; alt=&quot;livestream&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;a href=&quot;https://youtu.be/UvfeCj6SRGg&quot;&gt;&lt;img src=&quot;http://devblog.ubports.com/assets/2017/04/29-dalton.png&quot; alt=&quot;livestream&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Another fortnight, another Q&amp;amp;A session! Watch it &lt;a href=&quot;https://youtu.be/UvfeCj6SRGg&quot;&gt;here&lt;/a&gt; or read on for a quick summary.&lt;/p&gt;
 
@@ -489,8 +638,8 @@
 &lt;p&gt;-Jan&lt;/p&gt;
 </description>
         <pubDate>Sat, 29 Apr 2017 00:00:00 -0500</pubDate>
-        <link>http://blog.ubports.com/2017/04/29/community-qa.html</link>
-        <guid isPermaLink="true">http://blog.ubports.com/2017/04/29/community-qa.html</guid>
+        <link>http://devblog.ubports.com/2017/04/29/community-qa.html</link>
+        <guid isPermaLink="true">http://devblog.ubports.com/2017/04/29/community-qa.html</guid>
         
         
       </item>
@@ -562,15 +711,15 @@
 &lt;p&gt;We are going to create the best mobile OS that we can. We aren’t letting a little disagreement stop us.&lt;/p&gt;
 </description>
         <pubDate>Wed, 26 Apr 2017 00:00:00 -0500</pubDate>
-        <link>http://blog.ubports.com/2017/04/26/a-resolution-to-agree-on.html</link>
-        <guid isPermaLink="true">http://blog.ubports.com/2017/04/26/a-resolution-to-agree-on.html</guid>
+        <link>http://devblog.ubports.com/2017/04/26/a-resolution-to-agree-on.html</link>
+        <guid isPermaLink="true">http://devblog.ubports.com/2017/04/26/a-resolution-to-agree-on.html</guid>
         
         
       </item>
     
       <item>
         <title>UBports Community Q&amp;A: April 15, 2017</title>
-        <description>&lt;p&gt;&lt;img src=&quot;http://blog.ubports.com/assets/2017/04/15-marius.png&quot; alt=&quot;supercoolquestions&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;http://devblog.ubports.com/assets/2017/04/15-marius.png&quot; alt=&quot;supercoolquestions&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Today marked another Q&amp;amp;A session in the books. You can find it right over &lt;a href=&quot;https://www.youtube.com/watch?v=gNKxMiAnO1I&quot;&gt;here&lt;/a&gt; on our shiny new Youtube channel! The following are the majority of asked questions and a summary of their answers.&lt;/p&gt;
 
@@ -620,8 +769,8 @@ We have mirrored the system-image-server so we can host the old images at some p
 
 </description>
         <pubDate>Sat, 15 Apr 2017 00:00:00 -0500</pubDate>
-        <link>http://blog.ubports.com/2017/04/15/community-qa.html</link>
-        <guid isPermaLink="true">http://blog.ubports.com/2017/04/15/community-qa.html</guid>
+        <link>http://devblog.ubports.com/2017/04/15/community-qa.html</link>
+        <guid isPermaLink="true">http://devblog.ubports.com/2017/04/15/community-qa.html</guid>
         
         
       </item>
@@ -767,15 +916,15 @@ inb4 a Chinese company takes the software and ships it as closed-source, making 
 &lt;p&gt;-Dalton and Jan&lt;/p&gt;
 </description>
         <pubDate>Sat, 08 Apr 2017 00:00:00 -0500</pubDate>
-        <link>http://blog.ubports.com/2017/04/08/ubports-community-q-a.html</link>
-        <guid isPermaLink="true">http://blog.ubports.com/2017/04/08/ubports-community-q-a.html</guid>
+        <link>http://devblog.ubports.com/2017/04/08/ubports-community-q-a.html</link>
+        <guid isPermaLink="true">http://devblog.ubports.com/2017/04/08/ubports-community-q-a.html</guid>
         
         
       </item>
     
       <item>
         <title>UBports Developer&#39;s Meeting - March 29, 2017</title>
-        <description>&lt;p&gt;&lt;img src=&quot;http://blog.ubports.com/assets/2017/03/30-conferencecall.jpg&quot; alt=&quot;conferencecall&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;http://devblog.ubports.com/assets/2017/03/30-conferencecall.jpg&quot; alt=&quot;conferencecall&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Yesterday some users and developers from UBports got together online to discuss the project’s present and future goals. There was fun discussion, everyone’s drinks of choice (for all members for which it was legal), and plenty of cats in the webcam frame. We spent some time on a few topics that should be interesting to the community at large.&lt;/p&gt;
 
@@ -834,8 +983,8 @@ inb4 a Chinese company takes the software and ships it as closed-source, making 
 &lt;p&gt;-Dalton&lt;/p&gt;
 </description>
         <pubDate>Thu, 30 Mar 2017 10:50:00 -0500</pubDate>
-        <link>http://blog.ubports.com/2017/03/30/ubports-developer-meeting.html</link>
-        <guid isPermaLink="true">http://blog.ubports.com/2017/03/30/ubports-developer-meeting.html</guid>
+        <link>http://devblog.ubports.com/2017/03/30/ubports-developer-meeting.html</link>
+        <guid isPermaLink="true">http://devblog.ubports.com/2017/03/30/ubports-developer-meeting.html</guid>
         
         
       </item>
@@ -859,45 +1008,8 @@ inb4 a Chinese company takes the software and ships it as closed-source, making 
 &lt;p&gt;-Dalton (UniversalSuperBox)&lt;/p&gt;
 </description>
         <pubDate>Fri, 06 Jan 2017 00:00:00 -0600</pubDate>
-        <link>http://blog.ubports.com/2017/01/06/is-ubuntu-touch-dead.html</link>
-        <guid isPermaLink="true">http://blog.ubports.com/2017/01/06/is-ubuntu-touch-dead.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Happy Holidays from UBPorts! (And FP2 fun!)</title>
-        <description>&lt;p&gt;Hello everyone!&lt;/p&gt;
-
-&lt;p&gt;We here at UBPorts hope that you’re having/had an excellent set of holidays. As the year comes to a close, we’d like to thank all of our patrons, donors, and developers. You are what makes this project happen.&lt;/p&gt;
-
-&lt;p&gt;We’ve been busy around here, of course. Marius has returned for winter holiday at his school and my dashboard is looking busier than ever… an excellent sight when my name filled it up not too long ago.&lt;/p&gt;
-
-&lt;p&gt;We’d like to thank Smoose, a Netherlandic company specializing in open source software, for providing several Fairphone 2 smartphones to our developer community. Because of their generous donation, I have lots of news about the device.&lt;/p&gt;
-
-&lt;p&gt;The current daily builds for the Fairphone 2 have everything that you’ll find on &lt;a href=&quot;https://devices.ubports.com/#/FP2&quot;&gt;the device page&lt;/a&gt; PLUS some basic GSM support. You are able to connect to a GSM network with SIM 1 at least (I don’t have a second to test), send and receive SMS, and Marius reports that he has calling in a very experimental stage, though this may not be on system-image-server at the time of this writing. Mobile data doesn’t work quite yet, but we’re working on it.&lt;/p&gt;
-
-&lt;p&gt;To flash the development build, first note that it is not very stable and things break quite often. Now that that’s out of the way, you’ll need to first flash the recovery.img from &lt;a href=&quot;https://seafile.nigle.nl/d/62d505f0a7/&quot;&gt;here&lt;/a&gt;,
-Then run these commands:
-&lt;code class=&quot;highlighter-rouge&quot;&gt;
-adb shell mount -a &amp;amp;&amp;amp;
-adb shell mount /cache &amp;amp;&amp;amp;
-ubuntu-device-flash --server=http://system-image.ubports.com touch --channel=ubuntu-touch/devel_rc-proposed --device=FP2
-&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;(Edit: I had to put them in this terrible block because this Jekyll theme is annoying)&lt;/p&gt;
-
-&lt;p&gt;As for other devices, we have a wonderful developer working on the Nexus 5 and its screen tearing problems in developer builds. It seems to be a bug between Mir and the Adreno drivers.&lt;/p&gt;
-
-&lt;p&gt;As always, if you’d like to support our project financially, you can donate toward a specific device at &lt;a href=&quot;https://devices.ubports.com&quot;&gt;https://devices.ubports.com&lt;/a&gt; or give a monthly donation at &lt;a href=&quot;https://devices.ubports.com&quot;&gt;https://www.patreon.com/ubports&lt;/a&gt;. If you’d like to donate your time, check us out at #ubports on Freenode and we’ll find something that you can do.&lt;/p&gt;
-
-&lt;p&gt;Again, happy holidays. And thank you. We’re looking forward to a great 2017.&lt;/p&gt;
-
-&lt;p&gt;-Dalton (UniversalSuperBox)&lt;/p&gt;
-</description>
-        <pubDate>Mon, 26 Dec 2016 00:00:00 -0600</pubDate>
-        <link>http://blog.ubports.com/2016/12/26/happy-holidays-from-ubports.html</link>
-        <guid isPermaLink="true">http://blog.ubports.com/2016/12/26/happy-holidays-from-ubports.html</guid>
+        <link>http://devblog.ubports.com/2017/01/06/is-ubuntu-touch-dead.html</link>
+        <guid isPermaLink="true">http://devblog.ubports.com/2017/01/06/is-ubuntu-touch-dead.html</guid>
         
         
       </item>

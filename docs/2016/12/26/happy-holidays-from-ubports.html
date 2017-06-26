@@ -12,8 +12,8 @@
   <meta name="description" content="Hello everyone!">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://blog.ubports.com/2016/12/26/happy-holidays-from-ubports.html">
-  <link rel="alternate" type="application/rss+xml" title="UBports blog" href="http://blog.ubports.com/feed.xml">
+  <link rel="canonical" href="http://devblog.ubports.com/2016/12/26/happy-holidays-from-ubports.html">
+  <link rel="alternate" type="application/rss+xml" title="UBports DevBlog" href="http://devblog.ubports.com/feed.xml">
 </head>
 
 
@@ -78,12 +78,11 @@
 <p>The current daily builds for the Fairphone 2 have everything that you’ll find on <a href="https://devices.ubports.com/#/FP2">the device page</a> PLUS some basic GSM support. You are able to connect to a GSM network with SIM 1 at least (I don’t have a second to test), send and receive SMS, and Marius reports that he has calling in a very experimental stage, though this may not be on system-image-server at the time of this writing. Mobile data doesn’t work quite yet, but we’re working on it.</p>
 
 <p>To flash the development build, first note that it is not very stable and things break quite often. Now that that’s out of the way, you’ll need to first flash the recovery.img from <a href="https://seafile.nigle.nl/d/62d505f0a7/">here</a>,
-Then run these commands:
-<code class="highlighter-rouge">
-adb shell mount -a &amp;&amp;
+Then run these commands:</p>
+<div class="highlighter-rouge"><pre class="codehilite"><code>adb shell mount -a &amp;&amp;
 adb shell mount /cache &amp;&amp;
 ubuntu-device-flash --server=http://system-image.ubports.com touch --channel=ubuntu-touch/devel_rc-proposed --device=FP2
-</code></p>
+</code></pre></div>
 
 <p>(Edit: I had to put them in this terrible block because this Jekyll theme is annoying)</p>
 
@@ -143,12 +142,12 @@ ubuntu-device-flash --server=http://system-image.ubports.com touch --channel=ubu
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">UBports blog</h2>
+    <h2 class="footer-heading">UBports DevBlog</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li>UBports blog</li>
+          <li>UBports DevBlog</li>
           <li><a href="mailto:blog@ubports.com">blog@ubports.com</a></li>
         </ul>
       </div>

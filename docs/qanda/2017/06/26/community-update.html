@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+  <title>Core Apps, Backup Script, and a New Website</title>
+  <meta name="description" content="Our latest Community Update was on June 24, 2017. If you’d like to watch the video version, you can find it here. These sessions typically occur every two we...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://devblog.ubports.com/qanda/2017/06/26/community-update.html">
+  <link rel="alternate" type="application/rss+xml" title="UBports DevBlog" href="http://devblog.ubports.com/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="https://ubports.com/">UBports</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        <a class="page-link" href="https://devices.ubports.com/">Devices</a>
+        <a class="page-link" href="https://forums.ubports.com/">Forums</a>
+        <a class="page-link" href="https://wiki.ubports.com/">Wiki</a>
+        <a class="page-link" href="https://blog.ubports.com/">Blog</a>
+        <a class="page-link" href="https://ubports.com/get-involved">Get Involved</a>
+        <a class="page-link" href="https://ubports.com/sponsors">Sponsors</a>
+        <a class="page-link" href="https://ubports.com/team">Team</a>
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Core Apps, Backup Script, and a New Website</h1>
+    <p class="post-meta"><time datetime="2017-06-26T14:00:00-05:00" itemprop="datePublished">Jun 26, 2017</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>Our latest Community Update was on June 24, 2017. If you’d like to watch the video version, you can find it <a href="https://www.youtube.com/watch?v=0BoiGoXrVCo">here</a>. These sessions typically occur every two weeks at 1800 UTC so come along next time if you have a question. You can also catch up on previous ones on <a href="https://www.youtube.com/channel/UCDGJ7jdEoOx6_o_GbkjFaBg">our youtube channel</a>.</p>
+
+<p>Two weeks have already passed since our last Q&amp;A and a huge amount of behind-the-scenes work here at UBports. Whilst many of the behind-the-scenes updates listed below are not immediate in their impact they are all critical not just for sustaining existing progress but also for the eventual development of new builds for new devices. Some developments like those of of Halium and Core Apps, although currently invisible, will lead to a much smoother, better mobile operating system in the future. We’re pleased with the progress and excited to share it with you below along with updates from Halium, Core Apps Update, Backup Script for devices, Ubuntu 16.04, our new website, sponsor news and updates about the UBports Foundation.</p>
+
+<p>Before we begin, as usual, we are honoured to take a moment to thank all of our sponsors. Our <a href="https://www.patreon.com/ubports">Patreon</a> (public voluntary donations)  reached $1800 per month today - a staggering amount for a project that was just a ‘garage band’ three months ago. Thank you all for voting and encouraging with your wallet, telling us that our mission is important.</p>
+
+<p>Recently, we’ve been discussing what we could do with the revenues beyond paying developers. One idea being considered is having an “app dev” fund where we buy and ship budding developers a device to help them make their app.</p>
+
+<p>We’d also like to thank our largest sponsor, <a href="https://smoose.nl">Smoose</a>. Smoose is a Dutch IT services company focused on making the workplace more open (source). They’ve made a lot of our work in the past year possible by distributing phones to developers, sending us to events (MWC was really cool!), and generally offering support wherever possible.</p>
+
+<h3 id="halium-71">Halium 7.1</h3>
+
+<p>Halium is one of the fastest-moving projects that the alternative mobile OS community has seen lately. Halium is a common platform for running GNU/Linux distributions on Android phones.</p>
+
+<p>It started just two months ago with “Hey, all of our projects use the same library and we should make it standard.” Now, it is to a point where it is able to boot Ubuntu Touch 16.04 and Plasma Mobile on devices with Android 5.1. Today, Marius announced another huge leap for the project: budding Android 7.1 support.</p>
+
+<p>The code for Halium 7.1 has been released on <a href="https://github.com/Halium/android/tree/halium-7.1">Halium’s GitHub organization</a>. It is to a point where developers can build it and flash it to a device with ADB debugging. Most hardware isn’t working yet, but getting to the debugging point is an important first step for Android devices.</p>
+
+<p>More info about Halium can be found on <a href="https://halium.org/">their website</a></p>
+
+<p>Many people have noticed that we’ve been pouring a lot of development time into Halium rather than the Ubuntu Touch system itself. This is because we need a stable system underneath Ubuntu Touch before we’re able to continue developing it. When debugging software, it’s important to know that you’re going to get the same results every time you run it. Halium gives us this peace of mind.</p>
+
+<h3 id="core-apps">Core Apps</h3>
+
+<p>Thank you to all of our community members who have been contributing to the Ubuntu Touch core apps. These are those apps that were mostly originally developed by Canonical or partners, but still need updating to keep them running smoothly and securely. There have been many pull requests sent applying to the Gallery, Clock, and Keyboard with many more coming in daily so the promise of updates and fixes for the future is strong.</p>
+
+<p>Some of the (still unreleased) changes include:
+    The Gallery app allows you to zoom in further to your photos
+    The Clock app has some UI tweaks (it also nuked its automated build environment, which was fun.)
+    Lots of translation improvements</p>
+
+<p>We’ve also been focusing more of our concerns on localization. Ubuntu Touch must be made as accessible as possible to people around the world, in their native languages. Canonical was able to use Launchpad to perform translation, but we don’t have that hooked up quite yet. If you have any suggestions or input on software that makes your life as a translator easier, let us know in <a href="https://forums.ubports.com/topic/386/localization-software-evaluations">this forum thread</a>.</p>
+
+<p>We’re also looking at ways to set up our build server so it becomes even more automatic using Jenkins pipelines. These will automatically build any pull requests that you send in to our GitHub app repositories, enabling us to make faster and more useful decisions on merging code.</p>
+
+<p>This is a prime example of the free and open software community really stepping up to further a project that they care about. We appreciate your support.</p>
+
+<h3 id="backup-script">Backup Script</h3>
+
+<p>Florian (@flohack) has written an excellent little script that helps you back up and restore the data on your phone. This will be really handy if you’re switching from the Canonical build to the UBports one.</p>
+
+<p>Be aware, some system settings like saved Wi-Fi networks are not backed up. We also don’t back up the apps that you have installed, you will need to grab those again under the new install. We don’t have an exact list of what you’ll since it isn’t really clear where UT stores all of its settings, or how to restore them. A good rule of thumb is that you’ll keep all of your data, keep most of your app settings, lose your system settings.</p>
+
+<p>The script has been integrated into <a href="https://github.com/mariusquabeck/magic-device-tool">Marius Quabeck’s magic-device-tool</a>. We’d love if you tried it out on your non-main device and gave us your feedback!</p>
+
+<h3 id="marius-talks-about-1604-for-a-while">Marius talks about 16.04 for a while</h3>
+
+<p>A lot of work is happening on the low-level bugs in the 16.04 version of Ubuntu Touch. These are bugs that prevent us from releasing any 16.04 images to the community. Stay tuned!</p>
+
+<h3 id="our-new-website">Our New Website</h3>
+
+<p><a href="https://www.smoose.nl/">Smoose</a>, the main sponsor of UBports for some time, promised to give us a new website while we were at Mobile World Congress earlier this year. This week, they delivered on that promise.</p>
+
+<p>Our new website, based on Odoo, looks and works better than anything we’ve ever had. We love it and we hope that you do too. If you have feedback, our marketing team would appreciate it. You can fill out the feedback form <a href="https://ubports.com/survey/start/website-feedback-needed-4">here</a>.</p>
+
+<p>Tangentally, our marketing team is working on putting all of our social media accounts in one feed so they can answer questions faster. They also created an account on Diaspora* (ubports@diasp.ca).</p>
+
+<h3 id="security-discussion">Security Discussion</h3>
+
+<p>We received a forum post recently asking how we are handling security. Generally speaking, this is how we are protecting your phone:</p>
+
+<p>System images are GPG signed and verified on your device. You can learn more about this process <a href="https://wiki.ubuntu.com/ImageBasedUpgrades/GPG">here</a>
+Apps in the OpenStore go under manual review if they request a certain set of permissions. This means that a real person looks over the app to make sure it’s safe before anyone can ever download it. You can read more about the submission and review process at <a href="https://open.uappexplorer.com/submit">the OpenStore’s Submit page</a></p>
+
+<h3 id="ubports-foundation">UBports Foundation</h3>
+
+<p>This is the big news that we were teasing everyone about leading up to the Q&amp;A. It has finally gotten to a point where we are ready to make the announcement ‘official’ in the most basic sense of the word.</p>
+
+<p>Therefore, UBports project presents… The UBports Foundation! (<em>Insert symphonic hit and crowd cheering sounds here</em>)</p>
+
+<p>The UBports Foundation is a German non-profit entity (stiftung)created with the purpose of furthering the Ubuntu Touch platform. The way that this entity achieves this goal is to be decided by its board, but in general it will allow UBports to perform the following actions:</p>
+
+<ul>
+  <li>Collect money (Tax deductible for all you Europeans!)</li>
+  <li>Spend money</li>
+  <li>Negotiate contracts as a legal entity (This will make more sense as time goes on)</li>
+  <li>Provide transparency of usage of funds</li>
+  <li>Provide transparency in decision making</li>
+</ul>
+
+<p>Community contributors will be able to apply to become voting members of the Foundation, and be able to democratically elect the Board of Directors. The application process isn’t going to be 100% painless (sorry to drive-by contributors). We’ll go with 90% painless. We’re taking the project seriously and we want the team to do so as well. Therefore, we must have some processes and audits in place.</p>
+
+<p>Unfortunately, we aren’t comfortable sharing the Foundation’s founding documents quite yet as they have information about sponsorships and agreements that aren’t fully settled. Stay tuned and we’ll bring all of this to light.</p>
+
+<h3 id="community-questions">Community Questions</h3>
+
+<p>At this point, we took some questions from live chat and things we’ve been seeing around the community</p>
+
+<h4 id="for-app-development-should-i-learn-qml-or-c">For app development, should I learn QML or C++?</h4>
+
+<p>You should learn both. QML is good for some things, but C++ really pulls the language together on the Ubuntu Touch platform. There are also some Python bindings found in PyOtherSide that can make development easier if you know Python.</p>
+
+<h4 id="can-you-make-apps-that-run-on-plasma-mobile-sailfish-and-ut">Can you make apps that run on Plasma Mobile, sailfish and UT?</h4>
+
+<p>Plasma Mobile runs UT apps. It shouldn’t be too hard to go the other way. Sailfish, on the other hand, has some pretty custom things in their OS (not to say that Ubuntu Touch does not) that cause some problems.</p>
+
+<p>So, if that wasn’t wishy-washy enough for you, the answer for Sailfish apps is an honest “We don’t know.”</p>
+
+<h4 id="will-you-port-to-the-oneplus-3-and-oneplus-5">Will you port to the OnePlus 3 and OnePlus 5?</h4>
+
+<p>This was a funny question to receive during live chat after we had just said “We’re not porting to new devices” earlier in the video.</p>
+
+<p>However, the answer probably isn’t quite what you expect. The OnePlus 5 has become one of Halium’s unofficial official testing devices for Halium 7.1, so… yes. We will have Ubuntu Touch on the OnePlus 5.</p>
+
+<p>And at the same time, OnePlus 3 was also used to test Halium 7.1, This was used before OnePlus 5 was released as an debug device, so expect this device also.</p>
+
+<p>When will it be released?  “It’ll be released when it’s ready.”</p>
+
+<h4 id="hey-you-have-bugs-in-your-bug-trackers-for-1504-will-you-fix-them">Hey! You have bugs in your bug trackers for 15.04! Will you fix them?</h4>
+
+<p>It depends. We’re balancing our time between 15.04 bugfixes and 16.04 bringup. 15.04 is such a buggy and unsupported platform that we’d really love to run from it as quickly as possible.</p>
+
+<p>For everyone with the Legacy devices, we’re keeping the lights on for you. We’re not going to make your experience perfect, though.</p>
+
+<p>Tangentially, we’d really love for some UI/UX designers to join our team. Drop us a line if you’ve got great ideas for the platform!</p>
+
+<h4 id="how-is-the-tablet-os-going">How is the tablet OS going?</h4>
+
+<p>The OS is the same between phones and tablets. Progress on one side is progress on the other. Convergence!</p>
+
+<h4 id="you-should-fix-the-long-boot-time-bug-on-the-m10-fhd">You should fix the long boot-time bug on the M10 FHD.</h4>
+
+<p>We need a developer that is willing to dedicate the time to tracking down and fixing that bug. At the moment, it rates pretty low on our list of priorities. The long boot time is inconvenient when you need to reboot your tablet, but it isn’t experience-shattering.</p>
+
+<h4 id="why-arent-all-devices-getting-1604">Why aren’t all devices getting 16.04?</h4>
+
+<p>A few reasons:
+    Some of the old official devices are too low-end and can’t show off the Ubuntu Touch platform. Would you rather show off your favorite GNU/Linux distribution running on a sleek, new computer or a 2007 one? Which will get you a better crowd response?
+    All of the old official devices are closed-source so we can’t fix hardware enablement issues
+    16.04 requires Linux kernel 3.10 at a minimum to function
+    We don’t have the resources to support all of these devices, especially considering the manufacturer of their chipset</p>
+
+<p>If you’d like to maintain these devices into the 16.04 transition, we will support you as much as we can. We can’t guarantee that the work will be fruitful, though.</p>
+
+<hr />
+
+<p>That’s all for this week! We hope you enjoyed our action-packed Update as much as we did. We’ll see you for the next one on July 8, 2017 at 1800 UTC!</p>
+
+  </div>
+
+  <div id="disqus_thread"></div>
+  <script>
+
+  /**
+  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+  /*
+  var disqus_config = function () {
+  this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+  this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+  };
+  */
+  (function() { // DON'T EDIT BELOW THIS LINE
+  var d = document, s = d.createElement('script');
+  s.src = 'https://blog-ubports-com.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+  <!-- Begin MailChimp Signup Form -->
+
+  <div id="mc_embed_signup">
+  <form action="//ubports.us15.list-manage.com/subscribe/post?u=ca89ecb13b3d1e31cc2af97a2&amp;id=3a9d661915" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <div id="mc_embed_signup_scroll">
+  	<label for="mce-EMAIL">Like what you just read? Sign up for our community mailing list for other news and information!</label>
+  	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ca89ecb13b3d1e31cc2af97a2_3a9d661915" tabindex="-1" value=""></div>
+      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+      </div>
+  </form>
+  </div>
+
+  <!--End mc_embed_signup-->
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">UBports DevBlog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>UBports DevBlog</li>
+          <li><a href="mailto:blog@ubports.com">blog@ubports.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/ubports"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">ubports</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/ubports"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">ubports</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>UBports blog. Ubuntu touch porting to android devices
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

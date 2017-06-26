@@ -6,12 +6,12 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: UBports blog
+title: UBports DevBlog
 email: blog@ubports.com
 description: > # this means to ignore newlines until "baseurl:"
   UBports blog. Ubuntu touch porting to android devices
 baseurl: "" # the subpath of your site, e.g. /blog
-url: http://blog.ubports.com
+url: http://devblog.ubports.com
 twitter_username: ubports
 github_username:  ubports
 
