@@ -47,8 +47,6 @@
         
           
         
-          
-        
       </div>
     </nav>
 
@@ -79,10 +77,10 @@
 
 <p>To flash the development build, first note that it is not very stable and things break quite often. Now that that’s out of the way, you’ll need to first flash the recovery.img from <a href="https://seafile.nigle.nl/d/62d505f0a7/">here</a>,
 Then run these commands:</p>
-<div class="highlighter-rouge"><pre class="codehilite"><code>adb shell mount -a &amp;&amp;
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>adb shell mount -a &amp;&amp;
 adb shell mount /cache &amp;&amp;
 ubuntu-device-flash --server=http://system-image.ubports.com touch --channel=ubuntu-touch/devel_rc-proposed --device=FP2
-</code></pre></div>
+</code></pre></div></div>
 
 <p>(Edit: I had to put them in this terrible block because this Jekyll theme is annoying)</p>
 
